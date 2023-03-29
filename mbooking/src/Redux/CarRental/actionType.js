@@ -1,0 +1,1 @@
+export const CAR_LOADING="car/loading"

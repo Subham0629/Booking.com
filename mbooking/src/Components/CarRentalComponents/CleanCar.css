@@ -1,0 +1,30 @@
+.bac0d53933 {
+  border-radius: var(--bui_border_radius_200);
+}
+.bc1a6fdaa5 {
+  fill: #923e01;
+  color: #923e01;
+}
+.b6dc9a9e69 svg {
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+    width: auto;
+}
+.clean{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif ;
+    font-size:14px ;
+    font-weight: 700;
+    line-height: 20px;
+}
+.db29ecfbe2{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    line-height: 20px;
+    display: block;
+    margin-left: 50px;
+}
+.main_clean{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}

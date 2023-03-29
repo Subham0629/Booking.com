@@ -1,9 +1,9 @@
-import React from "react";
-import "./SearchInputCar.css";
-import { Flex, Box } from "@chakra-ui/react";
-const SearchInputCar = () => {
+import React from 'react'
+import { Flex } from '@chakra-ui/layout'
+const London = () => {
   return (
-    <div
+    <div>
+ <div
       style={{ backgroundColor: "#f5f5f5", borderBottom: "1px solid #e6e6e6" }}
     >
       <div
@@ -31,7 +31,11 @@ const SearchInputCar = () => {
       </div>
       <br />
     </div>
-  );
-};
 
-export default SearchInputCar;
+
+
+    </div>
+  )
+}
+
+export default London

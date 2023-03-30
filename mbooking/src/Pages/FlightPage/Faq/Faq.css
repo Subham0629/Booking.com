@@ -1,0 +1,27 @@
+.main {
+    
+}
+.faq {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: left;
+    gap: 20px;
+}
+.faq1 {
+    border: 1px solid #9999;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+.faq1 h3{
+    font-weight: 700;
+}
+.faq1 p{
+    font-size:13px ;
+}
+.main h2{
+    text-align: left;
+    font-size: x-large;
+    font-weight: 700;
+    margin-bottom: 10px;
+}

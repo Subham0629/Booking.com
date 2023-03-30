@@ -1,0 +1,32 @@
+.main {
+    width:85%;
+    margin:auto;
+    margin-top: 40px;
+}
+.main>p{
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.europe{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.europe-main{
+    display:flex;
+    gap: 10px;
+}
+.europe-main img{
+    width: 80px;
+    border-radius: 5px;
+}
+.europe-main h4{
+    font-size: medium;
+    text-align: left;
+    font-weight: 600;
+}
+.europe-main p{
+    text-align: left;
+    font-weight: 300;
+}

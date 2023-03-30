@@ -11,13 +11,12 @@ import "swiper/css/pagination";
 import { Image } from "@chakra-ui/react";
 
 // import required modules
-import { Pagination } from "swiper";
+//import { Pagination } from "swiper";
 
 export default function PlaceSlide({data}) {
-    console.log(data);
   return (
     <>
-      <Swiper
+      <Swiper grabCursor={PointerEvent}
         slidesPerView={1}
         spaceBetween={10}
         pagination={{
@@ -37,7 +36,7 @@ export default function PlaceSlide({data}) {
             spaceBetween: 50,
           },
         }}
-        modules={[Pagination]}
+        //modules={[Pagination]}
         className="mySwiper"
       >
 

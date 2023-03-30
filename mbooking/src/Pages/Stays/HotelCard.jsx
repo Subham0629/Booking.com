@@ -1,28 +1,42 @@
 import React from 'react'
 import {
     Box,
-    chakra,
     Container,
     Stack,
     Text,
     Image,
     Flex,
-    VStack,
     Button,
     Heading,
     SimpleGrid,
     StackDivider,
     useColorModeValue,
-    VisuallyHidden,
     List,
     ListItem,
   } from '@chakra-ui/react';
+import { useParams } from 'react-router';
+import { useSelector } from 'react-redux';
+import SideBar from './SideBar';
   //import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
  // import { MdLocalShipping } from 'react-icons/md';
+
+
+
+
   
   export default function HotelCard() {
+    const {id} =useParams()
+    const data=useSelector(store=>store.hotelReducer.hotels)
+    const product=data.filter((el)=>el.id===+id)
+    console.log(product);
     return (
-      <Container maxW={'7xl'}>
+      <div style={{display:"flex"}}>
+        <div style={{width:"30%",borderRight:"1px solid gray"}}>
+        <SideBar/>
+        
+        </div>
+      <div style={{width:"70%"}}>
+      <Container maxW={'7xl'} >
         <SimpleGrid
           columns={{ base: 1, lg: 2 }}
           spacing={{ base: 8, md: 10 }}
@@ -31,9 +45,7 @@ import {
             <Image
               rounded={'md'}
               alt={'product image'}
-              src={
-                image
-              }
+              src={product[0].url}
               fit={'cover'}
               align={'center'}
               w={'100%'}
@@ -46,13 +58,13 @@ import {
                 lineHeight={1.1}
                 fontWeight={600}
                 fontSize={{ base: '2xl', sm: '4xl', lg: '5xl' }}>
-                {name}
+                {product[0].name}
               </Heading>
               <Text
                 color={useColorModeValue('gray.900', 'gray.400')}
                 fontWeight={300}
                 fontSize={'2xl'}>
-                ₹{price}
+                ₹{product[0].price}
               </Text>
             </Box>
   
@@ -64,7 +76,7 @@ import {
                   borderColor={useColorModeValue('gray.200', 'gray.600')}
                 />
               }>
-              <VStack spacing={{ base: 4, sm: 6 }}>
+              {/* <VStack spacing={{ base: 4, sm: 6 }}>
                 <Text
                   color={useColorModeValue('gray.500', 'gray.400')}
                   fontSize={'2xl'}
@@ -78,7 +90,7 @@ import {
                   maxime modi nam officiis porro, quae, quisquam quos
                   reprehenderit velit? Natus, totam.
                 </Text>
-              </VStack>
+              </VStack> */}
               <Box>
                 <Text
                   fontSize={{ base: '16px', lg: '18px' }}
@@ -91,14 +103,14 @@ import {
   
                 <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
                   <List spacing={2}>
-                    <ListItem>Breakfast: {breakFast}</ListItem>
-                    <ListItem>Cancellation: {cancellation}</ListItem>{' '}
-                    <ListItem>Distance:{distance}kms</ListItem>
+                    <ListItem>Breakfast: {product[0].breakFast}</ListItem>
+                    <ListItem>Cancellation: {product[0].cancellation}</ListItem>{' '}
+                    <ListItem>Distance:{product[0].distance}kms</ListItem>
                   </List>
                   <List spacing={2}>
-                    <ListItem>View: {view}</ListItem>
-                    <ListItem>Chronometer</ListItem>
-                    <ListItem>Small seconds</ListItem>
+                    <ListItem>View: {product[0].view}</ListItem>
+                    {/* <ListItem>Chronometer</ListItem>
+                    <ListItem>Small seconds</ListItem> */}
                   </List>
                 </SimpleGrid>
               </Box>
@@ -117,21 +129,21 @@ import {
                     <Text as={'span'} fontWeight={'bold'}>
                       Room Size:
                     </Text>{' '}
-                    {roomSize}
+                    {product[0].roomSize}
                   </ListItem>
                   <ListItem>
                     <Text as={'span'} fontWeight={'bold'}>
                       Beds:
                     </Text>{' '}
-                    {bedSize}
+                    {product[0].bedSize}
                   </ListItem>
-                  {/* <ListItem>
+                   <ListItem>
                     <Text as={'span'} fontWeight={'bold'}>
-                      Case:
+                      Available Rooms:
                     </Text>{' '}
-                    Steel
+                    {product[0].availableRooms}
                   </ListItem>
-                  <ListItem>
+                 {/* <ListItem>
                     <Text as={'span'} fontWeight={'bold'}>
                       Case diameter:
                     </Text>{' '}
@@ -155,7 +167,8 @@ import {
                       Water resistance:
                     </Text>{' '}
                     5 bar (50 metres / 167 feet){' '}
-                  </ListItem> */}
+            </ListItem> */}
+                  
                 </List>
               </Box>
             </Stack>
@@ -173,15 +186,18 @@ import {
                 transform: 'translateY(2px)',
                 boxShadow: 'lg',
               }}>
-              Add to cart
+              Add to bag
             </Button>
   
-            <Stack direction="row" alignItems="center" justifyContent={'center'}>
+             <Stack direction="row" alignItems="center" justifyContent={'center'}>
               {/* <MdLocalShipping /> */}
               <Text>2-3 business days delivery</Text>
             </Stack>
           </Stack>
         </SimpleGrid>
       </Container>
+      </div>
+      </div>
     );
+    
   }

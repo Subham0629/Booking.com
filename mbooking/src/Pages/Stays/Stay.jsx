@@ -1,19 +1,40 @@
-import React, { useEffect } from 'react'
-import { Container ,Card,  CardBody, CardFooter,Stack,Button,Text,Divider,ButtonGroup} from '@chakra-ui/react'
+import React, { useEffect, useState } from 'react'
+import { Container ,Card,  CardBody, CardFooter,Stack,Button,Text,Divider,ButtonGroup, Input} from '@chakra-ui/react'
 import { Image,Box ,Heading} from '@chakra-ui/react'
-import { getHotels, getPlaces } from '../../Redux/StaysHotel/action'
 import { useDispatch, useSelector } from 'react-redux'
 import PlaceSlide from './placesSlide'
+import { getHotels, getPlaces } from '../../Redux/Stay/action'
+import { Link, useLocation, useSearchParams } from 'react-router-dom'
+import FilterHotels from './FilterHotels'
 const Stay = () => {
   const data=useSelector(store=>store.hotelReducer)
-  
+  const [search,setsearch]=useState("")
+  const [searchClick,setsearchClick]=useState("")
  const dispatch=useDispatch()
+ const [searchParams,setSearchParams]=useSearchParams()
+    const location=useLocation()
+
   useEffect(()=>{
-    dispatch(getHotels)
+    let onsearch={
+      params:{
+        name_like:searchClick,
+        rating:searchParams.getAll("rating"),
+        _sort:searchParams.get("order") && "price",
+        _order:searchParams.get("order")
+      }
+    }
+    
+    dispatch(getHotels(onsearch))
     dispatch(getPlaces)
-  },[])
+  },[searchClick,location.search])
   return (
     <div style={{width:"80%",margin:"auto"}}>
+      <Box display={"flex"} m="auto" w={"60%"}>
+      <Input type={"text"} placeholder={"Search for Hotels"} w={"500px"} value={search} onChange={(e)=>setsearch(e.target.value)} />
+      <Button bg={"blue"} color="white" cursor={"pointer"}  _hover={{bg:"blue.800",color:"white"}}
+      onClick={()=>setsearchClick(search)}>Search</Button>
+      </Box>
+
     <Container style={{border:"1px solid grey", borderRadius:"5px", width:"800px",height:"30px",marginTop:"30px"}}>
     Coronavirus (COVID-19) Support
     </Container>
@@ -54,7 +75,13 @@ const Stay = () => {
       </Box>
 
        {/*...................... Fourth Section......................... */}
+       
        <Heading mt={"40px"} as={"h1"}>Hotels</Heading>
+       <div style={{display:"flex"}}>
+      <div style={{width:"20%"}}>
+        <FilterHotels/>
+      </div>
+       <div style={{width:"80%"}}>
        <Stack display="grid"
         gridTemplateColumns="repeat(3,1fr)"
         gap="30px"
@@ -80,9 +107,11 @@ const Stay = () => {
   <Divider />
   <CardFooter>
     <ButtonGroup m={"auto"} spacing='2'>
+      <Link to={`/hotel/${el.id}`}>
       <Button variant='ghost' colorScheme='blue'>
         See Details
       </Button>
+      </Link> 
       {/* <Button variant='ghost' colorScheme='blue'>
         Add to cart
       </Button> */}
@@ -91,6 +120,8 @@ const Stay = () => {
 </Card>
        </>)}
        </Stack>
+       </div>
+       </div>
 
     </div>
   )

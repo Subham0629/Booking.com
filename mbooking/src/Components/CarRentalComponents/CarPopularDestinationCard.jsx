@@ -20,9 +20,9 @@ const CarPopularDestinationCard = ({
   city,
   carDetail,
   fair,
-  Link,
+link
 }) => {
-    console.log(`/${Link}`)
+  console.log(`/${link}`);
   return (
     <Card maxW="sm">
       <CardBody>
@@ -55,17 +55,11 @@ const CarPopularDestinationCard = ({
       <Divider />
       <CardFooter>
         <ButtonGroup spacing="2">
-          <Link to={`/${Link}`}>
-            {" "}
-            <Button variant="solid" colorScheme="blue">
-              Watch
-            </Button>
-          </Link>
-          <Link to={`/${Link}`}>
-            <Button variant="ghost" className="Btn6">
-              More Detail
-            </Button>
-          </Link>
+          {" "}
+        
+          <Button variant="ghost" className="Btn6">
+            <Link to={`/${link}`}>More Detail</Link>
+          </Button>
         </ButtonGroup>
       </CardFooter>
     </Card>

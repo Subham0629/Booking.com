@@ -33,7 +33,7 @@ const PopularDestination = () => {
                 city={el.city}
                 carDetail={el.carDetail}
                 fair={el.fair}
-                Link={el.Link}
+                link={el.link}
               />
             </Box>
           );

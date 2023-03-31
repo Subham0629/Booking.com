@@ -12,7 +12,7 @@
       "id": 2,
       "width": "170px",
       "height": "200px",
-      "image": "https://t-cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=",
+      "image": "https://q-xx.bstatic.com/xdata/images/xphoto/263x210/119467716.jpeg?k=63b69100225782d08fbd4d0205bf949c0be894ab946a0366edb8ad48e9c0ef46&o=",
       "h3_val": "Apartments",
       "para_val": "736,191 apartments"
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "width": "170px",
       "height": "200px",
-      "image": "https://t-cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=",
+      "image": "https://q-xx.bstatic.com/xdata/images/xphoto/263x210/45450084.jpeg?k=f8c2954e867a1dd4b479909c49528531dcfb676d8fbc0d60f51d7b51bb32d1d9&o=",
       "h3_val": "Resorts",
       "para_val": "17,049 resorts"
     },
@@ -28,7 +28,7 @@
       "id": 4,
       "width": "170px",
       "height": "200px",
-      "image": "https://t-cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=",
+      "image": "https://r-xx.bstatic.com/xdata/images/xphoto/263x210/100235855.jpeg?k=61ef6692e05b5971e2e8dc75687f844e6d0ad295a9a5ace17f7c713f167e61b5&o=",
       "h3_val": "Villas",
       "para_val": "377,938 villas"
     },
@@ -36,7 +36,7 @@
       "id": 5,
       "width": "170px",
       "height": "200px",
-      "image": "https://t-cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=",
+      "image": "https://r-xx.bstatic.com/xdata/images/xphoto/263x210/52979454.jpeg?k=98337a30d1016ebce1cbebb9e24ba4585f535438bc455ff9efcaee27960ac8b2&o=",
       "h3_val": "Cabins",
       "para_val": "31,284 cabins"
     },
@@ -44,1142 +44,1188 @@
       "id": 6,
       "width": "170px",
       "height": "200px",
-      "image": "https://t-cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=",
+      "image": "https://q-xx.bstatic.com/xdata/images/xphoto/263x210/45450074.jpeg?k=7039b03a94f3b99262c4b3054b0edcbbb91e9dade85b6efc880d45288a06c126&o=",
       "h3_val": "Cottages",
       "para_val": "129,752 cottages"
     }
   ],
   "hotels": [
-  {
-    "name": "Hotel Hayden, New York",
-    "city": "New York",
-    "url": "https://cf.bstatic.com/xdata/images/hotel/square200/234363388.webp?k=fc9546a405b6afe024b48bcbd23256de85846b3e15d9271f241274f74c2d6b15&o=",
-    "reviews": 1991,
-    "rating": "4",
-    "bedSize": "2 bed",
-    "roomSize": "Big size room",
-    "cancelationPolicy": "Will be charged",
-    "breakFast": "Included",
-    "cancellation": "Charged",
-    "availability": true,
-    "availableRooms": 3,
-    "price": 1030,
-    "discountedPrice": 800,
-    "distance": 2,
-    "id": 1,
-    "view": "Very Good",
-    "visitUrls": {
-      "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341166.jpg?k=ed7adc6e0e083ce249876e1f472eb91a8c63068fb0932b0a6965e7b26396f1e9&o=&hp=1",
-      "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341182.jpg?k=0575291c1a36734bfe2a0ebf319ecda16f539cf62443deec3d36c85f7f2cbb8e&o=&hp=1",
-      "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341183.jpg?k=7f56daaf237d5368e86ff068ce6bb1384442c4990f3c3595233875ac44adf68b&o=&hp=1",
-      "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341186.jpg?k=bb32a99ff29e9cad711bf18b6416854b74e92c5bd5afb5b590249ef4c84ea8d8&o=&hp=1",
-      "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341187.jpg?k=e8ee8cb07d043b613c5cbdf6d5765e44fa0c8c8d0ef72312cba66972b2542f7c&o=&hp=1",
-      "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341193.jpg?k=256ba6c25c0394aad8960ed0a38f249ef228eb2dd331f585f979fdf2aadd6d0f&o=&hp=1",
-      "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341195.jpg?k=3eead8dfbefc19f05a034e784c54f86dc86387603bc07e0b826723dbfb1c1af6&o=&hp=1",
-      "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341201.jpg?k=cd541ad884c9902f0e21be07c976c4722aac582a9d63db021991c91cfbd98f62&o=&hp=1",
-      "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341206.jpg?k=4a719e04af41ac9fb545aabcd043482ccf7a10498d5fab59b8d04de0315bf545&o=&hp=1"
+    {
+      "name": "Hotel Hayden, New York",
+      "city": "New York",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/square200/234363388.webp?k=fc9546a405b6afe024b48bcbd23256de85846b3e15d9271f241274f74c2d6b15&o=",
+      "reviews": 1991,
+      "rating": "4",
+      "bedSize": "2 bed",
+      "roomSize": "Big size room",
+      "cancelationPolicy": "Will be charged",
+      "breakFast": "Included",
+      "cancellation": "Charged",
+      "availability": true,
+      "availableRooms": 3,
+      "price": 1030,
+      "discountedPrice": 800,
+      "distance": 2,
+      "id": 1,
+      "view": "Very Good",
+      "visitUrls": {
+        "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341166.jpg?k=ed7adc6e0e083ce249876e1f472eb91a8c63068fb0932b0a6965e7b26396f1e9&o=&hp=1",
+        "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341182.jpg?k=0575291c1a36734bfe2a0ebf319ecda16f539cf62443deec3d36c85f7f2cbb8e&o=&hp=1",
+        "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341183.jpg?k=7f56daaf237d5368e86ff068ce6bb1384442c4990f3c3595233875ac44adf68b&o=&hp=1",
+        "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341186.jpg?k=bb32a99ff29e9cad711bf18b6416854b74e92c5bd5afb5b590249ef4c84ea8d8&o=&hp=1",
+        "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341187.jpg?k=e8ee8cb07d043b613c5cbdf6d5765e44fa0c8c8d0ef72312cba66972b2542f7c&o=&hp=1",
+        "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341193.jpg?k=256ba6c25c0394aad8960ed0a38f249ef228eb2dd331f585f979fdf2aadd6d0f&o=&hp=1",
+        "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341195.jpg?k=3eead8dfbefc19f05a034e784c54f86dc86387603bc07e0b826723dbfb1c1af6&o=&hp=1",
+        "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341201.jpg?k=cd541ad884c9902f0e21be07c976c4722aac582a9d63db021991c91cfbd98f62&o=&hp=1",
+        "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341206.jpg?k=4a719e04af41ac9fb545aabcd043482ccf7a10498d5fab59b8d04de0315bf545&o=&hp=1"
+      }
+    },
+    {
+      "name": "Hotel Taj, Mumbai",
+      "city": "Mumbai",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/square200/129148007.webp?k=815f041fa1d0220233632f1b140c0df7ba345fe22cf99964edead59d8363849c&o=",
+      "reviews": 1991,
+      "rating": "3",
+      "bedSize": "2 bed",
+      "roomSize": "Big size room",
+      "cancellationPolicy": "No payment needed",
+      "cancellation": "Free",
+      "breakFast": "Not included",
+      "availability": true,
+      "availableRooms": 10,
+      "price": 930,
+      "discountedPrice": 700,
+      "distance": 3,
+      "id": 2,
+      "view": "Good",
+      "visitUrls": {
+        "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846786.jpg?k=df5946ab3c373e8d865a2a3ae5b78921ec918e321d73de195bcf908ceaf16bc8&o=&hp=1",
+        "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846776.jpg?k=0e29dc53225422dff801b4570c0ae88c044542ca4ae1d71f453af0de41ab8c21&o=&hp=1",
+        "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846606.jpg?k=732c4629b16073cc4e68806dbe72f62d390e591d6623e61f49e542c6a3e362cc&o=&hp=1",
+        "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/260558123.jpg?k=0b46b58784b526d5ebe9a551c490e3e7ca80b419edf599fd690dbddc210580e4&o=&hp=1",
+        "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846517.jpg?k=b921ce7aa5fd45b9e11cdddb8a565703fd94a4e6c322e7df9a6c9d95515fcfa2&o=&hp=1",
+        "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846497.jpg?k=e7e9965351faae77dd13926b21fad1c276f2944ce14ce5e81c691385347e5c8d&o=&hp=1",
+        "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846550.jpg?k=09df45b6e496e9e56109c06fd371e228ec1eddf28c8ba1d978eabbe28770d77e&o=&hp=1",
+        "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846730.jpg?k=a4fdd30a8a69d5f20c89f299c535040d5fdb7dad96ba490d5aaf46bc58a83373&o=&hp=1",
+        "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846807.jpg?k=fcefd294f11cfa30fbb1d51200956f6ed39b5934586d0af8fd143d6162b6ffea&o=&hp=1"
+      }
+    },
+    {
+      "name": " Lifeline Villas Taraangan, Delhi",
+      "city": "Delhi",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/square600/331951467.webp?k=4f0ec961f54e1649f9742f8c738cde686fc9d557061e54c978613cc4fd995a47&o=&s=1",
+      "reviews": 1000,
+      "rating": "2",
+      "bedSize": "1 bed",
+      "roomSize": "Small size room",
+      "cancellationPolicy": "No payment needed",
+      "cancellation": "Free",
+      "breakFast": "Included",
+      "availability": true,
+      "availableRooms": 10,
+      "price": 930,
+      "discountedPrice": 700,
+      "distance": 3,
+      "id": 3,
+      "view": "Very Good",
+      "visitUrls": {
+        "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846786.jpg?k=df5946ab3c373e8d865a2a3ae5b78921ec918e321d73de195bcf908ceaf16bc8&o=&hp=1",
+        "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846776.jpg?k=0e29dc53225422dff801b4570c0ae88c044542ca4ae1d71f453af0de41ab8c21&o=&hp=1",
+        "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846620.jpg?k=e64a813fdd4d8b1b0236ca83965754e1e9237ccef6839cf3148a6273c56b883f&o=&hp=1",
+        "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846497.jpg?k=e7e9965351faae77dd13926b21fad1c276f2944ce14ce5e81c691385347e5c8d&o=&hp=1",
+        "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846567.jpg?k=bbb1291e2a9d983c274e86aa36b69926102a7912e547d2054b8403f77a0abb83&o=&hp=1",
+        "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846833.jpg?k=6e1bac73d10af046d49091daa1771eab62c6cda5f72786052a2d5dd4e164ec70&o=&hp=1",
+        "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/265069630.jpg?k=56b0b9f0a45af470a7a28e366a04f8e07de7cfb76e0e857610ecb61108aac51e&o=&hp=1",
+        "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846861.jpg?k=3d413dff82d8fe96b0eb34d2110890852aa9a02e4df85ae1a6b99c021afa881e&o=&hp=1",
+        "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846842.jpg?k=0662b345ec64277ad5f65ece779aad942b01ec12acabd9f4ce5f618d12bcf25e&o=&hp=1"
+      }
+    },
+    {
+      "name": "7TH HEAVEN, Bangalore",
+      "city": "Bangalore",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/square200/185224982.webp?k=61490ccedad06cdc76e5927de32bf4a066e97d77ad511bae0fc59bf7e8efcde1&o=",
+      "reviews": 191,
+      "rating": "1",
+      "bedSize": "2 bed",
+      "roomSize": "Big size room",
+      "cancellationPolicy": "Will be charged",
+      "cancellation": "Paid",
+      "breakFast": "Included",
+      "availability": false,
+      "availableRooms": 13,
+      "price": 300,
+      "discountedPrice": 290,
+      "distance": 1,
+      "id": 4,
+      "view": "Good",
+      "visitUrls": {
+        "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315919273.jpg?k=9b80ea40bb8d1047fbee6a659cb39f5648e4f5e40d329833cba4cb50edfd1d8c&o=&hp=1",
+        "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315919277.jpg?k=a5a546a087bda1880883c810f33c3538ed763badbab5f330b7a6b27748d05394&o=&hp=1",
+        "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/277721334.jpg?k=26b1c1eef7b0d86d8a26fdb7b29016ebde44c769d099825a02a508fd948c652e&o=&hp=1",
+        "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/277712121.jpg?k=e2648e717d3fbbd4fe71673fa027e4ec3776021cdc587d8c31dad1e1791a5413&o=&hp=1",
+        "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/277712116.jpg?k=770a393c905acf4b03eb15e403906496befb91e17b8ef4c5aa3a03b0ac059fd6&o=&hp=1",
+        "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/222985668.jpg?k=e4e843b4d97b48374561ac2c40af409682797284a27303ac94dc8d98194d7a2c&o=&hp=1",
+        "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/267247745.jpg?k=539715654836989f006a74472a69ad33144843fc34f6fa4a798dcf99dba7678d&o=&hp=1",
+        "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/267247765.jpg?k=0e08b5ec8bfd3a6176e4e4a59054b0fab8166bee9e5d68d83547e97904476849&o=&hp=1",
+        "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/236089977.jpg?k=5d5f9a0b9db53b3a6612fce56d10bafffd703d31cea657d7100d6147e760e1d3&o=&hp=1"
+      }
+    },
+    {
+      "name": "Hotel Raj Mahal, Pune",
+      "city": "Pune",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/square200/205408681.webp?k=bfdeb2f418112b7ad30a539e03193030612743db57d5c17b86fc60741ff08aa8&o=",
+      "reviews": 1001,
+      "rating": "2",
+      "bedSize": "2 bed",
+      "roomSize": "Big size room",
+      "cancellationPolicy": "No payment needed",
+      "cancellation": "Free",
+      "breakFast": "Included",
+      "availability": true,
+      "availableRooms": 10,
+      "price": 1930,
+      "discountedPrice": 1560,
+      "distance": 5,
+      "id": 5,
+      "view": "Very Good",
+      "visitUrls": {
+        "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/193901195.jpg?k=7aea1554d4a3aafa50a5305af7204bcb8a842a88ce38eae0ce0ab02bcf607543&o=&hp=1",
+        "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/269621415.jpg?k=fbdf79b6e52ceb6b53b58e682065ca0ac8f828fd638f63dd8454596bd6f7498c&o=&hp=1",
+        "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/269621396.jpg?k=f2ec8e190013b790396a740c991158130a40e83627abea4d613ba05647a57f02&o=&hp=1",
+        "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/193901161.jpg?k=40061c67c7cebef8eb3150f9f05d7191d43bdc9fd2cc6c564a5a7a737674c7b7&o=&hp=1",
+        "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/193901174.jpg?k=0efad8a97dbd7e8c315b4833611974f0d2574e5eaed7acb5df2f85c038d07ad3&o=&hp=1",
+        "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/193901178.jpg?k=788b3fb8037a7f5f26197c2d35af4d6b6a8601e7bf5da91935570c090e5cecf5&o=&hp=1",
+        "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/193901229.jpg?k=c5c6369654b54be37de9c9f65632f08f022dcb03bc8e8e8c1ec37eab43d9d57f&o=&hp=1",
+        "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/193901236.jpg?k=10c997e47ebe0c2ddae71c0d01754894f3cccb75a479465322b01299fd44ee6e&o=&hp=1",
+        "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/193901257.jpg?k=c6a00f080a316169846c8a5463edeec57733b5630d1c141c19e76ea5a805adbf&o=&hp=1"
+      }
+    },
+    {
+      "name": "Chocolate Villa, Mumbai",
+      "city": "Mumbai",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/square200/19082406.webp?k=17006a7c87dc25893e47ceec1ea1abe180ddead15f7ef8cc3fc261a253da1044&o=",
+      "reviews": 101,
+      "rating": "3",
+      "bedSize": "3 bed",
+      "roomSize": "Big size room",
+      "cancellationPolicy": "No payment needed",
+      "cancellation": "Free",
+      "breakFast": "Not included",
+      "availability": true,
+      "availableRooms": 10,
+      "price": 1230,
+      "discountedPrice": 1200,
+      "distance": 8,
+      "id": 6,
+      "view": "Very Good",
+      "visitUrls": {
+        "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/268968154.jpg?k=f7a8068f20e1732d094e8be3843991118e467dd8cd6147270d1bc8e7ba127fee&o=&hp=1",
+        "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/268966759.jpg?k=38fadfae3c1d96284d3738f60cb925acfa355f97b7d8d831a4327327dcf80b37&o=&hp=1",
+        "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/269098620.jpg?k=41c6bb289dd029a8de61c9cb4362770630b6f26c37197ed54ac5f78525f77cee&o=&hp=1",
+        "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/269100218.jpg?k=c6ed89e7e9cdaa63c20ef301c49d28f6a854ddf9c5d5c76bfe960b372d6952b2&o=&hp=1",
+        "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/268976587.jpg?k=3dafbae3b1fada5c630dab27588cf4e6de90e134693bc93d976e67a2f1ac72c8&o=&hp=1",
+        "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/306948896.jpg?k=2dc9892d46dffe10455126bbdf0da75cdeba30505d09791945ece026f05b6088&o=&hp=1",
+        "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/268967575.jpg?k=2cc7480542ed7167c075df4a580b3b51783994d2c9b66bcc0c9a1fa63b030cd7&o=&hp=1",
+        "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/268903823.jpg?k=333c79b0903670ee37ddcb4a85a24f40949c7b13eafe43c2de5abf6a65190148&o=&hp=1",
+        "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/271578921.jpg?k=203a0dfabf0ccb4f39cdf41792cfb44eef7fee5917cb27572d352fc9a83d540b&o=&hp=1"
+      }
+    },
+    {
+      "name": "White Clouds Cottage, Delhi",
+      "city": "Delhi",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/square200/81497844.webp?k=1d4d14fe7266006eff847c3b09d9f5efedf97fd3d552e21f47d22ca642273a55&o=",
+      "reviews": 115,
+      "rating": "4",
+      "bedSize": "1 bed",
+      "roomSize": "Small size room",
+      "cancellationPolicy": "Will be charged",
+      "cancellation": "Paid",
+      "breakFast": "Not included",
+      "availability": true,
+      "availableRooms": 3,
+      "price": 530,
+      "discountedPrice": 500,
+      "distance": 4,
+      "id": 7,
+      "view": "Good",
+      "visitUrls": {
+        "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/139427417.jpg?k=1f82de96b9c759d30094a108311cc3da6990882ea099a13e1ae52f2de2e37eaa&o=&hp=1",
+        "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/176695035.jpg?k=59aa17a51c85a0d69477f3350d180117becdbacde126b4b26c955c6e4992df91&o=&hp=1",
+        "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/176694817.jpg?k=1c5c3e1ba4e4dcc2d8c063f162f63318673ce03e3b861e6a38689d54b1951cb3&o=&hp=1",
+        "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/176694634.jpg?k=4e8388fce05770726ac565cffc8dc717c751184de802a0f6f6fbbf189e859d1c&o=&hp=1",
+        "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/176694683.jpg?k=20bd40041be5f31c506cc5e263fc738eb472e1849344b12eafd527dc37d339e8&o=&hp=1",
+        "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/176694732.jpg?k=7e700b77e971e560661ce466379a10b1cf31d426945c2906fc92cfcaef524c8e&o=&hp=1",
+        "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/176694393.jpg?k=e056ed0a49daa76cb571826cfe0b26afb88a5873e7de2ba4f19f9aeff115939f&o=&hp=1",
+        "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/144686487.jpg?k=9550f52438f28f9d8f6a875bc7d19bd793fc0b24b632b032ad837e00e4e126d8&o=&hp=1",
+        "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/139611211.jpg?k=bc036cfa4b0e0ac99e63704542441417f0d4de4ff4b2db9e92a588efe15e2508&o=&hp=1"
+      }
+    },
+    {
+      "name": "Shetty Farms, Mumbai",
+      "city": "Mumbai",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/square200/129148007.webp?k=815f041fa1d0220233632f1b140c0df7ba345fe22cf99964edead59d8363849c&o=",
+      "reviews": 1991,
+      "rating": "5",
+      "bedSize": "2 bed",
+      "roomSize": "Big size room 2 bed",
+      "cancellationPolicy": "No payment needed",
+      "cancellation": "Free",
+      "breakFast": "Not included",
+      "availability": true,
+      "availableRooms": 10,
+      "price": 930,
+      "discountedPrice": 700,
+      "distance": 3,
+      "id": 8,
+      "view": "Good",
+      "visitUrls": {
+        "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/238912025.jpg?k=ae5dfb852fdbb43b836076e616853b40fd40fe09d29372654d08bf6421e38823&o=&hp=1",
+        "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/270117013.jpg?k=145ee85ae72157eb52e12e8fce7a0edea88a156bb27a437e5a4445a333e2341c&o=&hp=1",
+        "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/270116614.jpg?k=9024bf181566aa7cdf7318bcd0ea27e0ad0f6d56ea59e561e6d3520ea104cd30&o=&hp=1",
+        "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/270116638.jpg?k=bcb69c7af6acb56fcb96892af441cf9cca023013a9b2d1cc7fb0d2eb776fb799&o=&hp=1",
+        "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/270116646.jpg?k=ee556b6dea194ecf847b5def98713903c0d71858b20456ffed4c1a2f73165646&o=&hp=1",
+        "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/270097874.jpg?k=35363f76c52dc301a0da61168221a652473940d5cf261bdcdab04fcb5697c9d7&o=&hp=1",
+        "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/238877890.jpg?k=85ce7d4bc0d968c6dc6ba0cb6b3639cf563f73bcca579751fcf4f2c1f655c55e&o=&hp=1",
+        "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/238912029.jpg?k=2a4146a02c5992bd466e1a1677f9f49906eb15e532fab091b9c8b6a43603be7e&o=&hp=1",
+        "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/238879993.jpg?k=81f89c49d52614373f053df4f10f6c3ca1e8c0830d55e67fd2cafe8f5d9f1e7f&o=&hp=1"
+      }
+    },
+    {
+      "name": "Desire Golf City, Jailpur",
+      "city": "Jaipur",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/square200/302175409.webp?k=5897d1cd223447a7e24b9edad4abe1bc80085dde4e2c87ed641284c341d0f65e&o=",
+      "reviews": 178,
+      "rating": "1",
+      "bedSize": "2 bed",
+      "roomSize": "Big size room",
+      "cancellationPolicy": "No payment needed",
+      "cancellation": "Free",
+      "breakFast": "Not included",
+      "availability": true,
+      "availableRooms": 10,
+      "price": 1230,
+      "discountedPrice": 900,
+      "distance": 0.5,
+      "id": 9,
+      "view": "Good",
+      "visitUrls": {
+        "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/262579946.jpg?k=99d37f2c6e741a7578171a1e3d56653fdbc3c0323e2278f240588c4935fddd30&o=&hp=1",
+        "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/262597729.jpg?k=b9e50c22930ebe2cb266161f02d760424ddc6452eb2aaecd6db1a60c9557e39e&o=&hp=1",
+        "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/141354189.jpg?k=76fde1cb8602678881324f34d13ce88ef6e295868b37511f53ffdff1d001f5d9&o=&hp=1",
+        "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/141354246.jpg?k=9e34b852412ec74f2dcbcfe2243a2fd09753bee0decc64c3338441116dc95497&o=&hp=1",
+        "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/141354375.jpg?k=9134ef06d6fe9df5359c29ead6733a99a4c601f5d15f14240cb9dc697bc25174&o=&hp=1",
+        "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/141357102.jpg?k=4ef91c747c9c0c76521d05ce49564bd5f49f185868499c3d553d0777f2c331f5&o=&hp=1",
+        "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/261640757.jpg?k=12a4b3fbd6b19ef03e6b94e2c8833cb3a98315d873988419052938d2083a0eca&o=&hp=1",
+        "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/144554134.jpg?k=6835149f199f3d81f5b772b32dca41ef645f726882e22f7c7e529b27a73a1be8&o=&hp=1",
+        "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/141357445.jpg?k=50f64f74cf26dacb01c356b63226d9eef28cfce008b7935cf949a753590b1103&o=&hp=1"
+      }
+    },
+    {
+      "name": "Luxury Goan Villa, Gurgaon",
+      "city": "Gurgaon",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/square200/88967722.webp?k=fe50b990016ad28b572d1dbcdd9d07ebac151e3250637019ceb45fd8e40bb063&o=",
+      "reviews": 20,
+      "rating": "2",
+      "bedSize": "2 bed",
+      "roomSize": "Big size room",
+      "cancellationPolicy": "No payment needed",
+      "cancellation": "Free",
+      "breakFast": "Not included",
+      "availability": true,
+      "availableRooms": 10,
+      "price": 1000,
+      "discountedPrice": 800,
+      "distance": 3,
+      "id": 10,
+      "view": "Very Good",
+      "visitUrls": {
+        "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/287225572.jpg?k=32e0ab98e21eb7e2ef2d816750bad1d85a3555b1e3579a81c971961b28798533&o=&hp=1",
+        "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/287225737.jpg?k=261ca3c14254a9453393f095653a6af15f79bd06a175ce58d8fba9a09ef442a2&o=&hp=1",
+        "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/287226255.jpg?k=d369d0d39be854cd540eac042826dee0dba410f76a40c4e333b0bdaaa5b6045f&o=&hp=1",
+        "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/287226269.jpg?k=352e5b2be001c25efbad616164cf1ec67b89b73609666cc4c7e0b1d3e2e86238&o=&hp=1",
+        "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/287226241.jpg?k=4bc005d23655389431f54712062ec7ee8a268226774030e6a6e81868f0434f4e&o=&hp=1",
+        "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/287225753.jpg?k=03d284ce060e5a7eb1ab6ec48554f95f76be820a02ccd32067d4ea17465308e1&o=&hp=1",
+        "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/287224108.jpg?k=1d335d84e3f682d9c0c79751bead84787896bafed8c7bdd54118da0fa4f8a9e9&o=&hp=1",
+        "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/287226258.jpg?k=926e270d808723079904b0c900450c106582c228e93d25d4c480f2964b155a2b&o=&hp=1",
+        "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/287224830.jpg?k=026aa84b45b3cd668b712a9612195cd15a7da57e4651cbf354c4b04f4a0fab15&o=&hp=1"
+      }
+    },
+    {
+      "name": "Henry Corner, Mumbai",
+      "city": "Mumbai",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/square200/129148007.webp?k=815f041fa1d0220233632f1b140c0df7ba345fe22cf99964edead59d8363849c&o=",
+      "reviews": 1991,
+      "rating": "5",
+      "bedSize": "2 bed",
+      "roomSize": "Big size room 2 bed",
+      "cancellationPolicy": "No payment needed",
+      "cancellation": "Free",
+      "breakFast": "Not included",
+      "availability": true,
+      "availableRooms": 10,
+      "price": 930,
+      "discountedPrice": 700,
+      "distance": 3,
+      "id": 11,
+      "view": "Very Good",
+      "visitUrls": {
+        "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/83417839.jpg?k=5e20f2b04a65ec9f141a059ac8d028f981f8e1b76cbb7d001b8026eafbca5c72&o=&hp=1",
+        "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/134866022.jpg?k=b264df47798ca8d6dd024929fbe02ef2145a274bbc649fd29c4f0643d27d8cf4&o=&hp=1",
+        "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/134866256.jpg?k=37b2c66ded7a4821a62ec665bba029eb5a06770cad10e342a4c606c37c1c82c9&o=&hp=1",
+        "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/134866028.jpg?k=939df2738d378b047e148a935cb22b577266b94bd0aeb13c157b3391a800ff87&o=&hp=1",
+        "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/134866291.jpg?k=4f90d177041c999d204edbf1b65bf46bedf4ef49cc156a22f87620230658f9e4&o=&hp=1",
+        "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/134866049.jpg?k=176e291e08641e4f94264e8d1beacdcbae5f4a0fb36c8a5201fd0fbcc783582d&o=&hp=1",
+        "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/134860014.jpg?k=7034d5a82498c3179f9c84bbdd8710764523d25a499358746c299f8d708c83db&o=&hp=1",
+        "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/134860219.jpg?k=32dcfa6ec2fd4e78f571319b3028d860329dae3010de6fc4be15fa5b67b4d1ab&o=&hp=1",
+        "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/134859191.jpg?k=f9d02dee6eb5d41288978f13ee664f28227b2adad1146c366e2351095477759c&o=&hp=1"
+      }
+    },
+    {
+      "name": "Hotel Hayden, New York",
+      "city": "New York",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/square200/234363388.webp?k=fc9546a405b6afe024b48bcbd23256de85846b3e15d9271f241274f74c2d6b15&o=",
+      "reviews": 1991,
+      "rating": "4",
+      "bedSize": "2 bed",
+      "roomSize": "Big size room",
+      "cancelationPolicy": "Will be charged",
+      "breakFast": "Included",
+      "cancellation": "Charged",
+      "availability": true,
+      "availableRooms": 3,
+      "price": 1800,
+      "discountedPrice": 1670,
+      "distance": 2,
+      "id": 12,
+      "view": "Very Good",
+      "visitUrls": {
+        "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341166.jpg?k=ed7adc6e0e083ce249876e1f472eb91a8c63068fb0932b0a6965e7b26396f1e9&o=&hp=1",
+        "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341182.jpg?k=0575291c1a36734bfe2a0ebf319ecda16f539cf62443deec3d36c85f7f2cbb8e&o=&hp=1",
+        "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341183.jpg?k=7f56daaf237d5368e86ff068ce6bb1384442c4990f3c3595233875ac44adf68b&o=&hp=1",
+        "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341186.jpg?k=bb32a99ff29e9cad711bf18b6416854b74e92c5bd5afb5b590249ef4c84ea8d8&o=&hp=1",
+        "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341187.jpg?k=e8ee8cb07d043b613c5cbdf6d5765e44fa0c8c8d0ef72312cba66972b2542f7c&o=&hp=1",
+        "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341193.jpg?k=256ba6c25c0394aad8960ed0a38f249ef228eb2dd331f585f979fdf2aadd6d0f&o=&hp=1",
+        "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341195.jpg?k=3eead8dfbefc19f05a034e784c54f86dc86387603bc07e0b826723dbfb1c1af6&o=&hp=1",
+        "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341201.jpg?k=cd541ad884c9902f0e21be07c976c4722aac582a9d63db021991c91cfbd98f62&o=&hp=1",
+        "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341206.jpg?k=4a719e04af41ac9fb545aabcd043482ccf7a10498d5fab59b8d04de0315bf545&o=&hp=1"
+      }
+    },
+    {
+      "name": "Hotel Taj, Mumbai",
+      "city": "Mumbai",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/square200/129148007.webp?k=815f041fa1d0220233632f1b140c0df7ba345fe22cf99964edead59d8363849c&o=",
+      "reviews": 1991,
+      "rating": "3",
+      "bedSize": "2 bed",
+      "roomSize": "Big size room",
+      "cancellationPolicy": "No payment needed",
+      "cancellation": "Free",
+      "breakFast": "Not included",
+      "availability": true,
+      "availableRooms": 10,
+      "price": 1560,
+      "discountedPrice": 1530,
+      "distance": 3,
+      "id": 13,
+      "view": "Good",
+      "visitUrls": {
+        "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846786.jpg?k=df5946ab3c373e8d865a2a3ae5b78921ec918e321d73de195bcf908ceaf16bc8&o=&hp=1",
+        "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846776.jpg?k=0e29dc53225422dff801b4570c0ae88c044542ca4ae1d71f453af0de41ab8c21&o=&hp=1",
+        "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846606.jpg?k=732c4629b16073cc4e68806dbe72f62d390e591d6623e61f49e542c6a3e362cc&o=&hp=1",
+        "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/260558123.jpg?k=0b46b58784b526d5ebe9a551c490e3e7ca80b419edf599fd690dbddc210580e4&o=&hp=1",
+        "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846517.jpg?k=b921ce7aa5fd45b9e11cdddb8a565703fd94a4e6c322e7df9a6c9d95515fcfa2&o=&hp=1",
+        "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846497.jpg?k=e7e9965351faae77dd13926b21fad1c276f2944ce14ce5e81c691385347e5c8d&o=&hp=1",
+        "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846550.jpg?k=09df45b6e496e9e56109c06fd371e228ec1eddf28c8ba1d978eabbe28770d77e&o=&hp=1",
+        "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846730.jpg?k=a4fdd30a8a69d5f20c89f299c535040d5fdb7dad96ba490d5aaf46bc58a83373&o=&hp=1",
+        "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846807.jpg?k=fcefd294f11cfa30fbb1d51200956f6ed39b5934586d0af8fd143d6162b6ffea&o=&hp=1"
+      }
+    },
+    {
+      "name": " Lifeline Villas Taraangan, Delhi",
+      "city": "Delhi",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/square600/118372635.webp?k=18ae00f039b223ba3de316e48bad09ddef31c2882d72a4a1309e5a3e5e1e7d42&o=&s=1",
+      "reviews": 1000,
+      "rating": "2",
+      "bedSize": "1 bed",
+      "roomSize": "Small size room",
+      "cancellationPolicy": "No payment needed",
+      "cancellation": "Free",
+      "breakFast": "Included",
+      "availability": true,
+      "availableRooms": 10,
+      "price": 1200,
+      "discountedPrice": 1100,
+      "distance": 3,
+      "id": 14,
+      "view": "Very Good",
+      "visitUrls": {
+        "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846786.jpg?k=df5946ab3c373e8d865a2a3ae5b78921ec918e321d73de195bcf908ceaf16bc8&o=&hp=1",
+        "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846776.jpg?k=0e29dc53225422dff801b4570c0ae88c044542ca4ae1d71f453af0de41ab8c21&o=&hp=1",
+        "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846620.jpg?k=e64a813fdd4d8b1b0236ca83965754e1e9237ccef6839cf3148a6273c56b883f&o=&hp=1",
+        "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846497.jpg?k=e7e9965351faae77dd13926b21fad1c276f2944ce14ce5e81c691385347e5c8d&o=&hp=1",
+        "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846567.jpg?k=bbb1291e2a9d983c274e86aa36b69926102a7912e547d2054b8403f77a0abb83&o=&hp=1",
+        "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846833.jpg?k=6e1bac73d10af046d49091daa1771eab62c6cda5f72786052a2d5dd4e164ec70&o=&hp=1",
+        "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/265069630.jpg?k=56b0b9f0a45af470a7a28e366a04f8e07de7cfb76e0e857610ecb61108aac51e&o=&hp=1",
+        "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846861.jpg?k=3d413dff82d8fe96b0eb34d2110890852aa9a02e4df85ae1a6b99c021afa881e&o=&hp=1",
+        "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846842.jpg?k=0662b345ec64277ad5f65ece779aad942b01ec12acabd9f4ce5f618d12bcf25e&o=&hp=1"
+      }
+    },
+    {
+      "name": "7TH HEAVEN, Bangalore",
+      "city": "Bangalore",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/square200/185224982.webp?k=61490ccedad06cdc76e5927de32bf4a066e97d77ad511bae0fc59bf7e8efcde1&o=",
+      "reviews": 191,
+      "rating": "1",
+      "bedSize": "2 bed",
+      "roomSize": "Big size room",
+      "cancellationPolicy": "Will be charged",
+      "cancellation": "Paid",
+      "breakFast": "Included",
+      "availability": false,
+      "availableRooms": 10,
+      "price": 1165,
+      "discountedPrice": 1050,
+      "distance": 1,
+      "id": 15,
+      "view": "Good",
+      "visitUrls": {
+        "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315919273.jpg?k=9b80ea40bb8d1047fbee6a659cb39f5648e4f5e40d329833cba4cb50edfd1d8c&o=&hp=1",
+        "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315919277.jpg?k=a5a546a087bda1880883c810f33c3538ed763badbab5f330b7a6b27748d05394&o=&hp=1",
+        "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/277721334.jpg?k=26b1c1eef7b0d86d8a26fdb7b29016ebde44c769d099825a02a508fd948c652e&o=&hp=1",
+        "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/277712121.jpg?k=e2648e717d3fbbd4fe71673fa027e4ec3776021cdc587d8c31dad1e1791a5413&o=&hp=1",
+        "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/277712116.jpg?k=770a393c905acf4b03eb15e403906496befb91e17b8ef4c5aa3a03b0ac059fd6&o=&hp=1",
+        "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/222985668.jpg?k=e4e843b4d97b48374561ac2c40af409682797284a27303ac94dc8d98194d7a2c&o=&hp=1",
+        "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/267247745.jpg?k=539715654836989f006a74472a69ad33144843fc34f6fa4a798dcf99dba7678d&o=&hp=1",
+        "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/267247765.jpg?k=0e08b5ec8bfd3a6176e4e4a59054b0fab8166bee9e5d68d83547e97904476849&o=&hp=1",
+        "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/236089977.jpg?k=5d5f9a0b9db53b3a6612fce56d10bafffd703d31cea657d7100d6147e760e1d3&o=&hp=1"
+      }
     }
-  },
-  {
-    "name": "Hotel Taj, Mumbai",
-    "city": "Mumbai",
-    "url": "https://cf.bstatic.com/xdata/images/hotel/square200/129148007.webp?k=815f041fa1d0220233632f1b140c0df7ba345fe22cf99964edead59d8363849c&o=",
-    "reviews": 1991,
-    "rating": "3",
-    "bedSize": "2 bed",
-    "roomSize": "Big size room",
-    "cancellationPolicy": "No payment needed",
-    "cancellation": "Free",
-    "breakFast": "Not included",
-    "availability": true,
-    "availableRooms": 10,
-    "price": 930,
-    "discountedPrice": 700,
-    "distance": 3,
-    "id": 2,
-    "view": "Good",
-    "visitUrls": {
-      "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846786.jpg?k=df5946ab3c373e8d865a2a3ae5b78921ec918e321d73de195bcf908ceaf16bc8&o=&hp=1",
-      "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846776.jpg?k=0e29dc53225422dff801b4570c0ae88c044542ca4ae1d71f453af0de41ab8c21&o=&hp=1",
-      "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846606.jpg?k=732c4629b16073cc4e68806dbe72f62d390e591d6623e61f49e542c6a3e362cc&o=&hp=1",
-      "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/260558123.jpg?k=0b46b58784b526d5ebe9a551c490e3e7ca80b419edf599fd690dbddc210580e4&o=&hp=1",
-      "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846517.jpg?k=b921ce7aa5fd45b9e11cdddb8a565703fd94a4e6c322e7df9a6c9d95515fcfa2&o=&hp=1",
-      "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846497.jpg?k=e7e9965351faae77dd13926b21fad1c276f2944ce14ce5e81c691385347e5c8d&o=&hp=1",
-      "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846550.jpg?k=09df45b6e496e9e56109c06fd371e228ec1eddf28c8ba1d978eabbe28770d77e&o=&hp=1",
-      "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846730.jpg?k=a4fdd30a8a69d5f20c89f299c535040d5fdb7dad96ba490d5aaf46bc58a83373&o=&hp=1",
-      "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846807.jpg?k=fcefd294f11cfa30fbb1d51200956f6ed39b5934586d0af8fd143d6162b6ffea&o=&hp=1"
-    }
-  },
-  {
-    "name": " Lifeline Villas Taraangan, Delhi",
-    "city": "Delhi",
-    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/282883032.jpg?k=8c57511f94f82a2d095e5c23aa6e4eb1903b1490238f820007363a3f0944eba2&o=&hp=1",
-    "reviews": 1000,
-    "rating": "2",
-    "bedSize": "1 bed",
-    "roomSize": "Small size room",
-    "cancellationPolicy": "No payment needed",
-    "cancellation": "Free",
-    "breakFast": "Included",
-    "availability": true,
-    "availableRooms": 10,
-    "price": 930,
-    "discountedPrice": 700,
-    "distance": 3,
-    "id": 3,
-    "view": "Very Good",
-    "visitUrls": {
-      "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846786.jpg?k=df5946ab3c373e8d865a2a3ae5b78921ec918e321d73de195bcf908ceaf16bc8&o=&hp=1",
-      "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846776.jpg?k=0e29dc53225422dff801b4570c0ae88c044542ca4ae1d71f453af0de41ab8c21&o=&hp=1",
-      "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846620.jpg?k=e64a813fdd4d8b1b0236ca83965754e1e9237ccef6839cf3148a6273c56b883f&o=&hp=1",
-      "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846497.jpg?k=e7e9965351faae77dd13926b21fad1c276f2944ce14ce5e81c691385347e5c8d&o=&hp=1",
-      "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846567.jpg?k=bbb1291e2a9d983c274e86aa36b69926102a7912e547d2054b8403f77a0abb83&o=&hp=1",
-      "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846833.jpg?k=6e1bac73d10af046d49091daa1771eab62c6cda5f72786052a2d5dd4e164ec70&o=&hp=1",
-      "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/265069630.jpg?k=56b0b9f0a45af470a7a28e366a04f8e07de7cfb76e0e857610ecb61108aac51e&o=&hp=1",
-      "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846861.jpg?k=3d413dff82d8fe96b0eb34d2110890852aa9a02e4df85ae1a6b99c021afa881e&o=&hp=1",
-      "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846842.jpg?k=0662b345ec64277ad5f65ece779aad942b01ec12acabd9f4ce5f618d12bcf25e&o=&hp=1"
-    }
-  },
-  {
-    "name": "7TH HEAVEN, Bangalore",
-    "city": "Bangalore",
-    "url": "https://cf.bstatic.com/xdata/images/hotel/square200/185224982.webp?k=61490ccedad06cdc76e5927de32bf4a066e97d77ad511bae0fc59bf7e8efcde1&o=",
-    "reviews": 191,
-    "rating": "1",
-    "bedSize": "2 bed",
-    "roomSize": "Big size room",
-    "cancellationPolicy": "Will be charged",
-    "cancellation": "Paid",
-    "breakFast": "Included",
-    "availability": false,
-    "availableRooms": 13,
-    "price": 300,
-    "discountedPrice": 290,
-    "distance": 1,
-    "id": 4,
-    "view": "Good",
-    "visitUrls": {
-      "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315919273.jpg?k=9b80ea40bb8d1047fbee6a659cb39f5648e4f5e40d329833cba4cb50edfd1d8c&o=&hp=1",
-      "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315919277.jpg?k=a5a546a087bda1880883c810f33c3538ed763badbab5f330b7a6b27748d05394&o=&hp=1",
-      "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/277721334.jpg?k=26b1c1eef7b0d86d8a26fdb7b29016ebde44c769d099825a02a508fd948c652e&o=&hp=1",
-      "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/277712121.jpg?k=e2648e717d3fbbd4fe71673fa027e4ec3776021cdc587d8c31dad1e1791a5413&o=&hp=1",
-      "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/277712116.jpg?k=770a393c905acf4b03eb15e403906496befb91e17b8ef4c5aa3a03b0ac059fd6&o=&hp=1",
-      "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/222985668.jpg?k=e4e843b4d97b48374561ac2c40af409682797284a27303ac94dc8d98194d7a2c&o=&hp=1",
-      "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/267247745.jpg?k=539715654836989f006a74472a69ad33144843fc34f6fa4a798dcf99dba7678d&o=&hp=1",
-      "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/267247765.jpg?k=0e08b5ec8bfd3a6176e4e4a59054b0fab8166bee9e5d68d83547e97904476849&o=&hp=1",
-      "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/236089977.jpg?k=5d5f9a0b9db53b3a6612fce56d10bafffd703d31cea657d7100d6147e760e1d3&o=&hp=1"
-    }
-  },
-  {
-    "name": "Hotel Raj Mahal, Pune",
-    "city": "Pune",
-    "url": "https://cf.bstatic.com/xdata/images/hotel/square200/205408681.webp?k=bfdeb2f418112b7ad30a539e03193030612743db57d5c17b86fc60741ff08aa8&o=",
-    "reviews": 1001,
-    "rating": "2",
-    "bedSize": "2 bed",
-    "roomSize": "Big size room",
-    "cancellationPolicy": "No payment needed",
-    "cancellation": "Free",
-    "breakFast": "Included",
-    "availability": true,
-    "availableRooms": 10,
-    "price": 1930,
-    "discountedPrice": 1560,
-    "distance": 5,
-    "id": 5,
-    "view": "Very Good",
-    "visitUrls": {
-      "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/193901195.jpg?k=7aea1554d4a3aafa50a5305af7204bcb8a842a88ce38eae0ce0ab02bcf607543&o=&hp=1",
-      "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/269621415.jpg?k=fbdf79b6e52ceb6b53b58e682065ca0ac8f828fd638f63dd8454596bd6f7498c&o=&hp=1",
-      "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/269621396.jpg?k=f2ec8e190013b790396a740c991158130a40e83627abea4d613ba05647a57f02&o=&hp=1",
-      "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/193901161.jpg?k=40061c67c7cebef8eb3150f9f05d7191d43bdc9fd2cc6c564a5a7a737674c7b7&o=&hp=1",
-      "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/193901174.jpg?k=0efad8a97dbd7e8c315b4833611974f0d2574e5eaed7acb5df2f85c038d07ad3&o=&hp=1",
-      "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/193901178.jpg?k=788b3fb8037a7f5f26197c2d35af4d6b6a8601e7bf5da91935570c090e5cecf5&o=&hp=1",
-      "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/193901229.jpg?k=c5c6369654b54be37de9c9f65632f08f022dcb03bc8e8e8c1ec37eab43d9d57f&o=&hp=1",
-      "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/193901236.jpg?k=10c997e47ebe0c2ddae71c0d01754894f3cccb75a479465322b01299fd44ee6e&o=&hp=1",
-      "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/193901257.jpg?k=c6a00f080a316169846c8a5463edeec57733b5630d1c141c19e76ea5a805adbf&o=&hp=1"
-    }
-  },
-  {
-    "name": "Chocolate Villa, Mumbai",
-    "city": "Mumbai",
-    "url": "https://cf.bstatic.com/xdata/images/hotel/square200/19082406.webp?k=17006a7c87dc25893e47ceec1ea1abe180ddead15f7ef8cc3fc261a253da1044&o=",
-    "reviews": 101,
-    "rating": "3",
-    "bedSize": "3 bed",
-    "roomSize": "Big size room",
-    "cancellationPolicy": "No payment needed",
-    "cancellation": "Free",
-    "breakFast": "Not included",
-    "availability": true,
-    "availableRooms": 10,
-    "price": 1230,
-    "discountedPrice": 1200,
-    "distance": 8,
-    "id": 6,
-    "view": "Very Good",
-    "visitUrls": {
-      "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/268968154.jpg?k=f7a8068f20e1732d094e8be3843991118e467dd8cd6147270d1bc8e7ba127fee&o=&hp=1",
-      "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/268966759.jpg?k=38fadfae3c1d96284d3738f60cb925acfa355f97b7d8d831a4327327dcf80b37&o=&hp=1",
-      "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/269098620.jpg?k=41c6bb289dd029a8de61c9cb4362770630b6f26c37197ed54ac5f78525f77cee&o=&hp=1",
-      "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/269100218.jpg?k=c6ed89e7e9cdaa63c20ef301c49d28f6a854ddf9c5d5c76bfe960b372d6952b2&o=&hp=1",
-      "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/268976587.jpg?k=3dafbae3b1fada5c630dab27588cf4e6de90e134693bc93d976e67a2f1ac72c8&o=&hp=1",
-      "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/306948896.jpg?k=2dc9892d46dffe10455126bbdf0da75cdeba30505d09791945ece026f05b6088&o=&hp=1",
-      "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/268967575.jpg?k=2cc7480542ed7167c075df4a580b3b51783994d2c9b66bcc0c9a1fa63b030cd7&o=&hp=1",
-      "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/268903823.jpg?k=333c79b0903670ee37ddcb4a85a24f40949c7b13eafe43c2de5abf6a65190148&o=&hp=1",
-      "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/271578921.jpg?k=203a0dfabf0ccb4f39cdf41792cfb44eef7fee5917cb27572d352fc9a83d540b&o=&hp=1"
-    }
-  },
-  {
-    "name": "White Clouds Cottage, Delhi",
-    "city": "Delhi",
-    "url": "https://cf.bstatic.com/xdata/images/hotel/square200/81497844.webp?k=1d4d14fe7266006eff847c3b09d9f5efedf97fd3d552e21f47d22ca642273a55&o=",
-    "reviews": 115,
-    "rating": "4",
-    "bedSize": "1 bed",
-    "roomSize": "Small size room",
-    "cancellationPolicy": "Will be charged",
-    "cancellation": "Paid",
-    "breakFast": "Not included",
-    "availability": true,
-    "availableRooms": 3,
-    "price": 530,
-    "discountedPrice": 500,
-    "distance": 4,
-    "id": 7,
-    "view": "Good",
-    "visitUrls": {
-      "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/139427417.jpg?k=1f82de96b9c759d30094a108311cc3da6990882ea099a13e1ae52f2de2e37eaa&o=&hp=1",
-      "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/176695035.jpg?k=59aa17a51c85a0d69477f3350d180117becdbacde126b4b26c955c6e4992df91&o=&hp=1",
-      "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/176694817.jpg?k=1c5c3e1ba4e4dcc2d8c063f162f63318673ce03e3b861e6a38689d54b1951cb3&o=&hp=1",
-      "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/176694634.jpg?k=4e8388fce05770726ac565cffc8dc717c751184de802a0f6f6fbbf189e859d1c&o=&hp=1",
-      "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/176694683.jpg?k=20bd40041be5f31c506cc5e263fc738eb472e1849344b12eafd527dc37d339e8&o=&hp=1",
-      "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/176694732.jpg?k=7e700b77e971e560661ce466379a10b1cf31d426945c2906fc92cfcaef524c8e&o=&hp=1",
-      "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/176694393.jpg?k=e056ed0a49daa76cb571826cfe0b26afb88a5873e7de2ba4f19f9aeff115939f&o=&hp=1",
-      "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/144686487.jpg?k=9550f52438f28f9d8f6a875bc7d19bd793fc0b24b632b032ad837e00e4e126d8&o=&hp=1",
-      "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/139611211.jpg?k=bc036cfa4b0e0ac99e63704542441417f0d4de4ff4b2db9e92a588efe15e2508&o=&hp=1"
-    }
-  },
-  {
-    "name": "Shetty Farms, Mumbai",
-    "city": "Mumbai",
-    "url": "https://cf.bstatic.com/xdata/images/hotel/square200/129148007.webp?k=815f041fa1d0220233632f1b140c0df7ba345fe22cf99964edead59d8363849c&o=",
-    "reviews": 1991,
-    "rating": "5",
-    "bedSize": "2 bed",
-    "roomSize": "Big size room 2 bed",
-    "cancellationPolicy": "No payment needed",
-    "cancellation": "Free",
-    "breakFast": "Not included",
-    "availability": true,
-    "availableRooms": 10,
-    "price": 930,
-    "discountedPrice": 700,
-    "distance": 3,
-    "id": 8,
-    "view": "Good",
-    "visitUrls": {
-      "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/238912025.jpg?k=ae5dfb852fdbb43b836076e616853b40fd40fe09d29372654d08bf6421e38823&o=&hp=1",
-      "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/270117013.jpg?k=145ee85ae72157eb52e12e8fce7a0edea88a156bb27a437e5a4445a333e2341c&o=&hp=1",
-      "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/270116614.jpg?k=9024bf181566aa7cdf7318bcd0ea27e0ad0f6d56ea59e561e6d3520ea104cd30&o=&hp=1",
-      "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/270116638.jpg?k=bcb69c7af6acb56fcb96892af441cf9cca023013a9b2d1cc7fb0d2eb776fb799&o=&hp=1",
-      "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/270116646.jpg?k=ee556b6dea194ecf847b5def98713903c0d71858b20456ffed4c1a2f73165646&o=&hp=1",
-      "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/270097874.jpg?k=35363f76c52dc301a0da61168221a652473940d5cf261bdcdab04fcb5697c9d7&o=&hp=1",
-      "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/238877890.jpg?k=85ce7d4bc0d968c6dc6ba0cb6b3639cf563f73bcca579751fcf4f2c1f655c55e&o=&hp=1",
-      "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/238912029.jpg?k=2a4146a02c5992bd466e1a1677f9f49906eb15e532fab091b9c8b6a43603be7e&o=&hp=1",
-      "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/238879993.jpg?k=81f89c49d52614373f053df4f10f6c3ca1e8c0830d55e67fd2cafe8f5d9f1e7f&o=&hp=1"
-    }
-  },
-  {
-    "name": "Desire Golf City, Jailpur",
-    "city": "Jaipur",
-    "url": "https://cf.bstatic.com/xdata/images/hotel/square200/302175409.webp?k=5897d1cd223447a7e24b9edad4abe1bc80085dde4e2c87ed641284c341d0f65e&o=",
-    "reviews": 178,
-    "rating": "1",
-    "bedSize": "2 bed",
-    "roomSize": "Big size room",
-    "cancellationPolicy": "No payment needed",
-    "cancellation": "Free",
-    "breakFast": "Not included",
-    "availability": true,
-    "availableRooms": 10,
-    "price": 1230,
-    "discountedPrice": 900,
-    "distance": 0.5,
-    "id": 9,
-    "view": "Good",
-    "visitUrls": {
-      "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/262579946.jpg?k=99d37f2c6e741a7578171a1e3d56653fdbc3c0323e2278f240588c4935fddd30&o=&hp=1",
-      "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/262597729.jpg?k=b9e50c22930ebe2cb266161f02d760424ddc6452eb2aaecd6db1a60c9557e39e&o=&hp=1",
-      "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/141354189.jpg?k=76fde1cb8602678881324f34d13ce88ef6e295868b37511f53ffdff1d001f5d9&o=&hp=1",
-      "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/141354246.jpg?k=9e34b852412ec74f2dcbcfe2243a2fd09753bee0decc64c3338441116dc95497&o=&hp=1",
-      "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/141354375.jpg?k=9134ef06d6fe9df5359c29ead6733a99a4c601f5d15f14240cb9dc697bc25174&o=&hp=1",
-      "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/141357102.jpg?k=4ef91c747c9c0c76521d05ce49564bd5f49f185868499c3d553d0777f2c331f5&o=&hp=1",
-      "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/261640757.jpg?k=12a4b3fbd6b19ef03e6b94e2c8833cb3a98315d873988419052938d2083a0eca&o=&hp=1",
-      "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/144554134.jpg?k=6835149f199f3d81f5b772b32dca41ef645f726882e22f7c7e529b27a73a1be8&o=&hp=1",
-      "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/141357445.jpg?k=50f64f74cf26dacb01c356b63226d9eef28cfce008b7935cf949a753590b1103&o=&hp=1"
-    }
-  },
-  {
-    "name": "Luxury Goan Villa, Gurgaon",
-    "city": "Gurgaon",
-    "url": "https://cf.bstatic.com/xdata/images/hotel/square200/88967722.webp?k=fe50b990016ad28b572d1dbcdd9d07ebac151e3250637019ceb45fd8e40bb063&o=",
-    "reviews": 20,
-    "rating": "2",
-    "bedSize": "2 bed",
-    "roomSize": "Big size room",
-    "cancellationPolicy": "No payment needed",
-    "cancellation": "Free",
-    "breakFast": "Not included",
-    "availability": true,
-    "availableRooms": 10,
-    "price": 1000,
-    "discountedPrice": 800,
-    "distance": 3,
-    "id": 10,
-    "view": "Very Good",
-    "visitUrls": {
-      "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/287225572.jpg?k=32e0ab98e21eb7e2ef2d816750bad1d85a3555b1e3579a81c971961b28798533&o=&hp=1",
-      "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/287225737.jpg?k=261ca3c14254a9453393f095653a6af15f79bd06a175ce58d8fba9a09ef442a2&o=&hp=1",
-      "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/287226255.jpg?k=d369d0d39be854cd540eac042826dee0dba410f76a40c4e333b0bdaaa5b6045f&o=&hp=1",
-      "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/287226269.jpg?k=352e5b2be001c25efbad616164cf1ec67b89b73609666cc4c7e0b1d3e2e86238&o=&hp=1",
-      "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/287226241.jpg?k=4bc005d23655389431f54712062ec7ee8a268226774030e6a6e81868f0434f4e&o=&hp=1",
-      "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/287225753.jpg?k=03d284ce060e5a7eb1ab6ec48554f95f76be820a02ccd32067d4ea17465308e1&o=&hp=1",
-      "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/287224108.jpg?k=1d335d84e3f682d9c0c79751bead84787896bafed8c7bdd54118da0fa4f8a9e9&o=&hp=1",
-      "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/287226258.jpg?k=926e270d808723079904b0c900450c106582c228e93d25d4c480f2964b155a2b&o=&hp=1",
-      "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/287224830.jpg?k=026aa84b45b3cd668b712a9612195cd15a7da57e4651cbf354c4b04f4a0fab15&o=&hp=1"
-    }
-  },
-  {
-    "name": "Henry Corner, Mumbai",
-    "city": "Mumbai",
-    "url": "https://cf.bstatic.com/xdata/images/hotel/square200/129148007.webp?k=815f041fa1d0220233632f1b140c0df7ba345fe22cf99964edead59d8363849c&o=",
-    "reviews": 1991,
-    "rating": "5",
-    "bedSize": "2 bed",
-    "roomSize": "Big size room 2 bed",
-    "cancellationPolicy": "No payment needed",
-    "cancellation": "Free",
-    "breakFast": "Not included",
-    "availability": true,
-    "availableRooms": 10,
-    "price": 930,
-    "discountedPrice": 700,
-    "distance": 3,
-    "id": 11,
-    "view": "Very Good",
-    "visitUrls": {
-      "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/83417839.jpg?k=5e20f2b04a65ec9f141a059ac8d028f981f8e1b76cbb7d001b8026eafbca5c72&o=&hp=1",
-      "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/134866022.jpg?k=b264df47798ca8d6dd024929fbe02ef2145a274bbc649fd29c4f0643d27d8cf4&o=&hp=1",
-      "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/134866256.jpg?k=37b2c66ded7a4821a62ec665bba029eb5a06770cad10e342a4c606c37c1c82c9&o=&hp=1",
-      "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/134866028.jpg?k=939df2738d378b047e148a935cb22b577266b94bd0aeb13c157b3391a800ff87&o=&hp=1",
-      "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/134866291.jpg?k=4f90d177041c999d204edbf1b65bf46bedf4ef49cc156a22f87620230658f9e4&o=&hp=1",
-      "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/134866049.jpg?k=176e291e08641e4f94264e8d1beacdcbae5f4a0fb36c8a5201fd0fbcc783582d&o=&hp=1",
-      "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/134860014.jpg?k=7034d5a82498c3179f9c84bbdd8710764523d25a499358746c299f8d708c83db&o=&hp=1",
-      "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/134860219.jpg?k=32dcfa6ec2fd4e78f571319b3028d860329dae3010de6fc4be15fa5b67b4d1ab&o=&hp=1",
-      "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/134859191.jpg?k=f9d02dee6eb5d41288978f13ee664f28227b2adad1146c366e2351095477759c&o=&hp=1"
-    }
-  },
-  {
-    "name": "Hotel Hayden, New York",
-    "city": "New York",
-    "url": "https://cf.bstatic.com/xdata/images/hotel/square200/234363388.webp?k=fc9546a405b6afe024b48bcbd23256de85846b3e15d9271f241274f74c2d6b15&o=",
-    "reviews": 1991,
-    "rating": "4",
-    "bedSize": "2 bed",
-    "roomSize": "Big size room",
-    "cancelationPolicy": "Will be charged",
-    "breakFast": "Included",
-    "cancellation": "Charged",
-    "availability": true,
-    "availableRooms": 3,
-    "price": 1800,
-    "discountedPrice": 1670,
-    "distance": 2,
-    "id": 12,
-    "view": "Very Good",
-    "visitUrls": {
-      "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341166.jpg?k=ed7adc6e0e083ce249876e1f472eb91a8c63068fb0932b0a6965e7b26396f1e9&o=&hp=1",
-      "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341182.jpg?k=0575291c1a36734bfe2a0ebf319ecda16f539cf62443deec3d36c85f7f2cbb8e&o=&hp=1",
-      "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341183.jpg?k=7f56daaf237d5368e86ff068ce6bb1384442c4990f3c3595233875ac44adf68b&o=&hp=1",
-      "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341186.jpg?k=bb32a99ff29e9cad711bf18b6416854b74e92c5bd5afb5b590249ef4c84ea8d8&o=&hp=1",
-      "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341187.jpg?k=e8ee8cb07d043b613c5cbdf6d5765e44fa0c8c8d0ef72312cba66972b2542f7c&o=&hp=1",
-      "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341193.jpg?k=256ba6c25c0394aad8960ed0a38f249ef228eb2dd331f585f979fdf2aadd6d0f&o=&hp=1",
-      "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341195.jpg?k=3eead8dfbefc19f05a034e784c54f86dc86387603bc07e0b826723dbfb1c1af6&o=&hp=1",
-      "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341201.jpg?k=cd541ad884c9902f0e21be07c976c4722aac582a9d63db021991c91cfbd98f62&o=&hp=1",
-      "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315341206.jpg?k=4a719e04af41ac9fb545aabcd043482ccf7a10498d5fab59b8d04de0315bf545&o=&hp=1"
-    }
-  },
-  {
-    "name": "Hotel Taj, Mumbai",
-    "city": "Mumbai",
-    "url": "https://cf.bstatic.com/xdata/images/hotel/square200/129148007.webp?k=815f041fa1d0220233632f1b140c0df7ba345fe22cf99964edead59d8363849c&o=",
-    "reviews": 1991,
-    "rating": "3",
-    "bedSize": "2 bed",
-    "roomSize": "Big size room",
-    "cancellationPolicy": "No payment needed",
-    "cancellation": "Free",
-    "breakFast": "Not included",
-    "availability": true,
-    "availableRooms": 10,
-    "price": 1560,
-    "discountedPrice": 1530,
-    "distance": 3,
-    "id": 13,
-    "view": "Good",
-    "visitUrls": {
-      "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846786.jpg?k=df5946ab3c373e8d865a2a3ae5b78921ec918e321d73de195bcf908ceaf16bc8&o=&hp=1",
-      "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846776.jpg?k=0e29dc53225422dff801b4570c0ae88c044542ca4ae1d71f453af0de41ab8c21&o=&hp=1",
-      "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846606.jpg?k=732c4629b16073cc4e68806dbe72f62d390e591d6623e61f49e542c6a3e362cc&o=&hp=1",
-      "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/260558123.jpg?k=0b46b58784b526d5ebe9a551c490e3e7ca80b419edf599fd690dbddc210580e4&o=&hp=1",
-      "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846517.jpg?k=b921ce7aa5fd45b9e11cdddb8a565703fd94a4e6c322e7df9a6c9d95515fcfa2&o=&hp=1",
-      "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846497.jpg?k=e7e9965351faae77dd13926b21fad1c276f2944ce14ce5e81c691385347e5c8d&o=&hp=1",
-      "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846550.jpg?k=09df45b6e496e9e56109c06fd371e228ec1eddf28c8ba1d978eabbe28770d77e&o=&hp=1",
-      "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846730.jpg?k=a4fdd30a8a69d5f20c89f299c535040d5fdb7dad96ba490d5aaf46bc58a83373&o=&hp=1",
-      "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846807.jpg?k=fcefd294f11cfa30fbb1d51200956f6ed39b5934586d0af8fd143d6162b6ffea&o=&hp=1"
-    }
-  },
-  {
-    "name": " Lifeline Villas Taraangan, Delhi",
-    "city": "Delhi",
-    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/282883032.jpg?k=8c57511f94f82a2d095e5c23aa6e4eb1903b1490238f820007363a3f0944eba2&o=&hp=1",
-    "reviews": 1000,
-    "rating": "2",
-    "bedSize": "1 bed",
-    "roomSize": "Small size room",
-    "cancellationPolicy": "No payment needed",
-    "cancellation": "Free",
-    "breakFast": "Included",
-    "availability": true,
-    "availableRooms": 10,
-    "price": 1200,
-    "discountedPrice": 1100,
-    "distance": 3,
-    "id": 14,
-    "view": "Very Good",
-    "visitUrls": {
-      "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846786.jpg?k=df5946ab3c373e8d865a2a3ae5b78921ec918e321d73de195bcf908ceaf16bc8&o=&hp=1",
-      "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846776.jpg?k=0e29dc53225422dff801b4570c0ae88c044542ca4ae1d71f453af0de41ab8c21&o=&hp=1",
-      "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846620.jpg?k=e64a813fdd4d8b1b0236ca83965754e1e9237ccef6839cf3148a6273c56b883f&o=&hp=1",
-      "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846497.jpg?k=e7e9965351faae77dd13926b21fad1c276f2944ce14ce5e81c691385347e5c8d&o=&hp=1",
-      "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846567.jpg?k=bbb1291e2a9d983c274e86aa36b69926102a7912e547d2054b8403f77a0abb83&o=&hp=1",
-      "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846833.jpg?k=6e1bac73d10af046d49091daa1771eab62c6cda5f72786052a2d5dd4e164ec70&o=&hp=1",
-      "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/265069630.jpg?k=56b0b9f0a45af470a7a28e366a04f8e07de7cfb76e0e857610ecb61108aac51e&o=&hp=1",
-      "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846861.jpg?k=3d413dff82d8fe96b0eb34d2110890852aa9a02e4df85ae1a6b99c021afa881e&o=&hp=1",
-      "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258846842.jpg?k=0662b345ec64277ad5f65ece779aad942b01ec12acabd9f4ce5f618d12bcf25e&o=&hp=1"
-    }
-  },
-  {
-    "name": "7TH HEAVEN, Bangalore",
-    "city": "Bangalore",
-    "url": "https://cf.bstatic.com/xdata/images/hotel/square200/185224982.webp?k=61490ccedad06cdc76e5927de32bf4a066e97d77ad511bae0fc59bf7e8efcde1&o=",
-    "reviews": 191,
-    "rating": "1",
-    "bedSize": "2 bed",
-    "roomSize": "Big size room",
-    "cancellationPolicy": "Will be charged",
-    "cancellation": "Paid",
-    "breakFast": "Included",
-    "availability": false,
-    "availableRooms": 10,
-    "price": 1165,
-    "discountedPrice": 1050,
-    "distance": 1,
-    "id": 15,
-    "view": "Good",
-    "visitUrls": {
-      "url_1": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315919273.jpg?k=9b80ea40bb8d1047fbee6a659cb39f5648e4f5e40d329833cba4cb50edfd1d8c&o=&hp=1",
-      "url_2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315919277.jpg?k=a5a546a087bda1880883c810f33c3538ed763badbab5f330b7a6b27748d05394&o=&hp=1",
-      "url_3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/277721334.jpg?k=26b1c1eef7b0d86d8a26fdb7b29016ebde44c769d099825a02a508fd948c652e&o=&hp=1",
-      "url_5": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/277712121.jpg?k=e2648e717d3fbbd4fe71673fa027e4ec3776021cdc587d8c31dad1e1791a5413&o=&hp=1",
-      "url_6": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/277712116.jpg?k=770a393c905acf4b03eb15e403906496befb91e17b8ef4c5aa3a03b0ac059fd6&o=&hp=1",
-      "url_7": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/222985668.jpg?k=e4e843b4d97b48374561ac2c40af409682797284a27303ac94dc8d98194d7a2c&o=&hp=1",
-      "url_8": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/267247745.jpg?k=539715654836989f006a74472a69ad33144843fc34f6fa4a798dcf99dba7678d&o=&hp=1",
-      "url_9": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/267247765.jpg?k=0e08b5ec8bfd3a6176e4e4a59054b0fab8166bee9e5d68d83547e97904476849&o=&hp=1",
-      "url_10": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/236089977.jpg?k=5d5f9a0b9db53b3a6612fce56d10bafffd703d31cea657d7100d6147e760e1d3&o=&hp=1"
-    }
-  }
-],
+  ],
 
-
-
-"popular_city_car_hire":[
-  {
+  "popular_city_car_hire": [
+    {
       "id": 1,
       "city": "London",
       "carDetail": "Car hire in 75 pick-up locations",
       "fair": 3456.44,
-      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/613095.webp?k=8caf960d96a59e284ac1518ac8777e89d17fda6572acd84dbec151f627c7bf07&o="
-  },
-  {
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/613095.webp?k=8caf960d96a59e284ac1518ac8777e89d17fda6572acd84dbec151f627c7bf07&o=",
+      "link": "london"
+    },
+    {
       "id": 2,
       "city": "Paris",
       "carDetail": "Car hire in 90 pick-up locations",
       "fair": 3712.55,
-      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/613088.webp?k=a370ac3fb385fb211b35a79a42b0e968ddb458be37108af476c558bf4cedc1f3&o="
-  },
-  {
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/613088.webp?k=a370ac3fb385fb211b35a79a42b0e968ddb458be37108af476c558bf4cedc1f3&o=",
+      "link": "paris"
+    },
+    {
       "id": 3,
       "city": "Madrid",
       "carDetail": "Car hire in 40 pick-up locations",
       "fair": 1291.33,
-      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/971353.webp?k=a5b47d2c38469086427837dfe64ab2e6f57ba52f0504359ef4cc02dc4b9b0737&o="
-  },
-  {
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/971353.webp?k=a5b47d2c38469086427837dfe64ab2e6f57ba52f0504359ef4cc02dc4b9b0737&o=",
+      "link": "madrid"
+    },
+    {
       "id": 4,
       "city": "Dubai",
       "carDetail": "Car hire in 91 pick-up locations",
       "fair": 3038.58,
-      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/619932.webp?k=81c20cf1191a1d05472b45413bed3cee67dc92b8c1387c60a960beb5629f109d&o="
-  },
-  {
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/619932.webp?k=81c20cf1191a1d05472b45413bed3cee67dc92b8c1387c60a960beb5629f109d&o=",
+      "link": "dubai"
+    },
+    {
       "id": 5,
       "city": "Malaga",
       "carDetail": "Car hire in 6 pick-up locations",
-      "fair": 1285.90,
-      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/645577.webp?k=81d61cb4e120af4d4218386546a117b77ef18dfcf3727d186ec3a1aad60f38fe&o="
-  },
-  {
+      "fair": 1285.9,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/645577.webp?k=81d61cb4e120af4d4218386546a117b77ef18dfcf3727d186ec3a1aad60f38fe&o=",
+      "link": "malanga"
+    },
+    {
       "id": 6,
       "city": "Lisbon",
       "carDetail": "Car hire in 18 pick-up locations",
       "fair": 1490.27,
-      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/619965.webp?k=8b2bc851e921e03c4565fe28e4f608c30223227743b3b2cc56c476a5ef04d3da&o="
-  }
-],
-"top_worldwide_car_rental":[
-  {
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/619965.webp?k=8b2bc851e921e03c4565fe28e4f608c30223227743b3b2cc56c476a5ef04d3da&o=",
+      "link": "lisbon"
+    }
+  ],
+  "top_worldwide_car_rental": [
+    {
       "id": 1,
       "city": "Milan",
       "fair": 1313.59,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/619644.webp?k=5b21ac6d3d913a54274d6546e60adb2c3c138d661dd1a2bd7b3aed53e9df0b65&o="
-  },
-  {
+    },
+    {
       "id": 2,
       "city": "Rome",
       "fair": 1251.28,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/613105.webp?k=1e85cf4dec7b0d5a6327be91c38cf9c1711f9da1a31c4cba736f9cb751443ff1&o="
-  },
-  {
+    },
+    {
       "id": 3,
       "city": "Barcelona",
       "fair": 1452.29,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968315.webp?k=14d0bad185930ec2663562b999ecf498fb6fcf492c16a4c33228504a15e2d119&o="
-  },
-  {
+    },
+    {
       "id": 4,
       "city": "Madrid",
       "fair": 1291.33,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/971353.webp?k=a5b47d2c38469086427837dfe64ab2e6f57ba52f0504359ef4cc02dc4b9b0737&o="
-  }
-],
-"london":[
-  {
-     "id": 1,
-     "city": "Southampton",
-     "fair": 2962.67,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/967986.webp?k=41f5c2e33f7a64f821924ef9812a4be1e2edf4e7ac507c5190ff4709c9f6c081&o="
-  },
-  {
-     "id": 2,
-     "city": "Norwich",
-     "fair": 6377.63,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968056.webp?k=512962d90b277c9a01b75af9926ba217028d2dbd34a0d4f179848a7c9c7e4642&o="
-  },
-  {
-     "id": 3,
-     "city": "Southend on-Sea",
-     "fair": 8836.64,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/687448.webp?k=9826683a5c22a9ec9c401b9b606203df4ad55095b83ca0bb0d674f6d090716c9&o="
-  },
-  {
-     "id": 4,
-     "city": "Nottingham",
-     "fair": 3612.48,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/967906.webp?k=12cf9003dbf4787849f1801c5310ea3baa7a775545de84dfa373a921c199344d&o="
-  },
-  {
-     "id": 5,
-     "city": "Oxford",
-     "fair": 2957.73,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/967587.webp?k=e8628bb7bbb696b86fd9ed0dd6be4ac24d6647503220113ba60dbd0027ad788c&o="
-  },
-  {
-     "id": 6,
-     "city": "Portsmouth",
-     "fair": 2468.89,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968070.webp?k=b3fc4ffe692de2cc669d1f68dc0defb29dbc6958a38c2aee025b5d3f8e4b05f0&o="
-  },
-  {
-     "id": 7,
-     "city": "Penzance",
-     "fair": 9019.34,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968644.webp?k=6a48a64161c92e602c1ab63e2a945361556a54e7cca2d7afa83e2a63aa91d129&o="
-  },
-  {
-     "id": 8,
-     "city": "Romford",
-     "fair": 6159.38,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/810129.webp?k=fb0639ae40b5e4622b3edd5cc432d2e25975fcc3e06b17ed5afb21059a51126d&o="
-  },
-  {
-     "id": 9,
-     "city": "Sheffield",
-     "fair": 4444,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968084.webp?k=0acc0fcb575701b6ee1f352131e553c6d8702060c1484f1fd80a8c6098f795a9&o="
-  },
-  {
-     "id": 10,
-     "city": "Portadown",
-     "fair": 10470.06,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/734157.webp?k=0badc1af3b9f95874114e0ecabb55fa06c6177a46619dc914debe7053fb7c3c3&o="
-  }
-],
-"paris": [
-  {
+    }
+  ],
+  "london": [
+    {
+      "id": 1,
+      "city": "Southampton",
+      "fair": 2962.67,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/967986.webp?k=41f5c2e33f7a64f821924ef9812a4be1e2edf4e7ac507c5190ff4709c9f6c081&o=",
+      "rating:": 1
+    },
+    {
+      "id": 2,
+      "city": "Norwich",
+      "fair": 6377.63,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968056.webp?k=512962d90b277c9a01b75af9926ba217028d2dbd34a0d4f179848a7c9c7e4642&o="
+    },
+    {
+      "id": 3,
+      "city": "Southend on-Sea",
+      "fair": 8836.64,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/687448.webp?k=9826683a5c22a9ec9c401b9b606203df4ad55095b83ca0bb0d674f6d090716c9&o="
+    },
+    {
+      "id": 4,
+      "city": "Nottingham",
+      "fair": 3612.48,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/967906.webp?k=12cf9003dbf4787849f1801c5310ea3baa7a775545de84dfa373a921c199344d&o="
+    },
+    {
+      "id": 5,
+      "city": "Oxford",
+      "fair": 2957.73,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/967587.webp?k=e8628bb7bbb696b86fd9ed0dd6be4ac24d6647503220113ba60dbd0027ad788c&o="
+    },
+    {
+      "id": 6,
+      "city": "Portsmouth",
+      "fair": 2468.89,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968070.webp?k=b3fc4ffe692de2cc669d1f68dc0defb29dbc6958a38c2aee025b5d3f8e4b05f0&o="
+    },
+    {
+      "id": 7,
+      "city": "Penzance",
+      "fair": 9019.34,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968644.webp?k=6a48a64161c92e602c1ab63e2a945361556a54e7cca2d7afa83e2a63aa91d129&o="
+    },
+    {
+      "id": 8,
+      "city": "Romford",
+      "fair": 6159.38,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/810129.webp?k=fb0639ae40b5e4622b3edd5cc432d2e25975fcc3e06b17ed5afb21059a51126d&o="
+    },
+    {
+      "id": 9,
+      "city": "Sheffield",
+      "fair": 4444,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968084.webp?k=0acc0fcb575701b6ee1f352131e553c6d8702060c1484f1fd80a8c6098f795a9&o="
+    },
+    {
+      "id": 10,
+      "city": "Portadown",
+      "fair": 10470.06,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/734157.webp?k=0badc1af3b9f95874114e0ecabb55fa06c6177a46619dc914debe7053fb7c3c3&o="
+    }
+  ],
+  "paris": [
+    {
       "id": 1,
       "city": "Strasbourg",
       "fair": 5243.41,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/681966.webp?k=4c023f1c1ccc242171ac39e67a0c9c56913c113dc11e380b3aa80b642a29e141&o="
-   },
-   {
+    },
+    {
       "id": 2,
       "city": "Rennes",
       "fair": 3016.91,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/681864.webp?k=2b6fef095c0c3e35c3701778c05924c6da49c87dff1ce13121eaeb9fafa1e359&o="
-   },
-   {
+    },
+    {
       "id": 3,
       "city": "Perpignan",
       "fair": 4602.84,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/681854.webp?k=eab883a5609db398d721d60766d7c1b40dfc11b11bd5b277b00f0ff3f7ece8dd&o="
-   },
-   {
+    },
+    {
       "id": 4,
       "city": "Toulon",
       "fair": 4090.16,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/681961.webp?k=1c0a24b72d44b6409cdcaf623d46545f6863cb1c67f1dc901741488b9bdd21a5&o="
-   },
-   {
+    },
+    {
       "id": 5,
       "city": "Poitiers",
       "fair": 5077.12,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/610180.webp?k=13762959bec0eef64a36ee45dcf62c9173e5dd4b8042690eaeb7fe0e19ca5a0c&o="
-   },
-   {
+    },
+    {
       "id": 6,
       "city": "Saint Malo",
       "fair": 10216.93,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/681918.webp?k=eb0d81bbed0788c958d0f0b7cf42f8cddc2da77da77e54439442ff416fb248a8&o="
-   },
-   {
+    },
+    {
       "id": 7,
       "city": "Rouen",
       "fair": 7717.62,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/681890.webp?k=9a99980c429255d9867d5c4367a7ad72ab97bf7de90048d769c270d135aacc70&o="
-   },
-   {
+    },
+    {
       "id": 8,
       "city": "Tarbes",
       "fair": 8369.63,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/889766.webp?k=ee13f10b7a92c8822fde99ac1fbc5647bbb8341baa7d72ee20593f68b702e2f8&o="
-   },
-   {
+    },
+    {
       "id": 9,
       "city": "Reims",
       "fair": 5708.67,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/681878.webp?k=1b5af0eb4eb792232ec6d7b17ec13f08a828281664c3621c9f34c0fc2e21b200&o="
-   },
-   {
+    },
+    {
       "id": 10,
       "city": "Rodez",
       "fair": 5083.09,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/915778.webp?k=af76d8fb93bec66c88c19c48cc9685e83ad51ac68fc7d9d8384e3bd876a3190f&o="
-   }
-], 
-"madrid":[
-  {
-     "id": 1,
-     "city": "Valencia",
-     "fair": 2962.67,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/967986.webp?k=41f5c2e33f7a64f821924ef9812a4be1e2edf4e7ac507c5190ff4709c9f6c081&o="
-  },
-  {
-     "id": 2,
-     "city": "Seville",
-     "fair": 6377.63,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968056.webp?k=512962d90b277c9a01b75af9926ba217028d2dbd34a0d4f179848a7c9c7e4642&o="
-  },
-  {
-     "id": 3,
-     "city": "Santiago de Compostela",
-     "fair": 4336.64,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/687448.webp?k=9826683a5c22a9ec9c401b9b606203df4ad55095b83ca0bb0d674f6d090716c9&o="
-  },
-  {
-     "id": 4,
-     "city": "Santander",
-     "fair": 3612.48,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/967906.webp?k=12cf9003dbf4787849f1801c5310ea3baa7a775545de84dfa373a921c199344d&o="
-  },
-  {
-     "id": 5,
-     "city": "Vigo",
-     "fair": 5957.73,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/967587.webp?k=e8628bb7bbb696b86fd9ed0dd6be4ac24d6647503220113ba60dbd0027ad788c&o="
-  },
-  {
-     "id": 6,
-     "city": "San Sebastian",
-     "fair": 6468.89,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968070.webp?k=b3fc4ffe692de2cc669d1f68dc0defb29dbc6958a38c2aee025b5d3f8e4b05f0&o="
-  },
-  {
-     "id": 7,
-     "city": "Valladolid",
-     "fair": 7319.34,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968644.webp?k=6a48a64161c92e602c1ab63e2a945361556a54e7cca2d7afa83e2a63aa91d129&o="
-  },
-  {
-     "id": 8,
-     "city": "Torremolinos",
-     "fair": 5959.38,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/810129.webp?k=fb0639ae40b5e4622b3edd5cc432d2e25975fcc3e06b17ed5afb21059a51126d&o="
-  },
-  {
-     "id": 9,
-     "city": "Torrevieja",
-     "fair": 3444,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968084.webp?k=0acc0fcb575701b6ee1f352131e553c6d8702060c1484f1fd80a8c6098f795a9&o="
-  },
-  {
-     "id": 10,
-     "city": "Tarragona",
-     "fair": 10470.06,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/734157.webp?k=0badc1af3b9f95874114e0ecabb55fa06c6177a46619dc914debe7053fb7c3c3&o="
-  }
-],
-"dubai": [
-  {
+    }
+  ],
+  "madrid": [
+    {
+      "id": 1,
+      "city": "Valencia",
+      "fair": 2962.67,
+
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/967986.webp?k=41f5c2e33f7a64f821924ef9812a4be1e2edf4e7ac507c5190ff4709c9f6c081&o="
+    },
+    {
+      "id": 2,
+      "city": "Seville",
+      "fair": 6377.63,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968056.webp?k=512962d90b277c9a01b75af9926ba217028d2dbd34a0d4f179848a7c9c7e4642&o="
+    },
+    {
+      "id": 3,
+      "city": "Santiago de Compostela",
+      "fair": 4336.64,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/687448.webp?k=9826683a5c22a9ec9c401b9b606203df4ad55095b83ca0bb0d674f6d090716c9&o="
+    },
+    {
+      "id": 4,
+      "city": "Santander",
+      "fair": 3612.48,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/967906.webp?k=12cf9003dbf4787849f1801c5310ea3baa7a775545de84dfa373a921c199344d&o="
+    },
+    {
+      "id": 5,
+      "city": "Vigo",
+      "fair": 5957.73,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/967587.webp?k=e8628bb7bbb696b86fd9ed0dd6be4ac24d6647503220113ba60dbd0027ad788c&o="
+    },
+    {
+      "id": 6,
+      "city": "San Sebastian",
+      "fair": 6468.89,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968070.webp?k=b3fc4ffe692de2cc669d1f68dc0defb29dbc6958a38c2aee025b5d3f8e4b05f0&o="
+    },
+    {
+      "id": 7,
+      "city": "Valladolid",
+      "fair": 7319.34,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968644.webp?k=6a48a64161c92e602c1ab63e2a945361556a54e7cca2d7afa83e2a63aa91d129&o="
+    },
+    {
+      "id": 8,
+      "city": "Torremolinos",
+      "fair": 5959.38,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/810129.webp?k=fb0639ae40b5e4622b3edd5cc432d2e25975fcc3e06b17ed5afb21059a51126d&o="
+    },
+    {
+      "id": 9,
+      "city": "Torrevieja",
+      "fair": 3444,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968084.webp?k=0acc0fcb575701b6ee1f352131e553c6d8702060c1484f1fd80a8c6098f795a9&o="
+    },
+    {
+      "id": 10,
+      "city": "Tarragona",
+      "fair": 10470.06,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/734157.webp?k=0badc1af3b9f95874114e0ecabb55fa06c6177a46619dc914debe7053fb7c3c3&o="
+    }
+  ],
+  "dubai": [
+    {
       "id": 1,
       "city": "Abu Dhabi",
       "fair": 2470.06,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/349030.webp?k=b8fb20f0b84e55054decb03a84d9ef96f9488397366d6ce2164ad8b7ff278e19&o="
-   },
-  {
+    },
+    {
       "id": 2,
       "city": "Al'Ayn",
       "fair": 2748.06,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968084.webp?k=0acc0fcb575701b6ee1f352131e553c6d8702060c1484f1fd80a8c6098f795a9&o="
-   },
-  {
+    },
+    {
       "id": 3,
       "city": "Abu Dhabi",
       "fair": 2448.06,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/349030.webp?k=b8fb20f0b84e55054decb03a84d9ef96f9488397366d6ce2164ad8b7ff278e19&o="
-   },
-  {
+    },
+    {
       "id": 4,
       "city": "Sharjah",
       "fair": 2948.06,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/654879.webp?k=c9442fbe99d085bbb43087b06d4710d1e6a8fc6caf692ae46718ade5090d9775&o="
-   },
-  {
+    },
+    {
       "id": 5,
       "city": "Ras al Khaimah",
       "fair": 2919.14,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/654887.webp?k=a244f97e819bdb5481505a0f37cd1d4b311143cab63acb7f59a8bc78a0809ba6&o="
-   }
-],
-"malaga":[
-  {
-     "id": 1,
-     "city": "Valencia",
-     "fair": 2962.67,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/967986.webp?k=41f5c2e33f7a64f821924ef9812a4be1e2edf4e7ac507c5190ff4709c9f6c081&o="
-  },
-  {
-     "id": 2,
-     "city": "Seville",
-     "fair": 6377.63,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968056.webp?k=512962d90b277c9a01b75af9926ba217028d2dbd34a0d4f179848a7c9c7e4642&o="
-  },
-  {
-     "id": 3,
-     "city": "Santiago de Compostela",
-     "fair": 4336.64,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/687448.webp?k=9826683a5c22a9ec9c401b9b606203df4ad55095b83ca0bb0d674f6d090716c9&o="
-  },
-  {
-     "id": 4,
-     "city": "Santander",
-     "fair": 3612.48,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/967906.webp?k=12cf9003dbf4787849f1801c5310ea3baa7a775545de84dfa373a921c199344d&o="
-  },
-  {
-     "id": 5,
-     "city": "Vigo",
-     "fair": 5957.73,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/967587.webp?k=e8628bb7bbb696b86fd9ed0dd6be4ac24d6647503220113ba60dbd0027ad788c&o="
-  },
-  {
-     "id": 6,
-     "city": "San Sebastian",
-     "fair": 6468.89,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968070.webp?k=b3fc4ffe692de2cc669d1f68dc0defb29dbc6958a38c2aee025b5d3f8e4b05f0&o="
-  },
-  {
-     "id": 7,
-     "city": "Valladolid",
-     "fair": 7319.34,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968644.webp?k=6a48a64161c92e602c1ab63e2a945361556a54e7cca2d7afa83e2a63aa91d129&o="
-  },
-  {
-     "id": 8,
-     "city": "Torremolinos",
-     "fair": 5959.38,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/810129.webp?k=fb0639ae40b5e4622b3edd5cc432d2e25975fcc3e06b17ed5afb21059a51126d&o="
-  },
-  {
-     "id": 9,
-     "city": "Torrevieja",
-     "fair": 3444,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968084.webp?k=0acc0fcb575701b6ee1f352131e553c6d8702060c1484f1fd80a8c6098f795a9&o="
-  },
-  {
-     "id": 10,
-     "city": "Tarragona",
-     "fair": 10470.06,
-     "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/734157.webp?k=0badc1af3b9f95874114e0ecabb55fa06c6177a46619dc914debe7053fb7c3c3&o="
-  }
-],
-"lisbon": [
-  {
+    }
+  ],
+  "malaga": [
+    {
+      "id": 1,
+      "city": "Valencia",
+      "fair": 2962.67,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/967986.webp?k=41f5c2e33f7a64f821924ef9812a4be1e2edf4e7ac507c5190ff4709c9f6c081&o="
+    },
+    {
+      "id": 2,
+      "city": "Seville",
+      "fair": 6377.63,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968056.webp?k=512962d90b277c9a01b75af9926ba217028d2dbd34a0d4f179848a7c9c7e4642&o="
+    },
+    {
+      "id": 3,
+      "city": "Santiago de Compostela",
+      "fair": 4336.64,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/687448.webp?k=9826683a5c22a9ec9c401b9b606203df4ad55095b83ca0bb0d674f6d090716c9&o="
+    },
+    {
+      "id": 4,
+      "city": "Santander",
+      "fair": 3612.48,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/967906.webp?k=12cf9003dbf4787849f1801c5310ea3baa7a775545de84dfa373a921c199344d&o="
+    },
+    {
+      "id": 5,
+      "city": "Vigo",
+      "fair": 5957.73,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/967587.webp?k=e8628bb7bbb696b86fd9ed0dd6be4ac24d6647503220113ba60dbd0027ad788c&o="
+    },
+    {
+      "id": 6,
+      "city": "San Sebastian",
+      "fair": 6468.89,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968070.webp?k=b3fc4ffe692de2cc669d1f68dc0defb29dbc6958a38c2aee025b5d3f8e4b05f0&o="
+    },
+    {
+      "id": 7,
+      "city": "Valladolid",
+      "fair": 7319.34,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968644.webp?k=6a48a64161c92e602c1ab63e2a945361556a54e7cca2d7afa83e2a63aa91d129&o="
+    },
+    {
+      "id": 8,
+      "city": "Torremolinos",
+      "fair": 5959.38,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/810129.webp?k=fb0639ae40b5e4622b3edd5cc432d2e25975fcc3e06b17ed5afb21059a51126d&o="
+    },
+    {
+      "id": 9,
+      "city": "Torrevieja",
+      "fair": 3444,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/968084.webp?k=0acc0fcb575701b6ee1f352131e553c6d8702060c1484f1fd80a8c6098f795a9&o="
+    },
+    {
+      "id": 10,
+      "city": "Tarragona",
+      "fair": 10470.06,
+      "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/734157.webp?k=0badc1af3b9f95874114e0ecabb55fa06c6177a46619dc914debe7053fb7c3c3&o="
+    }
+  ],
+  "lisbon": [
+    {
       "id": 1,
       "city": "Porto",
       "fair": 1443.41,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/681966.webp?k=4c023f1c1ccc242171ac39e67a0c9c56913c113dc11e380b3aa80b642a29e141&o="
-   },
-   {
+    },
+    {
       "id": 2,
       "city": "Portimao",
       "fair": 3333.55,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/681864.webp?k=2b6fef095c0c3e35c3701778c05924c6da49c87dff1ce13121eaeb9fafa1e359&o="
-   },
-   {
+    },
+    {
       "id": 3,
       "city": "Viana do Castelo",
       "fair": 7302.84,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/681854.webp?k=eab883a5609db398d721d60766d7c1b40dfc11b11bd5b277b00f0ff3f7ece8dd&o="
-   },
-   {
+    },
+    {
       "id": 4,
       "city": "Vila do Conde",
       "fair": 4990.16,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/681961.webp?k=1c0a24b72d44b6409cdcaf623d46545f6863cb1c67f1dc901741488b9bdd21a5&o="
-   },
-   {
+    },
+    {
       "id": 5,
       "city": "Setubal",
       "fair": 3126.91,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/610180.webp?k=13762959bec0eef64a36ee45dcf62c9173e5dd4b8042690eaeb7fe0e19ca5a0c&o="
-   },
-   {
+    },
+    {
       "id": 6,
       "city": "Santarem",
       "fair": 2165.93,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/681918.webp?k=eb0d81bbed0788c958d0f0b7cf42f8cddc2da77da77e54439442ff416fb248a8&o="
-   },
-   {
+    },
+    {
       "id": 7,
       "city": "Torres Vedras",
       "fair": 5452.62,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/681890.webp?k=9a99980c429255d9867d5c4367a7ad72ab97bf7de90048d769c270d135aacc70&o="
-   },
-   {
+    },
+    {
       "id": 8,
       "city": "Tomar",
       "fair": 3169.63,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/889766.webp?k=ee13f10b7a92c8822fde99ac1fbc5647bbb8341baa7d72ee20593f68b702e2f8&o="
-   },
-   {
+    },
+    {
       "id": 9,
       "city": "Serta",
       "fair": 3708.67,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/681878.webp?k=1b5af0eb4eb792232ec6d7b17ec13f08a828281664c3621c9f34c0fc2e21b200&o="
-   },
-   {
+    },
+    {
       "id": 10,
       "city": "Seia",
       "fair": 5083.09,
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/915778.webp?k=af76d8fb93bec66c88c19c48cc9685e83ad51ac68fc7d9d8384e3bd876a3190f&o="
-   }
-], 
+    }
+  ],
 
-"car-availables":[
-          {   
-              "id":1,
-              "supply":"Alamo",
-              "fair":5000.56,
-              "Milage": 300,
-              "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
-          },
-          {
-              "id": 2,
-              "supply":"Alamo",
-              "fair":4500,
-              "Milage": 250,
-              "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
-          },
-          {
-              "id": 3,
-              "supply":"Alamo",
-              "fair":8000.76,
-              "Milage": 350,
-              "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
-          },
-          {
-              "id": 4,
-              "supply":"Avis",
-              "fair":7500.56,
-              "Milage": 370,
-              "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
-          },
-          {
-              "id":5,
-              "supply":"Avis",
-              "fair":800.96,
-              "Milage": 200,
-              "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
-          },
-          {
-              "id": 6,
-              "supply":"Avis",
-              "fair":2000,
-              "Milage": 250,
-              "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
-          },
-          {
-              "id": 7,
-              "supply":"Budget",
-              "fair":4900,
-              "Milage": 300,
-              "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
-          },
-          {
-              "id":8,
-              "supply":"Budget",
-              "fair":6005.78,
-              "Milage": 370,
-              "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
-          },
-          {
-              "id":9,
-              "supply":"Budget",
-              "fair":3600,
-              "Milage": 250,
-              "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
-          },
-          {
-              "id":10,
-              "supply":"Citi Rental",
-              "fair":8104.98,
-              "Milage": 390,
-              "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
-          },{   
-              "id":11,
-              "supply":"Citi Rental",
-              "fair":6203.46,
-              "Milage": 300,
-              "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
-          },
-          {
-              "id": 12,
-              "supply":"Citi Rental",
-              "fair":5230,
-              "Milage": 350,
-              "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
-          },
-          {
-              "id": 13,
-              "supply":"Currie Motors Car & Van Rental",
-              "fair":3200,
-              "Milage": 300,
-              "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
-          },
-          {
-              "id": 14,
-              "supply":"Currie Motors Car & Van Rental",
-              "fair":6000,
-              "Milage": 300,
-              "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
-          },
-          {
-              "id":15,
-              "supply":"Currie Motors Car & Van Rental",
-              "fair":6877,
-              "Milage": 350,
-              "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
-          },
-          {
-              "id": 16,
-              "supply":"Easirent",
-              "fair":900,
-              "Milage": 240,
-              "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
-          },
-          {
-              "id": 17,
-              "supply":"Easirent",
-              "fair":4800,
-              "Milage": 350,
-              "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
-          },
-          {
-              "id":18,
-              "supply":"Easirent",
-              "fair":2800.56,
-              "Milage": 300,
-              "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
-          },
-          {
-              "id":19,
-              "supply":"Enterprise",
-              "fair":9100,
-              "Milage": 400,
-              "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
-          },
-          {
-              "id":20,
-              "supply":"Enterprise",
-              "fair":7600,
-              "Milage": 350,
-              "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
-          }
-],
+  "car-availables": [
+    {
+      "id": 1,
+      "supply": "Alamo",
+      "fair": 5000.56,
+      "Milage": 300,
+      "premium":"medium",
+      "rating":"3",
+      "image": "https://marutisuzukiarenaprodcdn.azureedge.net/-/media/images/maruti/marutisuzuki/car/car-profile-shots/swift-launch-2021/fireredmidnightblack.webp"
+    
+    },
+    {
+      "id": 2,
+      "supply": "Alamo",
+      "fair": 4500,
+      "Milage": 250,
+      "premium":"medium",
+      "rating":"3",
+      "image": "https://www.rushlane.com/wp-content/uploads/2021/05/tata-nexon-sales-may-2021.jpg"
+    },
+    {
+      "id": 3,
+      "supply": "Alamo",
+      "fair": 8000.76,
+      "Milage": 350,
+      "premium":"high",
+      "rating":"4",
+      "image": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": 4,
+      "supply": "Avis",
+      "fair": 7500.56,
+      "Milage": 370,
+      "premium":"medium",
+      "rating":"3",
+      "image": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+      "id": 5,
+      "supply": "Avis",
+      "fair": 800.96,
+      "Milage": 200,
+      "premium":"low",
+      "rating":"1",
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+      "id": 6,
+      "supply": "Avis",
+      "fair": 2000,
+      "Milage": 250,
+      "premium":"low",
+      "rating":"2",
+      "image": "https://images.pexels.com/photos/1805053/pexels-photo-1805053.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 7,
+      "supply": "Budget",
+      "fair": 9900,
+      "Milage": 300,
+      "premium":"high",
+      "rating":"3",
+      "image": "https://images.pexels.com/photos/3608542/pexels-photo-3608542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 8,
+      "supply": "Budget",
+      "fair": 10005.78,
+      "Milage": 370,
+      "rating":"4",
+      "image": "https://images.pexels.com/photos/687653/pexels-photo-687653.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 9,
+      "supply": "Budget",
+      "fair": 14600,
+      "Milage": 250,
+      "premium":"high",
+      "rating":"4",
+      "image": "https://images.pexels.com/photos/15253379/pexels-photo-15253379.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 10,
+      "supply": "Citi Rental",
+      "fair": 18104.98,
+      "Milage": 390,
+      "premium":"high",
+      "rating":"3",
+      "image": "https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 11,
+      "supply": "Citi Rental",
+      "fair": 16203.46,
+      "Milage": 300,
+      "premium":"high",
+      "rating":"3",
+      "image": "https://images.pexels.com/photos/909907/pexels-photo-909907.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 12,
+      "supply": "Citi Rental",
+      "fair": 6230,
+      "Milage": 350,
+      "premium":"medium",
+      "rating":"4",
+      "image": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/DusterModelImage.jpg&w=730&h=484&q=75&c=1"
+    },
+    {
+      "id": 13,
+      "supply": "Currie Motors ",
+      "fair": 7200,
+      "Milage": 300,
+      "premium":"medium",
+      "rating":"4",
+      "image": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": 14,
+      "supply": "Currie Motors ",
+      "fair": 6000,
+      "Milage": 300,
+      "premium":"medium",
+      "rating":"2",
+      "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
+    },
+    {
+      "id": 15,
+      "supply": "Currie Motors ",
+      "fair": 6877,
+      "Milage": 350,
+      "premium":"medium",
+      "rating":"5",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Tata_Buzzard_Genf_2019_1Y7A5791.jpg/800px-Tata_Buzzard_Genf_2019_1Y7A5791.jpg"
+    },
+    {
+      "id": 16,
+      "supply": "Easirent",
+      "fair": 900,
+      "Milage": 240,
+      "premium":"low",
+      "rating":"1",
+      "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
+    },
+    {
+      "id": 17,
+      "supply": "Easirent",
+      "fair": 4800,
+      "Milage": 350,
+      "premium":"medium",
+      "rating":"4",
+      "image": "https://imgd.aeplcdn.com/600x600/cw/ec/39013/Maruti-Suzuki-Alto-Right-Front-Three-Quarter-154833.jpg?wm=0&q=75"
+    },
+    {
+      "id": 18,
+      "supply": "Easirent",
+      "fair": 2800.56,
+      "Milage": 300,
+      "premium":"low",
+      "rating":"4",
+      "image": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": 19,
+      "supply": "Enterprise",
+      "fair": 9100,
+      "Milage": 400,
+      "premium":"high",
+      "rating":"3",
+      "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
+    },
+    {
+      "id": 20,
+      "supply": "Enterprise",
+      "fair": 7600,
+      "Milage": 350,
+      "premium":"high",
+      "rating":"2",
+      "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
+    }
+  ],
 
-
-"popular-flight":[
-  {
-    "id": 1,
-    "origin": "Lucknow",
-    "destination": "Jaipur",
-    "startTime": "10:00 AM",
-    "endTime": "3:00 PM",
-    "image": "https://q-xx.bstatic.com/xdata/images/city/square210/684655.jpg?k=2afb45c7a46dedbc5b5b360599dbbb7a7165ac823b22dd66d7602ea4c49de1c4&o="
-  },
-  {
-    "id": 2,
-    "origin": "Lucknow",
-    "destination": "Kolkata",
-    "startTime": "10:30 AM",
-    "endTime": "2:00 PM",
-    "image": "https://q-xx.bstatic.com/xdata/images/city/square210/684568.jpg?k=2e0d30ebcaf31e7469617ea53a01cdaf68d14c506d1167af9b9b38e53832f156&o="
-  },
-  {
-    "id": 3,
-    "origin": "Lucknow",
-    "destination": "Srinagar",
-    "startTime": "11:00 AM",
-    "endTime": "4:00 PM",
-    "image": "https://q-xx.bstatic.com/xdata/images/city/square210/684877.jpg?k=4695a1cdaa3a3a11381d172f284215174d6e057ed4722aaa902e859cd5c7dc4d&o="
-  },
-  {
-    "id": 4,
-    "origin": "Lucknow",
-    "destination": "Hyderabad",
-    "startTime": "11:30 AM",
-    "endTime": "2:30 PM",
-    "image": "https://q-xx.bstatic.com/xdata/images/city/square210/684652.jpg?k=5055a718205497d78d7d80b05c6cfbd59b79af5998231e50c23832e103087691&o="
-  },
-  {
-    "id": 5,
-    "origin": "Lucknow",
-    "destination": "Pune",
-    "startTime": "12:00 AM",
-    "endTime": "3:30 PM",
-    "image": "https://q-xx.bstatic.com/xdata/images/city/square210/684820.jpg?k=29ee5cee377c4e6cfba7a474d02914660d3311f0b75d1b9cf3bdefef0eabffdd&o="
-  },
-  {
-    "id": 6,
-    "origin": "Lucknow",
-    "destination": "Chennai",
-    "startTime": "12:30 AM",
-    "endTime": "5:30 PM",
-    "image": "https://q-xx.bstatic.com/xdata/images/city/square210/684727.jpg?k=a6fd59b0c31df52ae2a907dcf2441c7842bb56e2e68d89bffd2398024c0812d3&o="
-  },
-  {
-    "id": 7,
-    "origin": "Lucknow",
-    "destination": "Bangalore",
-    "startTime": "1:00 AM",
-    "endTime": "6:30 PM",
-    "image": "https://q-xx.bstatic.com/xdata/images/city/square210/684533.jpg?k=efaef4796fa555481ddabf686c3fc66433b50ba69c936d6f702b1125b1d06748&o="
-  }
-],
-"trending-cities": [
-{
-  "id": 1,
-  "city": "New Delhi, India",
-  "about": "Flights from Chaudhary Charan Singh International Airport",
-  "image": "https://q-xx.bstatic.com/xdata/images/city/square210/684764.jpg?k=6c3c9e920a39ca4f9eddcdfaa916999ea5d2765844610dd59349f4271f7596b3&o="
-},
-{
-  "id": 2,
-  "city": "Dubai, United Arab Emirates",
-  "about": "Flights from Chaudhary Charan Singh International Airport",
-  "image": "https://q-xx.bstatic.com/xdata/images/city/square210/619923.jpg?k=4fb13225390240a51ee5aa1d76318d03dc0de8a046ddc06e4598f17b287bdcc9&o="
-},
-{
-  "id": 3,
-  "city": "Panaji,India",
-  "about": "Flights from Chaudhary Charan Singh International Airport",
-  "image": "https://q-xx.bstatic.com/xdata/images/city/square210/684757.jpg?k=5cd52ccbba6806c371689dab0da9678a5c1f4dcef697ea976a000f5e53ac4f18&o="
-},
-{
-  "id": 4,
-  "city": "Mumbai,India",
-  "about": "Flights from Chaudhary Charan Singh International Airport",
-  "image": "https://q-xx.bstatic.com/xdata/images/city/square210/971345.jpg?k=9bf85dfa10a224e2855ca2f8ca3fcd96916a962d87cdfcc48d6d57c09bef3c65&o="
-},
-{
-  "id": 5,
-  "city": "Bangalore,India",
-  "about": "Flights from Chaudhary Charan Singh International Airport",
-  "image": "https://q-xx.bstatic.com/xdata/images/city/square210/684533.jpg?k=efaef4796fa555481ddabf686c3fc66433b50ba69c936d6f702b1125b1d06748&o="
-},
-{
-  "id": 6,
-  "city": "Riyadh,India",
-  "about": "Flights from Chaudhary Charan Singh International Airport",
-  "image": "https://q-xx.bstatic.com/xdata/images/city/square210/691303.jpg?k=0d2a322e851307411abf8c501d3248e6304dbf0e698043394fdad4db6397bd77&o="
-},
-{
-  "id": 7,
-  "city": "Jammu,India",
-  "about": "Flights from Chaudhary Charan Singh International Airport",
-  "image": "https://q-xx.bstatic.com/xdata/images/city/square210/957457.jpg?k=e9468332b4da020c518ed3dc36a8c3ebea6c2ca25cae6b71cfc9e71dab2b8a23&o="
-},
-{
-  "id": 8,
-  "city": "Pune,India",
-  "about": "Flights from Chaudhary Charan Singh International Airport",
-  "image": "https://q-xx.bstatic.com/xdata/images/city/square210/684820.jpg?k=29ee5cee377c4e6cfba7a474d02914660d3311f0b75d1b9cf3bdefef0eabffdd&o="
-},
-{
-  "id": 9,
-  "city": "Jeddah,Saudi Arabia",
-  "about": "Flights from Chaudhary Charan Singh International Airport",
-  "image": "https://q-xx.bstatic.com/xdata/images/city/square210/688579.jpg?k=b84787741347c10b81e0899afdf406ab8025d8008a74af4f15460545eea5bd13&o="
-},
-{
-  "id": 10,
-  "city": "Kolkata, India",
-  "about": "Flights from Chaudhary Charan Singh International Airport",
-  "image": "https://q-xx.bstatic.com/xdata/images/city/square210/684568.jpg?k=2e0d30ebcaf31e7469617ea53a01cdaf68d14c506d1167af9b9b38e53832f156&o="
-}
-],
+  "popular-flight": [
+    {
+      "id": 1,
+      "origin": "Lucknow",
+      "destination": "Jaipur",
+      "startTime": "10:00 AM",
+      "endTime": "3:00 PM",
+      "image": "https://q-xx.bstatic.com/xdata/images/city/square210/684655.jpg?k=2afb45c7a46dedbc5b5b360599dbbb7a7165ac823b22dd66d7602ea4c49de1c4&o="
+    },
+    {
+      "id": 2,
+      "origin": "Lucknow",
+      "destination": "Kolkata",
+      "startTime": "10:30 AM",
+      "endTime": "2:00 PM",
+      "image": "https://q-xx.bstatic.com/xdata/images/city/square210/684568.jpg?k=2e0d30ebcaf31e7469617ea53a01cdaf68d14c506d1167af9b9b38e53832f156&o="
+    },
+    {
+      "id": 3,
+      "origin": "Lucknow",
+      "destination": "Srinagar",
+      "startTime": "11:00 AM",
+      "endTime": "4:00 PM",
+      "image": "https://q-xx.bstatic.com/xdata/images/city/square210/684877.jpg?k=4695a1cdaa3a3a11381d172f284215174d6e057ed4722aaa902e859cd5c7dc4d&o="
+    },
+    {
+      "id": 4,
+      "origin": "Lucknow",
+      "destination": "Hyderabad",
+      "startTime": "11:30 AM",
+      "endTime": "2:30 PM",
+      "image": "https://q-xx.bstatic.com/xdata/images/city/square210/684652.jpg?k=5055a718205497d78d7d80b05c6cfbd59b79af5998231e50c23832e103087691&o="
+    },
+    {
+      "id": 5,
+      "origin": "Lucknow",
+      "destination": "Pune",
+      "startTime": "12:00 AM",
+      "endTime": "3:30 PM",
+      "image": "https://q-xx.bstatic.com/xdata/images/city/square210/684820.jpg?k=29ee5cee377c4e6cfba7a474d02914660d3311f0b75d1b9cf3bdefef0eabffdd&o="
+    },
+    {
+      "id": 6,
+      "origin": "Lucknow",
+      "destination": "Chennai",
+      "startTime": "12:30 AM",
+      "endTime": "5:30 PM",
+      "image": "https://q-xx.bstatic.com/xdata/images/city/square210/684727.jpg?k=a6fd59b0c31df52ae2a907dcf2441c7842bb56e2e68d89bffd2398024c0812d3&o="
+    },
+    {
+      "id": 7,
+      "origin": "Lucknow",
+      "destination": "Bangalore",
+      "startTime": "1:00 AM",
+      "endTime": "6:30 PM",
+      "image": "https://q-xx.bstatic.com/xdata/images/city/square210/684533.jpg?k=efaef4796fa555481ddabf686c3fc66433b50ba69c936d6f702b1125b1d06748&o="
+    }
+  ],
+  "trending-cities": [
+    {
+      "id": 1,
+      "city": "New Delhi, India",
+      "about": "Flights from Chaudhary Charan Singh International Airport",
+      "image": "https://q-xx.bstatic.com/xdata/images/city/square210/684764.jpg?k=6c3c9e920a39ca4f9eddcdfaa916999ea5d2765844610dd59349f4271f7596b3&o="
+    },
+    {
+      "id": 2,
+      "city": "Dubai, United Arab Emirates",
+      "about": "Flights from Chaudhary Charan Singh International Airport",
+      "image": "https://q-xx.bstatic.com/xdata/images/city/square210/619923.jpg?k=4fb13225390240a51ee5aa1d76318d03dc0de8a046ddc06e4598f17b287bdcc9&o="
+    },
+    {
+      "id": 3,
+      "city": "Panaji,India",
+      "about": "Flights from Chaudhary Charan Singh International Airport",
+      "image": "https://q-xx.bstatic.com/xdata/images/city/square210/684757.jpg?k=5cd52ccbba6806c371689dab0da9678a5c1f4dcef697ea976a000f5e53ac4f18&o="
+    },
+    {
+      "id": 4,
+      "city": "Mumbai,India",
+      "about": "Flights from Chaudhary Charan Singh International Airport",
+      "image": "https://q-xx.bstatic.com/xdata/images/city/square210/971345.jpg?k=9bf85dfa10a224e2855ca2f8ca3fcd96916a962d87cdfcc48d6d57c09bef3c65&o="
+    },
+    {
+      "id": 5,
+      "city": "Bangalore,India",
+      "about": "Flights from Chaudhary Charan Singh International Airport",
+      "image": "https://q-xx.bstatic.com/xdata/images/city/square210/684533.jpg?k=efaef4796fa555481ddabf686c3fc66433b50ba69c936d6f702b1125b1d06748&o="
+    },
+    {
+      "id": 6,
+      "city": "Riyadh,India",
+      "about": "Flights from Chaudhary Charan Singh International Airport",
+      "image": "https://q-xx.bstatic.com/xdata/images/city/square210/691303.jpg?k=0d2a322e851307411abf8c501d3248e6304dbf0e698043394fdad4db6397bd77&o="
+    },
+    {
+      "id": 7,
+      "city": "Jammu,India",
+      "about": "Flights from Chaudhary Charan Singh International Airport",
+      "image": "https://q-xx.bstatic.com/xdata/images/city/square210/957457.jpg?k=e9468332b4da020c518ed3dc36a8c3ebea6c2ca25cae6b71cfc9e71dab2b8a23&o="
+    },
+    {
+      "id": 8,
+      "city": "Pune,India",
+      "about": "Flights from Chaudhary Charan Singh International Airport",
+      "image": "https://q-xx.bstatic.com/xdata/images/city/square210/684820.jpg?k=29ee5cee377c4e6cfba7a474d02914660d3311f0b75d1b9cf3bdefef0eabffdd&o="
+    },
+    {
+      "id": 9,
+      "city": "Jeddah,Saudi Arabia",
+      "about": "Flights from Chaudhary Charan Singh International Airport",
+      "image": "https://q-xx.bstatic.com/xdata/images/city/square210/688579.jpg?k=b84787741347c10b81e0899afdf406ab8025d8008a74af4f15460545eea5bd13&o="
+    },
+    {
+      "id": 10,
+      "city": "Kolkata, India",
+      "about": "Flights from Chaudhary Charan Singh International Airport",
+      "image": "https://q-xx.bstatic.com/xdata/images/city/square210/684568.jpg?k=2e0d30ebcaf31e7469617ea53a01cdaf68d14c506d1167af9b9b38e53832f156&o="
+    }
+  ],
   "Asia": [
     {
       "id": 1,
@@ -1245,7 +1291,7 @@
       "image": "https://q-xx.bstatic.com/xdata/images/city/square210/688579.jpg?k=b84787741347c10b81e0899afdf406ab8025d8008a74af4f15460545eea5bd13&o="
     }
   ],
-  "Europe":[
+  "Europe": [
     {
       "id": 1,
       "origin": "Lucknow",
@@ -1391,95 +1437,92 @@
       "image": "https://q-xx.bstatic.com/xdata/images/city/square210/967877.jpg?k=18d14b862ca13e1e099d98c281202acdf8e80bacbf831bd66222ea03392d5d57&o="
     }
   ],
-"flights" : [
-{
-"id":1,
-"arrivalTime": "5:35 PM",
-"departureTime": "10:50 PM",
-"origin": "LKO",
-"destination": "JAI",
-"name": "IndiGo",
-"price": 4489.00
-},
-{
-"id":2,
-"arrivalTime": "6:40 AM",
-"departureTime": "1:50 PM",
-"origin": "LKO",
-"destination": "JAI",
-"name": "IndiGo",
-"price": 4489.00
-},
-{
-"id":3,
-"arrivalTime": "1:00 PM",
-"departureTime": "10:50 PM",
-"origin": "LKO",
-"destination": "JAI",
-"name": "IndiGo",
-"price": 4864.89
-},
-{
-"id":4,
-"arrivalTime": "3:25 PM",
-"departureTime": "10:50 PM",
-"origin": "LKO",
-"destination": "JAI",
-"name": "Vistara, IndiGo",
-"price": 9088.57
-},
-{
-"id":5,
-"arrivalTime": "8:55 AM",
-"departureTime": "7:10 PM",
-"origin": "LKO",
-"destination": "JAI",
-"name": "Air India",
-"price": 9837.71
-},
-{
-"id":6,
-"arrivalTime": "8:35 PM",
-"departureTime": "8:25 AM",
-"origin": "LKO",
-"destination": "JAI",
-"name": "Vistara",
-"price": 9864.89
-},
-{
-"id":7,
-"arrivalTime": "8:05 AM",
-"departureTime": "5:05 PM",
-"origin": "LKO",
-"destination": "JAI",
-"name": "Vistara",
-"price": 9864.89
-},
-{
-"id":8,
-"arrivalTime": "1:05 PM",
-"departureTime": "11:40 PM",
-"origin": "LKO",
-"destination": "JAI",
-"name": "Air India",
-"price": 14264.89
-},
-{
-"id":9,
-"arrivalTime": "2:10 PM",
-"departureTime": "11:30 PM",
-"origin": "LKO",
-"destination": "JAI",
-"name": "Air India",
-"price": 15264.89
-}
-],
+  "flights": [
+    {
+      "id": 1,
+      "arrivalTime": "5:35 PM",
+      "departureTime": "10:50 PM",
+      "origin": "LKO",
+      "destination": "JAI",
+      "name": "IndiGo",
+      "price": 4489.0
+    },
+    {
+      "id": 2,
+      "arrivalTime": "6:40 AM",
+      "departureTime": "1:50 PM",
+      "origin": "LKO",
+      "destination": "JAI",
+      "name": "IndiGo",
+      "price": 4489.0
+    },
+    {
+      "id": 3,
+      "arrivalTime": "1:00 PM",
+      "departureTime": "10:50 PM",
+      "origin": "LKO",
+      "destination": "JAI",
+      "name": "IndiGo",
+      "price": 4864.89
+    },
+    {
+      "id": 4,
+      "arrivalTime": "3:25 PM",
+      "departureTime": "10:50 PM",
+      "origin": "LKO",
+      "destination": "JAI",
+      "name": "Vistara, IndiGo",
+      "price": 9088.57
+    },
+    {
+      "id": 5,
+      "arrivalTime": "8:55 AM",
+      "departureTime": "7:10 PM",
+      "origin": "LKO",
+      "destination": "JAI",
+      "name": "Air India",
+      "price": 9837.71
+    },
+    {
+      "id": 6,
+      "arrivalTime": "8:35 PM",
+      "departureTime": "8:25 AM",
+      "origin": "LKO",
+      "destination": "JAI",
+      "name": "Vistara",
+      "price": 9864.89
+    },
+    {
+      "id": 7,
+      "arrivalTime": "8:05 AM",
+      "departureTime": "5:05 PM",
+      "origin": "LKO",
+      "destination": "JAI",
+      "name": "Vistara",
+      "price": 9864.89
+    },
+    {
+      "id": 8,
+      "arrivalTime": "1:05 PM",
+      "departureTime": "11:40 PM",
+      "origin": "LKO",
+      "destination": "JAI",
+      "name": "Air India",
+      "price": 14264.89
+    },
+    {
+      "id": 9,
+      "arrivalTime": "2:10 PM",
+      "departureTime": "11:30 PM",
+      "origin": "LKO",
+      "destination": "JAI",
+      "name": "Air India",
+      "price": 15264.89
+    }
+  ],
 
-
-
-
-"attractionsData":[
-  {
+  "attractionsData": [
+    {
       "id": 1,
       "country": "Georgia",
       "thingsToDo": "35-761-4025",
@@ -1493,8 +1536,9 @@
       "mainDescription": "Erosion of implanted urethral mesh to surrounding organ or tissue, initial encounter",
       "mapImage": "http://dummyimage.com/216x100.png/ff4444/ffffff",
       "address": "28429 Everett Terrace",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 2,
       "country": "France",
       "thingsToDo": "66-023-1385",
@@ -1508,8 +1552,9 @@
       "mainDescription": "Toxic effect of venom of other snake, undetermined, subsequent encounter",
       "mapImage": "http://dummyimage.com/178x100.png/dddddd/000000",
       "address": "131 Huxley Drive",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 3,
       "country": "Bangladesh",
       "thingsToDo": "66-077-1087",
@@ -1523,8 +1568,9 @@
       "mainDescription": "Unspecified injury of intercostal blood vessels, left side, subsequent encounter",
       "mapImage": "http://dummyimage.com/212x100.png/cc0000/ffffff",
       "address": "66 Lukken Plaza",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 4,
       "country": "Philippines",
       "thingsToDo": "39-540-8923",
@@ -1538,8 +1584,9 @@
       "mainDescription": "Salter-Harris Type IV physeal fracture of lower end of radius, unspecified arm, subsequent encounter for fracture with nonunion",
       "mapImage": "http://dummyimage.com/193x100.png/dddddd/000000",
       "address": "07 Bultman Center",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 5,
       "country": "United States",
       "thingsToDo": "03-787-9640",
@@ -1553,8 +1600,9 @@
       "mainDescription": "Nondisplaced spiral fracture of shaft of radius, unspecified arm, subsequent encounter for closed fracture with delayed healing",
       "mapImage": "http://dummyimage.com/187x100.png/cc0000/ffffff",
       "address": "88891 Lakeland Court",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 6,
       "country": "Russia",
       "thingsToDo": "07-415-2107",
@@ -1568,8 +1616,9 @@
       "mainDescription": "Calculus of prostate",
       "mapImage": "http://dummyimage.com/184x100.png/dddddd/000000",
       "address": "78406 Haas Avenue",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 7,
       "country": "Indonesia",
       "thingsToDo": "21-519-3893",
@@ -1583,8 +1632,9 @@
       "mainDescription": "Atherosclerotic heart disease of native coronary artery",
       "mapImage": "http://dummyimage.com/227x100.png/5fa2dd/ffffff",
       "address": "0 Stephen Avenue",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 8,
       "country": "Iran",
       "thingsToDo": "78-743-1232",
@@ -1598,8 +1648,9 @@
       "mainDescription": "Other rheumatoid arthritis with rheumatoid factor of shoulder",
       "mapImage": "http://dummyimage.com/132x100.png/5fa2dd/ffffff",
       "address": "1 Everett Crossing",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 9,
       "country": "Nigeria",
       "thingsToDo": "25-657-2574",
@@ -1613,8 +1664,9 @@
       "mainDescription": "Laceration of posterior tibial artery, left leg, sequela",
       "mapImage": "http://dummyimage.com/246x100.png/dddddd/000000",
       "address": "4 Brickson Park Point",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 10,
       "country": "Namibia",
       "thingsToDo": "95-013-2785",
@@ -1628,8 +1680,9 @@
       "mainDescription": "Merkel cell carcinoma of eyelid, including canthus",
       "mapImage": "http://dummyimage.com/199x100.png/5fa2dd/ffffff",
       "address": "6716 Raven Court",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 11,
       "country": "Sweden",
       "thingsToDo": "97-157-4915",
@@ -1643,8 +1696,9 @@
       "mainDescription": "Burn of first degree of multiple left fingers (nail), including thumb, initial encounter",
       "mapImage": "http://dummyimage.com/128x100.png/5fa2dd/ffffff",
       "address": "39471 Bunting Parkway",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 12,
       "country": "Palestinian Territory",
       "thingsToDo": "59-928-7393",
@@ -1658,8 +1712,9 @@
       "mainDescription": "External constriction of right forearm, initial encounter",
       "mapImage": "http://dummyimage.com/119x100.png/5fa2dd/ffffff",
       "address": "5635 Logan Hill",
-      "category":"Landmarks"
-    }, {
+      "category": "Landmarks"
+    },
+    {
       "id": 13,
       "country": "Brazil",
       "thingsToDo": "44-914-2347",
@@ -1673,8 +1728,9 @@
       "mainDescription": "Chronic perichondritis of external ear, unspecified ear",
       "mapImage": "http://dummyimage.com/134x100.png/dddddd/000000",
       "address": "2990 Sloan Plaza",
-      "category":"Landmarks"
-    }, {
+      "category": "Landmarks"
+    },
+    {
       "id": 14,
       "country": "Brazil",
       "thingsToDo": "35-636-1141",
@@ -1688,8 +1744,9 @@
       "mainDescription": "Maternal care for other specified fetal problems, first trimester, not applicable or unspecified",
       "mapImage": "http://dummyimage.com/178x100.png/5fa2dd/ffffff",
       "address": "2 Helena Lane",
-      "category":"Landmarks"
-    }, {
+      "category": "Landmarks"
+    },
+    {
       "id": 15,
       "country": "Indonesia",
       "thingsToDo": "95-877-0616",
@@ -1703,8 +1760,9 @@
       "mainDescription": "Superficial foreign body of left elbow, subsequent encounter",
       "mapImage": "http://dummyimage.com/197x100.png/ff4444/ffffff",
       "address": "12766 Towne Court",
-      "category":"Landmarks"
-    }, {
+      "category": "Landmarks"
+    },
+    {
       "id": 16,
       "country": "Philippines",
       "thingsToDo": "07-105-7694",
@@ -1718,8 +1776,9 @@
       "mainDescription": "Strain of flexor muscle, fascia and tendon of right little finger at wrist and hand level, initial encounter",
       "mapImage": "http://dummyimage.com/126x100.png/ff4444/ffffff",
       "address": "02296 Kenwood Park",
-      "category":"Landmarks"
-    }, {
+      "category": "Landmarks"
+    },
+    {
       "id": 17,
       "country": "France",
       "thingsToDo": "14-898-0437",
@@ -1733,8 +1792,9 @@
       "mainDescription": "Asphyxiation due to plastic bag",
       "mapImage": "http://dummyimage.com/111x100.png/dddddd/000000",
       "address": "875 Kim Junction",
-      "category":"Landmarks"
-    }, {
+      "category": "Landmarks"
+    },
+    {
       "id": 18,
       "country": "Dominica",
       "thingsToDo": "09-934-9550",
@@ -1748,8 +1808,9 @@
       "mainDescription": "Acute hematogenous osteomyelitis, shoulder",
       "mapImage": "http://dummyimage.com/114x100.png/ff4444/ffffff",
       "address": "15 Schlimgen Trail",
-      "category":"Landmarks"
-    }, {
+      "category": "Landmarks"
+    },
+    {
       "id": 19,
       "country": "United States",
       "thingsToDo": "94-122-6400",
@@ -1763,8 +1824,9 @@
       "mainDescription": "Puncture wound with foreign body, left hip",
       "mapImage": "http://dummyimage.com/167x100.png/5fa2dd/ffffff",
       "address": "43895 Spaight Crossing",
-      "category":"Landmarks"
-    }, {
+      "category": "Landmarks"
+    },
+    {
       "id": 20,
       "country": "Bangladesh",
       "thingsToDo": "23-017-3277",
@@ -1778,8 +1840,9 @@
       "mainDescription": "Nondisplaced spiral fracture of shaft of right fibula, subsequent encounter for open fracture type I or II with delayed healing",
       "mapImage": "http://dummyimage.com/192x100.png/5fa2dd/ffffff",
       "address": "7463 Boyd Parkway",
-      "category":"Landmarks"
-    }, {
+      "category": "Landmarks"
+    },
+    {
       "id": 21,
       "country": "Portugal",
       "thingsToDo": "07-934-7444",
@@ -1793,8 +1856,9 @@
       "mainDescription": "Hemarthrosis, left ankle",
       "mapImage": "http://dummyimage.com/123x100.png/dddddd/000000",
       "address": "825 Paget Hill",
-      "category":"Landmarks"
-    }, {
+      "category": "Landmarks"
+    },
+    {
       "id": 22,
       "country": "Sweden",
       "thingsToDo": "65-228-6342",
@@ -1808,8 +1872,9 @@
       "mainDescription": "Superficial foreign body of right little finger, sequela",
       "mapImage": "http://dummyimage.com/127x100.png/cc0000/ffffff",
       "address": "8837 Hooker Pass",
-      "category":"Landmarks"
-    }, {
+      "category": "Landmarks"
+    },
+    {
       "id": 23,
       "country": "Russia",
       "thingsToDo": "17-159-6915",
@@ -1823,8 +1888,9 @@
       "mainDescription": "Other injury of extensor muscle, fascia and tendon of right middle finger at forearm level",
       "mapImage": "http://dummyimage.com/132x100.png/ff4444/ffffff",
       "address": "05917 Mosinee Street",
-      "category":"Landmarks"
-    }, {
+      "category": "Landmarks"
+    },
+    {
       "id": 24,
       "country": "China",
       "thingsToDo": "65-102-3939",
@@ -1838,8 +1904,9 @@
       "mainDescription": "Nondisplaced comminuted fracture of shaft of left fibula, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with malunion",
       "mapImage": "http://dummyimage.com/119x100.png/5fa2dd/ffffff",
       "address": "71859 Pennsylvania Point",
-      "category":"Landmarks"
-    }, {
+      "category": "Landmarks"
+    },
+    {
       "id": 25,
       "country": "China",
       "thingsToDo": "05-884-3579",
@@ -1853,8 +1920,9 @@
       "mainDescription": "Other fracture of upper and lower end of left fibula, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with malunion",
       "mapImage": "http://dummyimage.com/210x100.png/ff4444/ffffff",
       "address": "513 Steensland Drive",
-      "category":"Landmarks"
-    }, {
+      "category": "Landmarks"
+    },
+    {
       "id": 26,
       "country": "China",
       "thingsToDo": "04-487-6742",
@@ -1868,8 +1936,9 @@
       "mainDescription": "Injury of radial nerve at upper arm level, left arm, initial encounter",
       "mapImage": "http://dummyimage.com/120x100.png/ff4444/ffffff",
       "address": "8 Sheridan Place",
-      "category":"Landmarks"
-    }, {
+      "category": "Landmarks"
+    },
+    {
       "id": 27,
       "country": "Argentina",
       "thingsToDo": "34-656-5490",
@@ -1883,8 +1952,9 @@
       "mainDescription": "Other respiratory conditions due to chemicals, gases, fumes and vapors",
       "mapImage": "http://dummyimage.com/125x100.png/ff4444/ffffff",
       "address": "25049 Reindahl Terrace",
-      "category":"Landmarks"
-    }, {
+      "category": "Landmarks"
+    },
+    {
       "id": 28,
       "country": "Ukraine",
       "thingsToDo": "87-845-1555",
@@ -1898,8 +1968,9 @@
       "mainDescription": "Laceration of extensor muscle, fascia and tendon of left ring finger at forearm level, sequela",
       "mapImage": "http://dummyimage.com/244x100.png/cc0000/ffffff",
       "address": "9897 Moose Way",
-      "category":"Activities"
-    }, {
+      "category": "Activities"
+    },
+    {
       "id": 29,
       "country": "China",
       "thingsToDo": "56-391-6744",
@@ -1913,8 +1984,9 @@
       "mainDescription": "Nondisplaced comminuted fracture of right patella, subsequent encounter for open fracture type I or II with malunion",
       "mapImage": "http://dummyimage.com/216x100.png/cc0000/ffffff",
       "address": "28 Ilene Place",
-      "category":"Activities"
-    }, {
+      "category": "Activities"
+    },
+    {
       "id": 30,
       "country": "Colombia",
       "thingsToDo": "39-235-7384",
@@ -1928,8 +2000,9 @@
       "mainDescription": "Partial placenta previa NOS or without hemorrhage, first trimester",
       "mapImage": "http://dummyimage.com/143x100.png/ff4444/ffffff",
       "address": "935 Hanson Way",
-      "category":"Activities"
-    }, {
+      "category": "Activities"
+    },
+    {
       "id": 31,
       "country": "Myanmar",
       "thingsToDo": "50-956-6492",
@@ -1943,8 +2016,9 @@
       "mainDescription": "Unspecified hang-glider accident injuring occupant",
       "mapImage": "http://dummyimage.com/133x100.png/5fa2dd/ffffff",
       "address": "5987 Oakridge Crossing",
-      "category":"Activities"
-    }, {
+      "category": "Activities"
+    },
+    {
       "id": 32,
       "country": "China",
       "thingsToDo": "28-837-5097",
@@ -1958,8 +2032,9 @@
       "mainDescription": "Other fracture of right talus, sequela",
       "mapImage": "http://dummyimage.com/236x100.png/ff4444/ffffff",
       "address": "66 Iowa Plaza",
-      "category":"Activities"
-    }, {
+      "category": "Activities"
+    },
+    {
       "id": 33,
       "country": "United Kingdom",
       "thingsToDo": "25-256-4698",
@@ -1973,8 +2048,9 @@
       "mainDescription": "Underdosing of cephalosporins and other beta-lactam antibiotics, subsequent encounter",
       "mapImage": "http://dummyimage.com/208x100.png/cc0000/ffffff",
       "address": "3270 Utah Point",
-      "category":"Activities"
-    }, {
+      "category": "Activities"
+    },
+    {
       "id": 34,
       "country": "Argentina",
       "thingsToDo": "07-643-5110",
@@ -1988,8 +2064,9 @@
       "mainDescription": "Finding of unspecified substance, not normally found in blood",
       "mapImage": "http://dummyimage.com/182x100.png/ff4444/ffffff",
       "address": "4148 Old Gate Alley",
-      "category":"Activities"
-    }, {
+      "category": "Activities"
+    },
+    {
       "id": 35,
       "country": "Argentina",
       "thingsToDo": "66-840-8512",
@@ -2003,8 +2080,9 @@
       "mainDescription": "Salter-Harris Type II physeal fracture of lower end of unspecified tibia",
       "mapImage": "http://dummyimage.com/109x100.png/ff4444/ffffff",
       "address": "052 Reindahl Lane",
-      "category":"Activities"
-    }, {
+      "category": "Activities"
+    },
+    {
       "id": 36,
       "country": "Egypt",
       "thingsToDo": "33-642-7948",
@@ -2018,8 +2096,9 @@
       "mainDescription": "Displaced fracture of lateral cuneiform of unspecified foot, initial encounter for open fracture",
       "mapImage": "http://dummyimage.com/113x100.png/5fa2dd/ffffff",
       "address": "77 Washington Place",
-      "category":"Activities"
-    }, {
+      "category": "Activities"
+    },
+    {
       "id": 37,
       "country": "Indonesia",
       "thingsToDo": "83-065-9257",
@@ -2033,8 +2112,9 @@
       "mainDescription": "Atrophy of globe, right eye",
       "mapImage": "http://dummyimage.com/155x100.png/ff4444/ffffff",
       "address": "57197 Dovetail Hill",
-      "category":"Activities"
-    }, {
+      "category": "Activities"
+    },
+    {
       "id": 38,
       "country": "Philippines",
       "thingsToDo": "37-474-2930",
@@ -2048,8 +2128,9 @@
       "mainDescription": "Poisoning by, adverse effect of and underdosing of other synthetic narcotics",
       "mapImage": "http://dummyimage.com/211x100.png/dddddd/000000",
       "address": "7292 Bunting Circle",
-      "category":"Activities"
-    }, {
+      "category": "Activities"
+    },
+    {
       "id": 39,
       "country": "Russia",
       "thingsToDo": "13-526-5000",
@@ -2063,8 +2144,9 @@
       "mainDescription": "Malignant carcinoid tumor of the rectum",
       "mapImage": "http://dummyimage.com/124x100.png/dddddd/000000",
       "address": "53 Fordem Parkway",
-      "category":"Activities"
-    }, {
+      "category": "Activities"
+    },
+    {
       "id": 40,
       "country": "China",
       "thingsToDo": "15-292-5121",
@@ -2078,8 +2160,9 @@
       "mainDescription": "Algoneurodystrophy, left hand",
       "mapImage": "http://dummyimage.com/231x100.png/ff4444/ffffff",
       "address": "7 Kinsman Trail",
-      "category":"Activities"
-    }, {
+      "category": "Activities"
+    },
+    {
       "id": 41,
       "country": "Sweden",
       "thingsToDo": "93-060-2528",
@@ -2093,8 +2176,9 @@
       "mainDescription": "Primary open-angle glaucoma, bilateral, severe stage",
       "mapImage": "http://dummyimage.com/187x100.png/dddddd/000000",
       "address": "9 Weeping Birch Way",
-      "category":"Activities"
-    }, {
+      "category": "Activities"
+    },
+    {
       "id": 42,
       "country": "Russia",
       "thingsToDo": "09-920-3848",
@@ -2108,8 +2192,9 @@
       "mainDescription": "Abscess of right external ear",
       "mapImage": "http://dummyimage.com/233x100.png/5fa2dd/ffffff",
       "address": "38 Dahle Alley",
-      "category":"Activities"
-    }, {
+      "category": "Activities"
+    },
+    {
       "id": 43,
       "country": "Russia",
       "thingsToDo": "18-461-8357",
@@ -2123,8 +2208,9 @@
       "mainDescription": "Laceration of other blood vessels at ankle and foot level, left leg, initial encounter",
       "mapImage": "http://dummyimage.com/136x100.png/5fa2dd/ffffff",
       "address": "1 Almo Street",
-      "category":"Activities"
-    }, {
+      "category": "Activities"
+    },
+    {
       "id": 44,
       "country": "China",
       "thingsToDo": "39-936-2925",
@@ -2138,8 +2224,9 @@
       "mainDescription": "Subluxation of left scapula, initial encounter",
       "mapImage": "http://dummyimage.com/148x100.png/ff4444/ffffff",
       "address": "15 Loeprich Place",
-      "category":"Activities"
-    }, {
+      "category": "Activities"
+    },
+    {
       "id": 45,
       "country": "Argentina",
       "thingsToDo": "63-356-3289",
@@ -2153,8 +2240,9 @@
       "mainDescription": "Salter-Harris Type IV physeal fracture of lower end of humerus, left arm, subsequent encounter for fracture with delayed healing",
       "mapImage": "http://dummyimage.com/175x100.png/dddddd/000000",
       "address": "8354 Moland Junction",
-      "category":"Activities"
-    }, {
+      "category": "Activities"
+    },
+    {
       "id": 46,
       "country": "Russia",
       "thingsToDo": "37-726-2887",
@@ -2168,8 +2256,9 @@
       "mainDescription": "Torus fracture of lower end of right fibula, subsequent encounter for fracture with delayed healing",
       "mapImage": "http://dummyimage.com/207x100.png/ff4444/ffffff",
       "address": "9954 Macpherson Parkway",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 47,
       "country": "United States",
       "thingsToDo": "63-162-8806",
@@ -2183,8 +2272,9 @@
       "mainDescription": "External constriction of part of breast, unspecified breast, initial encounter",
       "mapImage": "http://dummyimage.com/248x100.png/ff4444/ffffff",
       "address": "38 Comanche Way",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 48,
       "country": "China",
       "thingsToDo": "15-246-4104",
@@ -2198,8 +2288,9 @@
       "mainDescription": "Strain of other flexor muscle, fascia and tendon at forearm level, right arm, initial encounter",
       "mapImage": "http://dummyimage.com/108x100.png/ff4444/ffffff",
       "address": "9 Londonderry Road",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 49,
       "country": "Poland",
       "thingsToDo": "88-892-1966",
@@ -2213,8 +2304,9 @@
       "mainDescription": "Bitten by other fish, initial encounter",
       "mapImage": "http://dummyimage.com/240x100.png/5fa2dd/ffffff",
       "address": "8813 Blackbird Parkway",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 50,
       "country": "Mongolia",
       "thingsToDo": "51-996-4440",
@@ -2228,8 +2320,9 @@
       "mainDescription": "Corrosion of second degree of left thigh, sequela",
       "mapImage": "http://dummyimage.com/141x100.png/cc0000/ffffff",
       "address": "36799 Drewry Parkway",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 51,
       "country": "Indonesia",
       "thingsToDo": "12-455-2571",
@@ -2243,8 +2336,9 @@
       "mainDescription": "Other injuries of unspecified eye and orbit",
       "mapImage": "http://dummyimage.com/172x100.png/5fa2dd/ffffff",
       "address": "952 Center Center",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 52,
       "country": "China",
       "thingsToDo": "85-284-2906",
@@ -2258,8 +2352,9 @@
       "mainDescription": "Displaced oblique fracture of shaft of right radius, subsequent encounter for closed fracture with nonunion",
       "mapImage": "http://dummyimage.com/192x100.png/cc0000/ffffff",
       "address": "5 Anthes Trail",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 53,
       "country": "Jamaica",
       "thingsToDo": "04-780-6001",
@@ -2273,8 +2368,9 @@
       "mainDescription": "Anemia complicating pregnancy, first trimester",
       "mapImage": "http://dummyimage.com/193x100.png/cc0000/ffffff",
       "address": "91 Fordem Street",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 54,
       "country": "Indonesia",
       "thingsToDo": "71-204-5205",
@@ -2288,8 +2384,9 @@
       "mainDescription": "Nondisplaced segmental fracture of shaft of unspecified fibula, subsequent encounter for closed fracture with routine healing",
       "mapImage": "http://dummyimage.com/177x100.png/cc0000/ffffff",
       "address": "56 Charing Cross Avenue",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 55,
       "country": "Kyrgyzstan",
       "thingsToDo": "53-960-3691",
@@ -2303,8 +2400,9 @@
       "mainDescription": "Unspecified open wound of back wall of thorax without penetration into thoracic cavity",
       "mapImage": "http://dummyimage.com/177x100.png/cc0000/ffffff",
       "address": "11935 Scofield Hill",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 56,
       "country": "Morocco",
       "thingsToDo": "39-738-9941",
@@ -2318,8 +2416,9 @@
       "mainDescription": "Open bite of right ring finger without damage to nail, subsequent encounter",
       "mapImage": "http://dummyimage.com/171x100.png/cc0000/ffffff",
       "address": "56 Golf Street",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 57,
       "country": "China",
       "thingsToDo": "69-281-0225",
@@ -2333,8 +2432,9 @@
       "mainDescription": "Other sequelae of other nontraumatic intracranial hemorrhage",
       "mapImage": "http://dummyimage.com/213x100.png/5fa2dd/ffffff",
       "address": "1 Surrey Road",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 58,
       "country": "Norway",
       "thingsToDo": "64-839-7690",
@@ -2348,8 +2448,9 @@
       "mainDescription": "Displaced avulsion fracture (chip fracture) of right talus, subsequent encounter for fracture with malunion",
       "mapImage": "http://dummyimage.com/245x100.png/cc0000/ffffff",
       "address": "5739 Pond Plaza",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 59,
       "country": "China",
       "thingsToDo": "44-655-6210",
@@ -2363,8 +2464,9 @@
       "mainDescription": "Ventricular fibrillation and flutter",
       "mapImage": "http://dummyimage.com/168x100.png/5fa2dd/ffffff",
       "address": "85778 Forest Dale Terrace",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 60,
       "country": "China",
       "thingsToDo": "54-634-4850",
@@ -2378,8 +2480,9 @@
       "mainDescription": "Corrosion of third degree of multiple sites of left lower limb, except ankle and foot",
       "mapImage": "http://dummyimage.com/132x100.png/cc0000/ffffff",
       "address": "5353 Old Shore Park",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 61,
       "country": "China",
       "thingsToDo": "72-570-7296",
@@ -2393,8 +2496,9 @@
       "mainDescription": "Nondisplaced fracture of lateral malleolus of right fibula",
       "mapImage": "http://dummyimage.com/203x100.png/cc0000/ffffff",
       "address": "9 Hallows Drive",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 62,
       "country": "China",
       "thingsToDo": "97-161-2606",
@@ -2408,8 +2512,9 @@
       "mainDescription": "Corrosion of third degree of right lower leg, sequela",
       "mapImage": "http://dummyimage.com/194x100.png/5fa2dd/ffffff",
       "address": "19 Linden Road",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 63,
       "country": "China",
       "thingsToDo": "20-234-6907",
@@ -2423,8 +2528,9 @@
       "mainDescription": "Injury of peripheral nerves of thorax",
       "mapImage": "http://dummyimage.com/130x100.png/dddddd/000000",
       "address": "2 Derek Court",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 64,
       "country": "China",
       "thingsToDo": "95-725-0056",
@@ -2438,8 +2544,9 @@
       "mainDescription": "Disorders of branched-chain amino-acid metabolism and fatty-acid metabolism",
       "mapImage": "http://dummyimage.com/197x100.png/dddddd/000000",
       "address": "81 Anzinger Crossing",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 65,
       "country": "Antigua and Barbuda",
       "thingsToDo": "10-750-0774",
@@ -2453,8 +2560,9 @@
       "mainDescription": "Animal-rider injured by fall from or being thrown from horse in noncollision accident, sequela",
       "mapImage": "http://dummyimage.com/156x100.png/dddddd/000000",
       "address": "59755 Eagan Parkway",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 66,
       "country": "China",
       "thingsToDo": "50-619-1253",
@@ -2468,8 +2576,9 @@
       "mainDescription": "Other fracture of lower end of left femur, subsequent encounter for open fracture type I or II with delayed healing",
       "mapImage": "http://dummyimage.com/232x100.png/cc0000/ffffff",
       "address": "95 Hooker Center",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 67,
       "country": "Thailand",
       "thingsToDo": "08-771-2884",
@@ -2483,8 +2592,9 @@
       "mainDescription": "Burn of first degree of unspecified site of unspecified lower limb, except ankle and foot, sequela",
       "mapImage": "http://dummyimage.com/173x100.png/cc0000/ffffff",
       "address": "8 Fremont Trail",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 68,
       "country": "Russia",
       "thingsToDo": "94-529-4108",
@@ -2498,8 +2608,9 @@
       "mainDescription": "Unspecified dislocation of unspecified patella",
       "mapImage": "http://dummyimage.com/136x100.png/5fa2dd/ffffff",
       "address": "11 Lunder Alley",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 69,
       "country": "Indonesia",
       "thingsToDo": "92-844-1055",
@@ -2513,8 +2624,9 @@
       "mainDescription": "Other traumatic nondisplaced spondylolisthesis of fifth cervical vertebra, initial encounter for open fracture",
       "mapImage": "http://dummyimage.com/111x100.png/ff4444/ffffff",
       "address": "1 Lakeland Plaza",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 70,
       "country": "France",
       "thingsToDo": "52-718-2217",
@@ -2528,8 +2640,9 @@
       "mainDescription": "Nondisplaced transverse fracture of shaft of left femur, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with routine healing",
       "mapImage": "http://dummyimage.com/124x100.png/5fa2dd/ffffff",
       "address": "3761 Mendota Street",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 71,
       "country": "China",
       "thingsToDo": "61-136-3106",
@@ -2543,8 +2656,9 @@
       "mainDescription": "Glaucoma secondary to other eye disorders, left eye, stage unspecified",
       "mapImage": "http://dummyimage.com/134x100.png/ff4444/ffffff",
       "address": "759 Barnett Junction",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 72,
       "country": "Czech Republic",
       "thingsToDo": "19-268-3605",
@@ -2558,8 +2672,9 @@
       "mainDescription": "Subluxation and dislocation of C2/C3 cervical vertebrae",
       "mapImage": "http://dummyimage.com/178x100.png/ff4444/ffffff",
       "address": "830 Lawn Crossing",
-      "category":"Museums"
-    }, {
+      "category": "Museums"
+    },
+    {
       "id": 73,
       "country": "Brazil",
       "thingsToDo": "34-311-4435",
@@ -2573,8 +2688,9 @@
       "mainDescription": "Underdosing of tetracyclic antidepressants, initial encounter",
       "mapImage": "http://dummyimage.com/240x100.png/ff4444/ffffff",
       "address": "895 Sage Avenue",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 74,
       "country": "South Korea",
       "thingsToDo": "80-737-7815",
@@ -2588,8 +2704,9 @@
       "mainDescription": "Calculus of gallbladder and bile duct with chronic cholecystitis with obstruction",
       "mapImage": "http://dummyimage.com/145x100.png/dddddd/000000",
       "address": "39 Pepper Wood Trail",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 75,
       "country": "Bolivia",
       "thingsToDo": "22-025-6976",
@@ -2603,8 +2720,9 @@
       "mainDescription": "Xerosis cutis",
       "mapImage": "http://dummyimage.com/184x100.png/dddddd/000000",
       "address": "97251 Darwin Circle",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 76,
       "country": "Philippines",
       "thingsToDo": "68-021-9063",
@@ -2618,8 +2736,9 @@
       "mainDescription": "Other superficial bite of right wrist, sequela",
       "mapImage": "http://dummyimage.com/228x100.png/5fa2dd/ffffff",
       "address": "0925 Manufacturers Court",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 77,
       "country": "China",
       "thingsToDo": "90-498-6887",
@@ -2633,8 +2752,9 @@
       "mainDescription": "Polymyositis with myopathy",
       "mapImage": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/118611345.jpg?k=1724c75f7d82b1f2f1b48e60171ad553c5f9b0135e87e9b31dfcc682e30668e1&o=",
       "address": "465 Reinke Drive",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 78,
       "country": "Netherlands",
       "thingsToDo": "46-621-7129",
@@ -2648,8 +2768,9 @@
       "mainDescription": "Accidental puncture and laceration of a genitourinary system organ or structure during a genitourinary system procedure",
       "mapImage": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/118611345.jpg?k=1724c75f7d82b1f2f1b48e60171ad553c5f9b0135e87e9b31dfcc682e30668e1&o=",
       "address": "50 Harper Point",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 79,
       "country": "Russia",
       "thingsToDo": "61-807-9595",
@@ -2663,8 +2784,9 @@
       "mainDescription": "Fracture of condylar process of right mandible, sequela",
       "mapImage": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/95936655.jpg?k=32f600e710863f07a58505c31db703b7abd7922cac73e7220edcb1bb5402858e&o=",
       "address": "84621 Cody Park",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 80,
       "country": "Christmas Island",
       "thingsToDo": "04-027-1900",
@@ -2678,8 +2800,9 @@
       "mainDescription": "Abrasion of left ear, initial encounter",
       "mapImage": "http://dummyimage.com/212x100.png/5fa2dd/ffffff",
       "address": "772 Grasskamp Lane",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 81,
       "country": "China",
       "thingsToDo": "74-641-9525",
@@ -2693,8 +2816,9 @@
       "mainDescription": "Sunburn",
       "mapImage": "http://dummyimage.com/157x100.png/cc0000/ffffff",
       "address": "70092 Grasskamp Plaza",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 82,
       "country": "Sudan",
       "thingsToDo": "43-844-3443",
@@ -2708,8 +2832,9 @@
       "mainDescription": "Other fracture of lower end of unspecified ulna, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with delayed healing",
       "mapImage": "http://dummyimage.com/239x100.png/ff4444/ffffff",
       "address": "85 Melby Street",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 83,
       "country": "China",
       "thingsToDo": "36-353-2410",
@@ -2723,8 +2848,9 @@
       "mainDescription": "Unspecified injury of intrinsic muscle, fascia and tendon of unspecified finger at wrist and hand level, initial encounter",
       "mapImage": "http://dummyimage.com/157x100.png/ff4444/ffffff",
       "address": "3 Vahlen Parkway",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 84,
       "country": "Turkmenistan",
       "thingsToDo": "54-959-4015",
@@ -2738,8 +2864,9 @@
       "mainDescription": "Congenital stenosis and stricture of esophagus",
       "mapImage": "http://dummyimage.com/164x100.png/ff4444/ffffff",
       "address": "84482 Harbort Drive",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 85,
       "country": "Peru",
       "thingsToDo": "00-304-2943",
@@ -2753,8 +2880,9 @@
       "mainDescription": "Contact with agricultural transport vehicle in stationary use, subsequent encounter",
       "mapImage": "http://dummyimage.com/169x100.png/cc0000/ffffff",
       "address": "581 Kedzie Avenue",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 86,
       "country": "Brazil",
       "thingsToDo": "17-915-2573",
@@ -2768,8 +2896,9 @@
       "mainDescription": "Unspecified fracture of fourth thoracic vertebra, subsequent encounter for fracture with delayed healing",
       "mapImage": "http://dummyimage.com/202x100.png/5fa2dd/ffffff",
       "address": "8983 Debra Trail",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 87,
       "country": "Argentina",
       "thingsToDo": "65-429-3003",
@@ -2783,8 +2912,9 @@
       "mainDescription": "Nondisplaced fracture of base of neck of right femur, subsequent encounter for closed fracture with delayed healing",
       "mapImage": "http://dummyimage.com/162x100.png/ff4444/ffffff",
       "address": "37876 Lukken Place",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 88,
       "country": "Ukraine",
       "thingsToDo": "99-196-1930",
@@ -2798,8 +2928,9 @@
       "mainDescription": "Unspecified injury of bronchus, unspecified, sequela",
       "mapImage": "http://dummyimage.com/110x100.png/dddddd/000000",
       "address": "69 Ramsey Crossing",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 89,
       "country": "Moldova",
       "thingsToDo": "63-342-3822",
@@ -2813,8 +2944,9 @@
       "mainDescription": "Abrasion, left knee, initial encounter",
       "mapImage": "http://dummyimage.com/107x100.png/cc0000/ffffff",
       "address": "41762 Linden Circle",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 90,
       "country": "France",
       "thingsToDo": "63-726-3942",
@@ -2828,8 +2960,9 @@
       "mainDescription": "Laceration with foreign body of left hand, subsequent encounter",
       "mapImage": "http://dummyimage.com/243x100.png/dddddd/000000",
       "address": "8 Oneill Plaza",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 91,
       "country": "Russia",
       "thingsToDo": "48-822-8549",
@@ -2843,8 +2976,9 @@
       "mainDescription": "Sedative, hypnotic or anxiolytic use, unspecified with sedative, hypnotic or anxiolytic-induced sleep disorder",
       "mapImage": "http://dummyimage.com/104x100.png/cc0000/ffffff",
       "address": "9716 Burrows Way",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 92,
       "country": "United States",
       "thingsToDo": "15-376-8396",
@@ -2858,8 +2992,9 @@
       "mainDescription": "Acanthamebiasis, unspecified",
       "mapImage": "http://dummyimage.com/213x100.png/5fa2dd/ffffff",
       "address": "2516 Tennessee Plaza",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 93,
       "country": "Indonesia",
       "thingsToDo": "28-095-1112",
@@ -2873,8 +3008,9 @@
       "mainDescription": "Nondisplaced fracture of medial cuneiform of left foot",
       "mapImage": "http://dummyimage.com/249x100.png/dddddd/000000",
       "address": "33389 Del Mar Hill",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 94,
       "country": "China",
       "thingsToDo": "02-008-8020",
@@ -2888,8 +3024,9 @@
       "mainDescription": "Other nondisplaced fracture of second cervical vertebra, subsequent encounter for fracture with delayed healing",
       "mapImage": "http://dummyimage.com/132x100.png/cc0000/ffffff",
       "address": "94 Kinsman Parkway",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 95,
       "country": "Indonesia",
       "thingsToDo": "19-849-7367",
@@ -2903,8 +3040,9 @@
       "mainDescription": "Corrosion of unspecified degree of nose (septum), initial encounter",
       "mapImage": "http://dummyimage.com/108x100.png/dddddd/000000",
       "address": "201 Annamark Junction",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 96,
       "country": "Croatia",
       "thingsToDo": "16-533-4606",
@@ -2918,8 +3056,9 @@
       "mainDescription": "Other specified disorders of bone density and structure, unspecified thigh",
       "mapImage": "http://dummyimage.com/237x100.png/ff4444/ffffff",
       "address": "171 Oriole Trail",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 97,
       "country": "Indonesia",
       "thingsToDo": "11-145-8967",
@@ -2933,8 +3072,9 @@
       "mainDescription": "Salter-Harris Type IV physeal fracture of phalanx of right toe",
       "mapImage": "http://dummyimage.com/220x100.png/5fa2dd/ffffff",
       "address": "99 Kingsford Way",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 98,
       "country": "Netherlands",
       "thingsToDo": "40-421-1292",
@@ -2948,8 +3088,9 @@
       "mainDescription": "Varicose veins of left lower extremity with both ulcer and inflammation",
       "mapImage": "http://dummyimage.com/240x100.png/ff4444/ffffff",
       "address": "0 Miller Junction",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 99,
       "country": "Brazil",
       "thingsToDo": "50-827-3413",
@@ -2963,8 +3104,9 @@
       "mainDescription": "Salter-Harris Type I physeal fracture of unspecified metatarsal, subsequent encounter for fracture with malunion",
       "mapImage": "http://dummyimage.com/213x100.png/dddddd/000000",
       "address": "749 Prairieview Trail",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 100,
       "country": "Portugal",
       "thingsToDo": "00-306-0373",
@@ -2978,8 +3120,9 @@
       "mainDescription": "Osteochondritis dissecans of wrist",
       "mapImage": "http://dummyimage.com/183x100.png/ff4444/ffffff",
       "address": "83 Ilene Street",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 101,
       "country": "London",
       "thingsToDo": "66-023-1385",
@@ -2993,8 +3136,9 @@
       "mainDescription": "Toxic effect of venom of other snake, undetermined, subsequent encounter",
       "mapImage": "http://dummyimage.com/178x100.png/dddddd/000000",
       "address": "131 Huxley Drive",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 102,
       "country": "London",
       "thingsToDo": "50-827-3413",
@@ -3008,8 +3152,9 @@
       "mainDescription": "Salter-Harris Type I physeal fracture of unspecified metatarsal, subsequent encounter for fracture with malunion",
       "mapImage": "http://dummyimage.com/213x100.png/dddddd/000000",
       "address": "749 Prairieview Trail",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 103,
       "country": "London",
       "thingsToDo": "50-827-3413",
@@ -3023,8 +3168,9 @@
       "mainDescription": "Salter-Harris Type I physeal fracture of unspecified metatarsal, subsequent encounter for fracture with malunion",
       "mapImage": "http://dummyimage.com/213x100.png/dddddd/000000",
       "address": "749 Prairieview Trail",
-      "category":"Tours"
-    }, {
+      "category": "Tours"
+    },
+    {
       "id": 104,
       "country": "London",
       "thingsToDo": "50-827-3413",
@@ -3038,7 +3184,7 @@
       "mainDescription": "Salter-Harris Type I physeal fracture of unspecified metatarsal, subsequent encounter for fracture with malunion",
       "mapImage": "http://dummyimage.com/213x100.png/dddddd/000000",
       "address": "749 Prairieview Trail",
-      "category":"Tours"
+      "category": "Tours"
     },
     {
       "id": 105,
@@ -3054,7 +3200,7 @@
       "mainDescription": "Salter-Harris Type I physeal fracture of unspecified metatarsal, subsequent encounter for fracture with malunion",
       "mapImage": "http://dummyimage.com/213x100.png/dddddd/000000",
       "address": "749 Prairieview Trail",
-      "category":"Tours"
+      "category": "Tours"
     },
     {
       "id": 106,
@@ -3070,9 +3216,8 @@
       "mainDescription": "Salter-Harris Type I physeal fracture of unspecified metatarsal, subsequent encounter for fracture with malunion",
       "mapImage": "http://dummyimage.com/213x100.png/dddddd/000000",
       "address": "749 Prairieview Trail",
-      "category":"Tours"
-    }
-    ,
+      "category": "Tours"
+    },
     {
       "id": 107,
       "country": "Dubai",
@@ -3087,7 +3232,7 @@
       "mainDescription": "Salter-Harris Type I physeal fracture of unspecified metatarsal, subsequent encounter for fracture with malunion",
       "mapImage": "http://dummyimage.com/213x100.png/dddddd/000000",
       "address": "749 Prairieview Trail",
-      "category":"Tours"
+      "category": "Tours"
     },
     {
       "id": 108,
@@ -3103,7 +3248,7 @@
       "mainDescription": "Salter-Harris Type I physeal fracture of unspecified metatarsal, subsequent encounter for fracture with malunion",
       "mapImage": "http://dummyimage.com/213x100.png/dddddd/000000",
       "address": "749 Prairieview Trail",
-      "category":"Tours"
+      "category": "Tours"
     },
     {
       "id": 109,
@@ -3119,7 +3264,7 @@
       "mainDescription": "Salter-Harris Type I physeal fracture of unspecified metatarsal, subsequent encounter for fracture with malunion",
       "mapImage": "http://dummyimage.com/213x100.png/dddddd/000000",
       "address": "749 Prairieview Trail",
-      "category":"Tours"
+      "category": "Tours"
     },
     {
       "id": 110,
@@ -3135,8 +3280,7 @@
       "mainDescription": "Salter-Harris Type I physeal fracture of unspecified metatarsal, subsequent encounter for fracture with malunion",
       "mapImage": "http://dummyimage.com/213x100.png/dddddd/000000",
       "address": "749 Prairieview Trail",
-      "category":"Tours"
+      "category": "Tours"
     }
   ]
-
 }

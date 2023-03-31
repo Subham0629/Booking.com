@@ -1,6 +1,7 @@
 import React from "react";
 import "./Popular.css";
 import PopularSlide from "../Spiwer/PopularCarSlide";
+import PopularDestination from "./PopularDestination";
 const Popular = () => {
   return (
     <div>
@@ -10,6 +11,10 @@ const Popular = () => {
       <br />
       <div style={{ width: "80%", margin: "auto" }}>
         <PopularSlide />
+      </div>
+      <br/>
+      <div style={{ width: "80%", margin: "auto",textAlign:"left" }}>
+        <PopularDestination />
       </div>
     </div>
   );

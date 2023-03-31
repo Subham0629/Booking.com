@@ -292,11 +292,11 @@ const MobileNavItem = ({ label, children, href }) => {
 const NAV_ITEMS = [
   {
     label: 'Stays',
-    href: '#' 
+    href: '/' 
   },
   {
     label: 'CarRentals',
-      href: '#',
+      href: '/carrental',
   },
   {
     label: 'Flights',

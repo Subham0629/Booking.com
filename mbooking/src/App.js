@@ -8,17 +8,14 @@ import Madrid from "./Components/CarRentalComponents/Madrid";
 
 import WithSubnavigation from "./Components/Navbar/Navbar";
 import MainRouter from "./Routes/MainRouter";
-
+import PaymentSection from "./Pages/PaymentSection/PaymentSection";
 
 function App() {
   return (
     <div className="App">
-
-  
-
-      <WithSubnavigation/>
-      <MainRouter/>
-
+      <WithSubnavigation />
+      <MainRouter />
+      {/* <PaymentSection/> */}
     </div>
   );
 }

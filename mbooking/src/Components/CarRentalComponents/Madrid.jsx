@@ -3,6 +3,7 @@ import CleanCar from "./CleanCar";
 import { Flex, Box, Text } from "@chakra-ui/react";
 import MadridRecommanded from "../Spiwer/MadridRecommanded";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 import {
   Card,
@@ -67,7 +68,7 @@ const Madrid = () => {
             <span classname="sb-searchbox__title-text">Car hire in Madrid</span>
           </h1>
 
-          <h2 class="h2Tag">Find great car deals for your trip in Madrid</h2>
+          <h2 className="h2Tag">Find great car deals for your trip in Madrid</h2>
           <br />
           <br />
           <Flex style={{ gap: "10px" }}>
@@ -173,7 +174,7 @@ const Madrid = () => {
                   </Stack>
                 </CardBody>
                 <Divider />
-                <h4>More Details</h4>
+               <Link to="/carName"><h4>book Car</h4></Link> 
               </Card>
             );
           })}

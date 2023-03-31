@@ -22,7 +22,7 @@ const CarPopularDestinationCard = ({
   fair,
 link
 }) => {
-  console.log(`/${link}`);
+
   return (
     <Card maxW="sm">
       <CardBody>

@@ -27,7 +27,7 @@ export const oceaniaData =(dispatch)=>{
     dispatch({type:Request_Pending});
     axios.get("http://localhost:8080/Oceania").then((res)=>{dispatch({type:Oceania_Success,payload:res.data})}).catch(()=>dispatch({type:Request_Failure}));
 }
-export const flightData = (dispatch)=>{
+export const flightData =(obj)=> (dispatch)=>{
     dispatch({type:Request_Pending});
-    axios.get("http://localhost:8080/flights").then((res)=>{dispatch({type:Flights_Success,payload:res.data})}).catch(()=>dispatch({type:Request_Failure}));
+    axios.get("http://localhost:8080/flights",obj).then((res)=>{dispatch({type:Flights_Success,payload:res.data})}).catch(()=>dispatch({type:Request_Failure}));
 }

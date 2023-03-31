@@ -20,7 +20,7 @@ import {
 import FrequentAsk from "./FrequentAsk";
 import CarSaveTimeSection from "./CarSaveTimeSection";
 import FilterSorting from "./FilterSortingMadid";
-import { useLocation, useSearchParams } from "react-router-dom";
+import { Link, useLocation, useSearchParams } from "react-router-dom";
 
 const DubaiCar = () => {
   const [car, setCar] = useState([]);
@@ -63,10 +63,10 @@ let obj = {
           }}
         >
           <h1 className="h1Tag">
-            <span classname="sb-searchbox__title-text">Car hire in Dubai</span>
+            <span className="sb-searchbox__title-text">Car hire in Dubai</span>
           </h1>
 
-          <h2 class="h2Tag">Find great car deals for your trip in Dubai</h2>
+          <h2 className="h2Tag">Find great car deals for your trip in Dubai</h2>
           <br />
           <br />
           <Flex style={{ gap: "10px" }}>
@@ -171,7 +171,7 @@ let obj = {
                 </Stack>
               </CardBody>
               <Divider />
-              <h4>More Details</h4>
+              <Link to="/carName"><h4>More Details</h4></Link>  
             </Card>
           );
         })}

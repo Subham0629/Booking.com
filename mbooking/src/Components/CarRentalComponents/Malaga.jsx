@@ -19,7 +19,7 @@ import {
 } from "@chakra-ui/react";
 import FrequentAsk from "./FrequentAsk";
 import CarSaveTimeSection from "./CarSaveTimeSection";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useSearchParams } from "react-router-dom";
 const Malaga = () => {
   const [car, setCar] = useState([]);
@@ -64,7 +64,7 @@ const Malaga = () => {
             <span classname="sb-searchbox__title-text">Car hire in Malaga</span>
           </h1>
 
-          <h2 class="h2Tag">Find great car deals for your trip in Malaga</h2>
+          <h2 className="h2Tag">Find great car deals for your trip in Malaga</h2>
           <br />
           <br />
           <Flex style={{ gap: "10px" }}>
@@ -161,7 +161,7 @@ const Malaga = () => {
                 </Stack>
               </CardBody>
               <Divider />
-              <h4>More Details</h4>
+            <Link to="/carName"><h4>More Details</h4></Link>  
             </Card>
           );
         })}

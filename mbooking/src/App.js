@@ -12,12 +12,14 @@ import Madrid from "./Components/CarRentalComponents/Madrid";
 
 
 import MainRouter from "./Routes/MainRouter";
-
+import PaymentSection from "./Pages/PaymentSection/PaymentSection";
 
 
 function App() {
   return (
     <div className="App">
+
+
 
     
   
@@ -26,6 +28,7 @@ function App() {
 
       <WithSubnavigation/>
       <MainRouter/>
+
 
 
     </div>

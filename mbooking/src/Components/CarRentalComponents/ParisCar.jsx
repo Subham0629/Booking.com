@@ -20,7 +20,7 @@ import {
 import FrequentAsk from "./FrequentAsk";
 import CarSaveTimeSection from "./CarSaveTimeSection";
 import FilterSorting from "./FilterSortingMadid";
-import { useLocation, useSearchParams } from "react-router-dom";
+import { Link, useLocation, useSearchParams } from "react-router-dom";
 
 const ParisCar = () => {
   const [car, setCar] = useState([]);
@@ -65,7 +65,7 @@ const ParisCar = () => {
             <span classname="sb-searchbox__title-text">Car hire in Paris</span>
           </h1>
 
-          <h2 class="h2Tag">Find great car deals for your trip in Paris</h2>
+          <h2 className="h2Tag">Find great car deals for your trip in Paris</h2>
           <br />
           <br />
           <Flex style={{ gap: "10px" }}>
@@ -113,13 +113,15 @@ const ParisCar = () => {
       <br />
       <FrequentAsk />
       <br />
+      <br />
       <Box width={"80%"} margin="auto">
         <Text fontSize="2xl" style={{ textAlign: "left", fontWeight: "700" }}>
           Popular car rental destinations in the Paris
         </Text>
       </Box>
       <br />
-      <Flex>
+
+      <Flex width={"90%"} margin="auto">
         <Box>
           <FilterSorting />
         </Box>
@@ -169,7 +171,9 @@ const ParisCar = () => {
                   </Stack>
                 </CardBody>
                 <Divider />
-                <h4>More Details</h4>
+                <Link to="/carName">
+                  <h4>More Details</h4>
+                </Link>
               </Card>
             );
           })}

@@ -21,7 +21,7 @@ const PopularDestination = () => {
   console.log("res", car);
   return (
     <div>
-      <h2 class="cars__header">Popular destinations for car hire</h2>
+      <h2 className="cars__header">Popular destinations for car hire</h2>
       <br />
       <Box style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)",gap:"20px"}}>
         {car?.map((el) => {

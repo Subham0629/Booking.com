@@ -18,7 +18,7 @@ const SearchInputCar = () => {
           </span>
         </h1>
 
-        <h2 class="h2Tag">Compare deals from the biggest car hire companies</h2>
+        <h2 className="h2Tag">Compare deals from the biggest car hire companies</h2>
         <br />
         <br />
         <Flex style={{ gap: "10px" }}>

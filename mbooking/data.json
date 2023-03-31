@@ -501,7 +501,6 @@
       }
     }
   ],
-
   "popular_city_car_hire": [
     {
       "id": 1,
@@ -922,7 +921,6 @@
       "image": "https://t-cf.bstatic.com/xdata/images/city/360x240/915778.webp?k=af76d8fb93bec66c88c19c48cc9685e83ad51ac68fc7d9d8384e3bd876a3190f&o="
     }
   ],
-
   "car-availables": [
     {
       "id": 1,
@@ -1105,7 +1103,6 @@
       "image": "https://res.cloudinary.com/fareoffice/image/upload/s--VZD5PZ6t--/f_auto,q_auto/v1/carpics/al/us/ccar"
     }
   ],
-
   "popular-flight": [
     {
       "id": 1,
@@ -1465,6 +1462,7 @@
       "name": "IndiGo",
       "logo": "data:image/png;base64,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",
       "price": 4489.0
+
     },
     {
       "id": 3,
@@ -1565,7 +1563,6 @@
       "price": 15264.89
     }
   ],
-
   "attractionsData": [
     {
       "id": 1,
@@ -3327,5 +3324,39 @@
       "address": "749 Prairieview Trail",
       "category": "Tours"
     }
-  ]
+  ],
+  "hotelcart": [
+    {
+      "checkinday": 25,
+      "checkinmonth": 2,
+      "checkinyear": 2023,
+      "checkoutday": 26,
+      "checkoutmonth": 2,
+      "checkoutyear": 2023,
+      "adult": 1,
+      "children": 2,
+      "rooms": 1,
+      "image": "https://cf.bstatic.com/xdata/images/hotel/square600/331951467.webp?k=4f0ec961f54e1649f9742f8c738cde686fc9d557061e54c978613cc4fd995a47&o=&s=1",
+      "price": 930,
+      "name": " Lifeline Villas Taraangan, Delhi",
+      "id": 1
+    },
+    {
+      "checkinday": 11,
+      "checkinmonth": 2,
+      "checkinyear": 2023,
+      "checkoutday": 12,
+      "checkoutmonth": 2,
+      "checkoutyear": 2023,
+      "adult": 2,
+      "children": 1,
+      "rooms": 1,
+      "image": "https://cf.bstatic.com/xdata/images/hotel/square600/331951467.webp?k=4f0ec961f54e1649f9742f8c738cde686fc9d557061e54c978613cc4fd995a47&o=&s=1",
+      "price": 930,
+      "name": " Lifeline Villas Taraangan, Delhi",
+      "id": 2
+    }
+  ],
+  "flightcart":[],
+  "carcart":[]
 }

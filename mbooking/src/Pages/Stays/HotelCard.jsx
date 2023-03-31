@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import {
     Box,
     Container,
@@ -17,22 +17,26 @@ import {
 import { useParams } from 'react-router';
 import { useSelector } from 'react-redux';
 import SideBar from './SideBar';
+import axios from 'axios';
   //import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
  // import { MdLocalShipping } from 'react-icons/md';
 
-
-
-
-  
   export default function HotelCard() {
     const {id} =useParams()
     const data=useSelector(store=>store.hotelReducer.hotels)
-    const product=data.filter((el)=>el.id===+id)
-    console.log(product);
+    const [product,setProduct]=useState()
+    useEffect(()=>{
+      axios.get(` http://localhost:8080/hotels/${id}`).then((res)=>setProduct(res.data))
+      // const singleProd=data.filter((el)=>el.id===+id)
+      // setProduct(singleProd)
+    },[])
+    
+    //console.log(product);
     return (
-      <div style={{display:"flex"}}>
-        <div style={{width:"30%",borderRight:"1px solid gray"}}>
-        <SideBar/>
+      <div style={{display:"flex",width:"80%", margin:"auto",border:"2px solid grey",padding:"20px",borderRadius:"10px"}}>
+        <div style={{width:"30%",borderRight:"1px solid gray",marginTop:"100px",paddingRight:"20px"}}>
+         <SideBar image={product?.url} price={product?.price} name={product?.name} availrooms={product?.availableRooms}/>
+        
         
         </div>
       <div style={{width:"70%"}}>
@@ -45,7 +49,7 @@ import SideBar from './SideBar';
             <Image
               rounded={'md'}
               alt={'product image'}
-              src={product[0].url}
+              src={product?.url}
               fit={'cover'}
               align={'center'}
               w={'100%'}
@@ -58,13 +62,13 @@ import SideBar from './SideBar';
                 lineHeight={1.1}
                 fontWeight={600}
                 fontSize={{ base: '2xl', sm: '4xl', lg: '5xl' }}>
-                {product[0].name}
+                {product?.name}
               </Heading>
               <Text
                 color={useColorModeValue('gray.900', 'gray.400')}
                 fontWeight={300}
                 fontSize={'2xl'}>
-                ₹{product[0].price}
+                ₹{product?.price}
               </Text>
             </Box>
   
@@ -103,12 +107,12 @@ import SideBar from './SideBar';
   
                 <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
                   <List spacing={2}>
-                    <ListItem>Breakfast: {product[0].breakFast}</ListItem>
-                    <ListItem>Cancellation: {product[0].cancellation}</ListItem>{' '}
-                    <ListItem>Distance:{product[0].distance}kms</ListItem>
+                    <ListItem>Breakfast: {product?.breakFast}</ListItem>
+                    <ListItem>Cancellation: {product?.cancellation}</ListItem>{' '}
+                    <ListItem>Distance:{product?.distance}kms</ListItem>
                   </List>
                   <List spacing={2}>
-                    <ListItem>View: {product[0].view}</ListItem>
+                    <ListItem>View: {product?.view}</ListItem>
                     {/* <ListItem>Chronometer</ListItem>
                     <ListItem>Small seconds</ListItem> */}
                   </List>
@@ -129,19 +133,19 @@ import SideBar from './SideBar';
                     <Text as={'span'} fontWeight={'bold'}>
                       Room Size:
                     </Text>{' '}
-                    {product[0].roomSize}
+                    {product?.roomSize}
                   </ListItem>
                   <ListItem>
                     <Text as={'span'} fontWeight={'bold'}>
                       Beds:
                     </Text>{' '}
-                    {product[0].bedSize}
+                    {product?.bedSize}
                   </ListItem>
                    <ListItem>
                     <Text as={'span'} fontWeight={'bold'}>
                       Available Rooms:
                     </Text>{' '}
-                    {product[0].availableRooms}
+                    {product?.availableRooms}
                   </ListItem>
                  {/* <ListItem>
                     <Text as={'span'} fontWeight={'bold'}>
@@ -173,7 +177,7 @@ import SideBar from './SideBar';
               </Box>
             </Stack>
   
-            <Button
+            {/* <Button
               rounded={'none'}
               w={'full'}
               mt={8}
@@ -187,11 +191,11 @@ import SideBar from './SideBar';
                 boxShadow: 'lg',
               }}>
               Add to bag
-            </Button>
+            </Button> */}
   
              <Stack direction="row" alignItems="center" justifyContent={'center'}>
               {/* <MdLocalShipping /> */}
-              <Text>2-3 business days delivery</Text>
+              {/* <Text>2-3 business days delivery</Text> */}
             </Stack>
           </Stack>
         </SimpleGrid>

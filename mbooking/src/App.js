@@ -8,9 +8,7 @@ import AttractionData from "./Pages/AttractionData";
 function App() {
   return (
     <div className="App">
-      {/* <WithSubnavigation/>
-      <Carrental />
-   */}
+     
    <AttractionData/>
     </div>
   );

@@ -6,3 +6,8 @@ export const HOTEL_REQUEST_SUCCESS = "HOTEL_REQUEST_SUCCESS";
 
 /* ------------------------Places------------------------*/
 export const PLACES_REQUEST_SUCCESS="PLACES_REQUEST_SUCCESS"
+
+/* ------------------------HotelCart------------------------*/
+
+export const CART_REQUEST_SUCCESS="CART_REQUEST_SUCCESS"
+export const GET_CART_REQUEST_SUCCESS="GET_CART_REQUEST_SUCCESS"

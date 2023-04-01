@@ -1,6 +1,7 @@
 import React from 'react';
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react';
 import "./World.css";
+import { Link } from 'react-router-dom';
 
 const World = ({asia,northAmerica,ocean,europe}) => {
   return (
@@ -20,6 +21,7 @@ const World = ({asia,northAmerica,ocean,europe}) => {
             <div className='europe'>
                 {europe.map((data)=>{
                     return (
+                        <Link to="/flights">
                         <div className='europe-main'>
                             <img src={data.image} alt="img" />
                             <div>
@@ -27,6 +29,7 @@ const World = ({asia,northAmerica,ocean,europe}) => {
                                 <p>{data.description}</p>
                             </div>
                         </div>
+                        </Link>
                     )
                 })}
             </div>
@@ -35,6 +38,7 @@ const World = ({asia,northAmerica,ocean,europe}) => {
             <div className='europe'>
                 {ocean.map((data)=>{
                     return (
+                        <Link to="/flights">
                         <div className='europe-main'>
                             <img src={data.image} alt="img" />
                             <div>
@@ -42,6 +46,7 @@ const World = ({asia,northAmerica,ocean,europe}) => {
                                 <p>{data.description}</p>
                             </div>
                         </div>
+                        </Link>
                     )
                 })}
             </div>
@@ -50,6 +55,7 @@ const World = ({asia,northAmerica,ocean,europe}) => {
             <div className='europe'>
                 {northAmerica.map((data)=>{
                     return (
+                        <Link to="/flights">
                         <div className='europe-main'>
                             <img src={data.image} alt="img" />
                             <div>
@@ -57,6 +63,7 @@ const World = ({asia,northAmerica,ocean,europe}) => {
                                 <p>{data.description}</p>
                             </div>
                         </div>
+                        </Link>
                     )
                 })}
             </div>
@@ -65,6 +72,7 @@ const World = ({asia,northAmerica,ocean,europe}) => {
             <div className='europe'>
                 {asia.map((data)=>{
                     return (
+                        <Link to="/flights">
                         <div className='europe-main'>
                             <img src={data.image} alt="img" />
                             <div>
@@ -72,6 +80,7 @@ const World = ({asia,northAmerica,ocean,europe}) => {
                                 <p>{data.description}</p>
                             </div>
                         </div>
+                        </Link>
                     )
                 })}
             </div>

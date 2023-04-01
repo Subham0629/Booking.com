@@ -1,6 +1,7 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
+import { Link } from 'react-router-dom';
 
 const TrendingCity = ({data}) => {
   return (
@@ -36,9 +37,11 @@ const TrendingCity = ({data}) => {
           return (
             <SwiperSlide>
             <div>
+            <Link to="/flights">
               <img style={{height:"200px", gap:"0px"}} src={data.image} alt="img" />
               <h3>{data.city}</h3>
               <p>{data.about} . Round trip</p>
+              </Link>
             </div>
             </SwiperSlide>
           )

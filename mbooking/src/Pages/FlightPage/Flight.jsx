@@ -14,7 +14,7 @@ import Faq from './Faq/Faq';
 const Flight = () => {
 
     const dispatch = useDispatch();
-    const {popularFlight,trendingCity,asiaa,europee,northAmericaa,oceaniaa,flightss} = useSelector((state)=> state.flightReducer);
+    const {popularFlight,trendingCity,asiaa,europee,northAmericaa,oceaniaa} = useSelector((state)=> state.flightReducer);
 
 
     useEffect(()=>{
@@ -24,7 +24,6 @@ const Flight = () => {
         dispatch(europeData);
         dispatch(northAmericaData);
         dispatch(oceaniaData);
-        dispatch(flightData);
     },[]);
     
 

@@ -59,6 +59,7 @@ export default function WithSubnavigation() {
         </Flex>
         <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}>
           <Text
+
             textAlign={useBreakpointValue({ base: "center", md: "left" })}
             fontFamily={"heading"}
             color={useColorModeValue("white", "white")}
@@ -69,6 +70,10 @@ export default function WithSubnavigation() {
               width="50%"
               marginTop="5px"
             />
+
+         
+           <Link to={"/"}> <Image src="https://i.ibb.co/DMXbS2y/Screenshot-2023-03-29-220121.png" alt='LOGO' width="50%" marginTop="5px"/></Link>
+
           </Text>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>
@@ -341,8 +346,10 @@ const NAV_ITEMS = [
     href: "/carrental",
   },
   {
-    label: "Flights",
-    href: "#",
+
+    label: 'Flights',
+    href: '/flight',
+
   },
   {
     label: "Hire Designers",

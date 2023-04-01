@@ -1,6 +1,7 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
+import { Link } from 'react-router-dom';
 
 const PopularFlight = ({data}) => {
   return (
@@ -35,9 +36,11 @@ const PopularFlight = ({data}) => {
           return (
             <SwiperSlide>
             <div>
+              <Link to="/flights">
               <img style={{height:"200px", gap:"0px"}} src={data.image} alt="img" />
               <h3>{data.origin} to {data.destination}</h3>
               <p>{data.startTime} - {data.endTime} . Round trip</p>
+              </Link>
             </div>
             </SwiperSlide>
           )

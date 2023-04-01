@@ -25,8 +25,8 @@ const MainRouter = () => {
       <Route path="/madrid" element={<Madrid />} />
       <Route path="/carrental" element={<Carrental />} />
       
-      <Route path="flight" element={<Flight />} />
-      <Route path="flights" element={<Flights />} />
+      <Route path="/flight" element={<Flight />} />
+      <Route path="/flights" element={<Flights />} />
     
       <Route path="/" element={<Stay />} />
       <Route path="/hotel/:id" element={<HotelCard />} />

@@ -62,7 +62,7 @@ export default function WithSubnavigation() {
             textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
             fontFamily={'heading'}
             color={useColorModeValue('white', 'white')}>
-            <Image src="https://i.ibb.co/DMXbS2y/Screenshot-2023-03-29-220121.png" alt='LOGO' width="50%" marginTop="5px"/>
+           <Link to={"/"}> <Image src="https://i.ibb.co/DMXbS2y/Screenshot-2023-03-29-220121.png" alt='LOGO' width="50%" marginTop="5px"/></Link>
           </Text>
           
 
@@ -300,7 +300,7 @@ const NAV_ITEMS = [
   },
   {
     label: 'Flights',
-    href: '#',
+    href: '/flight',
   },
   {
     label: 'Hire Designers',

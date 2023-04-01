@@ -1,12 +1,6 @@
 import { Heading } from '@chakra-ui/layout'
 import React, { useEffect, useState } from 'react'
 import { useSearchParams } from 'react-router-dom';
-import {
-    RangeSlider,
-    RangeSliderTrack,
-    RangeSliderFilledTrack,
-    RangeSliderThumb,
-  } from '@chakra-ui/react'
 
 const FilterHotels = () => {
     
@@ -16,8 +10,6 @@ const FilterHotels = () => {
  const initialrating=searchParams.getAll("rating")
  const [order,setOrder]=useState(initialOrder||"")
  const [rating,setrating]=useState(initialrating||[])
-
- const [slide,setslide]=useState(0)
  useEffect(()=>{
   let params={
     rating
@@ -40,7 +32,6 @@ const handleChange=(e)=>{
     }
     setrating(newrating)
 }
-console.log(slide);
   return (
     <div style={{border:"1px solid grey",marginTop:"50px",marginRight:"7px",borderRadius:"5px"}} >
       <Heading size={"md"} mt={"20px"} alignItems="flex-start">Filter By:</Heading>
@@ -59,11 +50,11 @@ console.log(slide);
         <label> 3 stars</label>
         </div>
         <div>
-        <input type="checkbox" value={"4"} onChange={handleChange} checked={rating.includes("2")}/>
+        <input type="checkbox" value={"4"} onChange={handleChange} checked={rating.includes("4")}/>
         <label> 4 stars</label>
         </div>
         <div>
-        <input  type="checkbox" value={"5"} onChange={handleChange} checked={rating.includes("3")}/>
+        <input  type="checkbox" value={"5"} onChange={handleChange} checked={rating.includes("5")}/>
         <label> 5 stars</label>
         </div>
         </div>

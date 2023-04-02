@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const World = ({asia,northAmerica,ocean,europe}) => {
   return (
-    <div className='main'>
+    <div className='mainworld'>
         <h2>Fly worldwide with Booking.com</h2>
         <p>Flights from wherever you are to wherever you want to go</p>
         <Tabs>

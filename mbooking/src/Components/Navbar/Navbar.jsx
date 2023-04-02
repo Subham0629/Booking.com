@@ -300,7 +300,7 @@ const NAV_ITEMS = [
   },
   {
     label: 'Flights',
-    href: '#',
+    href: '/flight',
   },
   {
     label: 'Hire Designers',

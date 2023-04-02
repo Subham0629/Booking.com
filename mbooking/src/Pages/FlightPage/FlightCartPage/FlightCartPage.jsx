@@ -1,34 +1,33 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { flightData } from '../../../Redux/flightReducer/action';
 import { Button } from '@chakra-ui/react';
-import { Link, useSearchParams } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import axios from 'axios';
 
+const FlightCartPage = ({id}) => {
 
-const Main = () => {
+    const [data,setData] = useState([]);
+    const [count,setCount] = useState(0);
+    const navigate = useNavigate();
 
-    const dispatch = useDispatch();
-    const {flightss} = useSelector((store)=>store.flightReducer);
-    const [searchParams] = useSearchParams();
-
-
-    let paramObj = {
-        params : {
-            name : searchParams.getAll("category"),
-            _sort : searchParams.get("order") && "price",
-            _order : searchParams.get("order") 
-        }
+    let handleDelete = (id)=>{
+        axios.delete(`http://localhost:8080/flightcart/${id}`);
+        setCount(count+1);
     };
 
+    const handleClick = (id)=>{
+        navigate(`/flights/bookflight/${id}`)
+    }
 
     useEffect(()=>{
-        dispatch(flightData(paramObj))
-    },[searchParams])
+        axios.get(`http://localhost:8080/flightcart`).then((res)=>setData(res.data))
+    },[data]);
+
+    
 
   return (
-    <div>
-        {flightss.map((data)=>{
+    <div style={{width:"60%", margin:"auto"}} >
+        {data.map((data)=>{
             return (
                 <div style={{height:"180px",marginBottom:"20px",borderRadius:"5px",border:"1px solid rgb(235,235,235)",display:"flex",justifyContent:"space-evenly"}} >
                     <div style={{border:"1px solid solid rgb(235,235,235)", width:"70%", margin:"auto"}} >
@@ -71,10 +70,12 @@ const Main = () => {
                         <p style={{marginTop:"10px",marginRight:"12px",textAlign:"right",fontWeight:"700",fontSize:"20px"}} >INR {data.price}.00</p>
                         <p style={{marginRight:"12px",textAlign:"right",fontWeight:"400",fontSize:"11px"}}>Total price for all travellers</p>
                     </div>
-                        <Button marginTop={5} colorScheme='blue' variant='outline'>
-                            <Link to={`/flights/${data.id}`} >See Flight</Link>
+                        <Button onClick={()=>handleClick(data.id)} marginTop={5} colorScheme='blue' variant='outline'>
+                            Book Now
                         </Button>
-                        {/* <Button onClick={onOpen}>Open Modal</Button> */}
+                        <Button onClick={()=>handleDelete(data.id)} marginTop={5} colorScheme='blue' variant='outline'>
+                            Remove
+                        </Button>
                     </div>
                 </div>
             )
@@ -83,4 +84,4 @@ const Main = () => {
   )
 }
 
-export default Main;
+export default FlightCartPage;

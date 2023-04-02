@@ -9,7 +9,7 @@ const initailVal = {
     europee:[],
     northAmericaa:[],
     oceaniaa:[],
-    flightss:[]
+    flightss:[],
 }
 
 export const reducer = (state=initailVal,{type,payload})=>{

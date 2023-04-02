@@ -6,6 +6,7 @@ import {
   CAR_TRNTAL_LOADING,
   CAR_TRNTAL_SUCCESS,
   DELETE_CAR,
+  CAR_CART_GET,
 } from "./actionType";
 
 const initialState = {
@@ -25,7 +26,6 @@ export const reducer = (state = initialState, { type, payload }) => {
       };
     }
     case CAR_TRNTAL_SUCCESS: {
-    
       return {
         ...state,
         loading: false,
@@ -40,7 +40,6 @@ export const reducer = (state = initialState, { type, payload }) => {
       };
     }
     case CAR_NAME_ID: {
-     
       return {
         ...state,
         carId: payload,
@@ -60,13 +59,18 @@ export const reducer = (state = initialState, { type, payload }) => {
       };
     }
     case CAR_CART_ADD: {
-      console.log("cartPayloadValue",payload)
+      console.log("cartPayloadValue", payload);
       return {
         ...state,
         cart: [...state.cart, payload],
       };
     }
-
+    case CAR_CART_GET: {
+      return {
+        ...state,
+        cart: payload,
+      };
+    }
     default: {
       return state;
     }

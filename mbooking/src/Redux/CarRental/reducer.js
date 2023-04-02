@@ -7,6 +7,7 @@ import {
   CAR_TRNTAL_SUCCESS,
   DELETE_CAR,
   CAR_CART_GET,
+  CAR_CART_DELETE
 } from "./actionType";
 
 const initialState = {
@@ -71,6 +72,13 @@ export const reducer = (state = initialState, { type, payload }) => {
         cart: payload,
       };
     }
+case CAR_CART_DELETE:{
+  return{
+    ...state,
+    cart:state.cart.filter((el)=>el.id!==payload)
+  }
+}
+
     default: {
       return state;
     }

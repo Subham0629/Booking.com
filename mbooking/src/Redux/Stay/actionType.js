@@ -16,3 +16,6 @@ export const ADD_HOTEL="add/hotel"
 export const DELETE_STAY_HOTEL="delete/hotel/stay"
 
 export const HOTELCART_DELETE="HOTELCART_DELETE"
+// /Admin Dedlete
+
+export const ADMIN_DELETE="admin/delete"

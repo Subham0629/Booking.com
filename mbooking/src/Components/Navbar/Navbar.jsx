@@ -44,7 +44,7 @@ export default function WithSubnavigation() {
     navigate(path);
   }
   return (
-    <Box backgroundColor="#003b95" paddingTop="7px" marginBottom="20px">
+    <Box backgroundColor="#003b95" paddingTop="7px" marginBottom="20px" style={{top:"0px",position:"sticky",zIndex:"2"}}>
       <Flex
         bg={useColorModeValue("#003b95", "white")}
         color={useColorModeValue("white", "white")}

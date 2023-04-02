@@ -14,10 +14,12 @@ import {
   Text,
   Image,
 } from "@chakra-ui/react";
+import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
+import { deleteHotelCart } from "../../Redux/Stay/action";
 export const HotelTab = () => {
   const [car, setCar] = useState([]);
-
+  const dispatch = useDispatch();
   let carData = async () => {
     try {
       let res = await axios.get(`http://localhost:8080/hotels`);
@@ -27,7 +29,9 @@ export const HotelTab = () => {
     }
   };
 
-  const handleDelete = () => {};
+  const handleDelete = (id) => {
+    dispatch(deleteHotelCart(id));
+  };
 
   useEffect(() => {
     carData();
@@ -74,14 +78,20 @@ export const HotelTab = () => {
               <Divider />
               <CardFooter>
                 <ButtonGroup m={"auto"} spacing="2">
-                  <Link to={`/hotel/${el.id}`}>
-                    <Button variant="ghost" colorScheme="blue">
-                      See Details
-                    </Button>
-                  </Link>
-                  {/* <Button variant='ghost' colorScheme='blue'>
-        Add to cart
-      </Button> */}
+                  <Button
+                    variant="solid"
+                    colorScheme="blue"
+                    onClick={() => handleDelete(el.id)}
+                  >
+                    Delete
+                  </Button>
+                  <Button
+                    variant="solid"
+                    colorScheme="blue"
+                    
+                  >
+                    Update
+                  </Button>
                 </ButtonGroup>
               </CardFooter>
             </Card>

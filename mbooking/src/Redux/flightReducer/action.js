@@ -87,7 +87,7 @@ export const addPopularFlight = (obj) => (dispatch) => {
     .catch(() => dispatch({ type: Request_Failure }));
 };
 
-export const flightDetals = (id) => async (dispatch) => {
+export const flightDelete = (id) => async (dispatch) => {
   try {
     let res = await axios.delete(`http://localhost:8080/popular-flight/${id}`);
     dispatch({ type: FLIGHT_DETAIL_DELETE, payload: id });

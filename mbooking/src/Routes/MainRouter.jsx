@@ -51,7 +51,7 @@ const MainRouter = () => {
       <Route path="/dubai" element={<DubaiCar />} />
       <Route path="/carName" element={<CarName />} />
       <Route path="/carName/:id" element={<CarNameSinglePageId />} />
-      <Route path="/payment" element={<PaymentSection />} />
+      <Route path="/payment/:id" element={<PaymentSection />} />
       <Route path="/cart" element={<Cartbag />} />
 
       <Route path="/admin" element={<AdminPage />} />

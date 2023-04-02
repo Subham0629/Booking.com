@@ -8,6 +8,7 @@ import {
   DELETE_CAR,
   CAR_CART_ADD,
   CAR_CART_GET,
+  CAR_CART_DELETE,
 } from "./actionType";
 
 export const carDataName = (obj) => async (dispatch) => {
@@ -76,9 +77,18 @@ export const carCartGet = () => async (dispatch) => {
   try {
     let res = await axios.get(`http://localhost:8080/carcart`);
     console.log("res", res);
-    dispatch({ type: CAR_CART_ADD, payload: res.data });
+    dispatch({ type: CAR_CART_GET, payload: res.data });
   } catch (err) {
     console.log("err", err);
     dispatch({ type: CAR_TRNTAL_ERROR });
+  }
+};
+
+export const deleteCarCart = (id) => async (dispatch) => {
+  try {
+    let res = await axios.delete(`http://localhost:8080/carcart/${id}`);
+    dispatch({ type: CAR_CART_DELETE, payload: id });
+  } catch (err) {
+    console.log("err", err);
   }
 };

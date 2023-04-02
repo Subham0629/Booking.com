@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios"
+import axios from "axios";
 import {
   Card,
   CardHeader,
@@ -12,36 +12,43 @@ import {
   Heading,
   Text,
   Image,
-  Box
+  Box,
 } from "@chakra-ui/react";
 import { useDispatch } from "react-redux";
+import {flightDelete} from "../../Redux/flightReducer/action"
 export const FlightTab = () => {
-    const [car, setCar] = useState([]);
-const dispatch=useDispatch()
-    let carData = async () => {
-      try {
-        let res = await axios.get(` http://localhost:8080/popular-flight`);
-        setCar(res.data);
-      } catch (err) {
-        console.log("err", err);
-      }
-    };
-  const handleDelete=(id)=>{
-    
-  }
-   
-  
-    useEffect(() => {
-      carData();
-    }, []);
+  const [car, setCar] = useState([]);
+  const dispatch = useDispatch();
+  let carData = async () => {
+    try {
+      let res = await axios.get(` http://localhost:8080/popular-flight`);
+      setCar(res.data);
+    } catch (err) {
+      console.log("err", err);
+    }
+  };
+  const handleDelete = (id) => {
+    dispatch(flightDelete())
+  };
 
+  useEffect(() => {
+    carData();
+  }, []);
 
-  return <>
-      <Box style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)",gap:"20px"}}   gridTemplateColumns={{
+  return (
+    <>
+      <Box
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(3,1fr)",
+          gap: "20px",
+        }}
+        gridTemplateColumns={{
           base: "repeat(1, 1fr)",
           md: "repeat(2, 1fr)",
           lg: "repeat(3, 1fr)",
-        }}   >
+        }}
+      >
         {car?.reverse().map((el) => {
           return (
             <Card maxW="sm" key={el.id}>
@@ -62,10 +69,10 @@ const dispatch=useDispatch()
                     size="sm"
                     fontWeight={"700"}
                   >
-                    Supplier{" "}
+                    origin{" "}
                     <Text fontWeight={"700"} size={"sm"} color="red">
                       {" "}
-                      {el.supply}
+                      {el.origin}
                     </Text>
                   </Heading>
 
@@ -75,7 +82,7 @@ const dispatch=useDispatch()
                     fontStyle={"italic"}
                     fontWeight={"700"}
                   >
-                    From ₹{el.fair} per day
+                    Destination {el.destination}
                   </Text>
                   <Text
                     color="blue.600"
@@ -84,7 +91,7 @@ const dispatch=useDispatch()
                     fontFamily={"Lobster Two cursive"}
                     fontStyle="italic"
                   >
-                    {el.Milage}
+                    StartTime {el.startTime}
                   </Text>
                   <Text
                     color="red.600"
@@ -93,7 +100,7 @@ const dispatch=useDispatch()
                     fontFamily={"Lobster Two cursive"}
                     fontStyle="italic"
                   >
-                    Rating: {el.rating}/5
+                    EndTime: {el.endTime}
                   </Text>
                 </Stack>
               </CardBody>
@@ -107,11 +114,7 @@ const dispatch=useDispatch()
                   >
                     Delete
                   </Button>
-                  <Button
-                    variant="solid"
-                    colorScheme="blue"
-             
-                  >
+                  <Button variant="solid" colorScheme="blue">
                     Update
                   </Button>
                 </ButtonGroup>
@@ -120,6 +123,6 @@ const dispatch=useDispatch()
           );
         })}
       </Box>
-  
-  </>;
+    </>
+  );
 };

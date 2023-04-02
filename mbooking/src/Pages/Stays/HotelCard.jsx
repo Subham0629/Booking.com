@@ -1,83 +1,106 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from "react";
 import {
-    Box,
-    Container,
-    Stack,
-    Text,
-    Image,
-    Flex,
-    Heading,
-    SimpleGrid,
-    StackDivider,
-    useColorModeValue,
-    List,
-    ListItem,
-  } from '@chakra-ui/react';
-import { useParams } from 'react-router';
-import SideBar from './SideBar';
-import axios from 'axios';
-  //import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
- // import { MdLocalShipping } from 'react-icons/md';
+  Box,
+  Container,
+  Stack,
+  Text,
+  Image,
+  Flex,
+  Heading,
+  SimpleGrid,
+  StackDivider,
+  useColorModeValue,
+  List,
+  ListItem,
+} from "@chakra-ui/react";
+import { useParams } from "react-router";
+import SideBar from "./SideBar";
+import axios from "axios";
+//import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+// import { MdLocalShipping } from 'react-icons/md';
 
-  export default function HotelCard() {
-    const {id} =useParams()
-    const [product,setProduct]=useState()
-    useEffect(()=>{
-      axios.get(` http://localhost:8080/hotels/${id}`).then((res)=>setProduct(res.data))
+export default function HotelCard() {
+  const { id } = useParams();
+  const [product, setProduct] = useState();
+  useEffect(() => {
+    axios
+      .get(` http://localhost:8080/hotels/${id}`)
+      .then((res) => setProduct(res.data));
+  }, []);
 
-    },[])
-    
-    //console.log(product);
-    return (
-      
-      <div style={{display:"flex",width:"80%", margin:"auto",border:"2px solid grey",padding:"20px",borderRadius:"10px"}}>
-        <div style={{width:"30%",borderRight:"1px solid gray",marginTop:"100px",paddingRight:"20px"}}>
-          
-         <SideBar image={product?.url} price={product?.price} name={product?.name} availrooms={product?.availableRooms}/>
-                
-        </div>
-      <div style={{width:"70%"}}>
-      <Container maxW={'7xl'} >
-        <SimpleGrid
-          columns={{ base: 1, lg: 2 }}
-          spacing={{ base: 8, md: 10 }}
-          py={{ base: 18, md: 24 }}>
-          <Flex>
-            <Image
-              rounded={'md'}
-              alt={'product image'}
-              src={product?.url}
-              fit={'cover'}
-              align={'center'}
-              w={'100%'}
-              h={{ base: '100%', sm: '400px', lg: '500px' }}
-            />
-          </Flex>
-          <Stack spacing={{ base: 6, md: 10 }}>
-            <Box as={'header'}>
-              <Heading
-                lineHeight={1.1}
-                fontWeight={600}
-                fontSize={{ base: '2xl', sm: '4xl', lg: '5xl' }}>
-                {product?.name}
-              </Heading>
-              <Text
-                color={useColorModeValue('gray.900', 'gray.400')}
-                fontWeight={300}
-                fontSize={'2xl'}>
-                ₹{product?.price}
-              </Text>
-            </Box>
-  
-            <Stack
-              spacing={{ base: 4, sm: 6 }}
-              direction={'column'}
-              divider={
-                <StackDivider
-                  borderColor={useColorModeValue('gray.200', 'gray.600')}
-                />
-              }>
-              {/* <VStack spacing={{ base: 4, sm: 6 }}>
+  //console.log(product);
+  return (
+    <div
+      style={{
+        display: "flex",
+        width: "80%",
+        margin: "auto",
+        border: "2px solid grey",
+        padding: "20px",
+        borderRadius: "10px",
+      }}
+    >
+      <div
+        style={{
+          width: "30%",
+          borderRight: "1px solid gray",
+          marginTop: "100px",
+          paddingRight: "20px",
+        }}
+      >
+        <SideBar
+          image={product?.url}
+          price={product?.price}
+          name={product?.name}
+          availrooms={product?.availableRooms}
+        />
+      </div>
+      <div style={{ width: "70%" }}>
+        <Container maxW={"7xl"}>
+          <SimpleGrid
+            columns={{ base: 1, lg: 2 }}
+            spacing={{ base: 8, md: 10 }}
+            py={{ base: 18, md: 24 }}
+          >
+            <Flex>
+              <Image
+                rounded={"md"}
+                alt={"product image"}
+                src={product?.url}
+                fit={"cover"}
+                align={"center"}
+                w={"100%"}
+                h={{ base: "100%", sm: "400px", lg: "500px" }}
+              />
+            </Flex>
+            <Stack spacing={{ base: 6, md: 10 }}>
+              <Box as={"header"}>
+                <Heading
+                  lineHeight={1.1}
+                  fontWeight={600}
+                  fontSize={{ base: "2xl", sm: "4xl", lg: "5xl" }}
+                >
+                  {product?.name}
+                </Heading>
+                <Text
+                  color={useColorModeValue("gray.900", "gray.400")}
+                  fontWeight={300}
+                  fontSize={"2xl"}
+                >
+                  ₹{product?.price}
+                </Text>
+              </Box>
+
+              <Stack
+                spacing={{ base: 4, sm: 6 }}
+                direction={"column"}
+                divider={
+                  <StackDivider
+                    borderColor={useColorModeValue("gray.200", "gray.600")}
+                  />
+                }
+              >
+                {/* <VStack spacing={{ base: 4, sm: 6 }}>
                 <Text
                   color={useColorModeValue('gray.500', 'gray.400')}
                   fontSize={'2xl'}
@@ -92,59 +115,65 @@ import axios from 'axios';
                   reprehenderit velit? Natus, totam.
                 </Text>
               </VStack> */}
-              <Box>
-                <Text
-                  fontSize={{ base: '16px', lg: '18px' }}
-                  color={useColorModeValue('yellow.500', 'yellow.300')}
-                  fontWeight={'500'}
-                  textTransform={'uppercase'}
-                  mb={'4'}>
-                  Facilities
-                </Text>
-  
-                <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
-                  <List spacing={2}>
-                    <ListItem>Breakfast: {product?.breakFast}</ListItem>
-                    <ListItem>Cancellation: {product?.cancellation}</ListItem>{' '}
-                    <ListItem>Distance: {product?.distance}kms from Airport</ListItem>
-                  </List>
-                  <List spacing={2}>
-                    <ListItem>View: {product?.view}</ListItem>
-                    {/* <ListItem>Chronometer</ListItem>
+                <Box>
+                  <Text
+                    fontSize={{ base: "16px", lg: "18px" }}
+                    color={useColorModeValue("yellow.500", "yellow.300")}
+                    fontWeight={"500"}
+                    textTransform={"uppercase"}
+                    mb={"4"}
+                  >
+                    Facilities
+                  </Text>
+
+                  <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
+                    <List spacing={2}>
+                      <ListItem>Breakfast: {product?.breakFast}</ListItem>
+                      <ListItem>
+                        Cancellation: {product?.cancellation}
+                      </ListItem>{" "}
+                      <ListItem>
+                        Distance: {product?.distance}kms from Airport
+                      </ListItem>
+                    </List>
+                    <List spacing={2}>
+                      <ListItem>View: {product?.view}</ListItem>
+                      {/* <ListItem>Chronometer</ListItem>
                     <ListItem>Small seconds</ListItem> */}
-                  </List>
-                </SimpleGrid>
-              </Box>
-              <Box>
-                <Text
-                  fontSize={{ base: '16px', lg: '18px' }}
-                  color={useColorModeValue('yellow.500', 'yellow.300')}
-                  fontWeight={'500'}
-                  textTransform={'uppercase'}
-                  mb={'4'}>
-                  Room Details
-                </Text>
-  
-                <List spacing={2}>
-                  <ListItem>
-                    <Text as={'span'} fontWeight={'bold'}>
-                      Room Size:
-                    </Text>{' '}
-                    {product?.roomSize}
-                  </ListItem>
-                  <ListItem>
-                    <Text as={'span'} fontWeight={'bold'}>
-                      Beds:
-                    </Text>{' '}
-                    {product?.bedSize}
-                  </ListItem>
-                   <ListItem>
-                    <Text as={'span'} fontWeight={'bold'}>
-                      Available Rooms:
-                    </Text>{' '}
-                    {product?.availableRooms}
-                  </ListItem>
-                 {/* <ListItem>
+                    </List>
+                  </SimpleGrid>
+                </Box>
+                <Box>
+                  <Text
+                    fontSize={{ base: "16px", lg: "18px" }}
+                    color={useColorModeValue("yellow.500", "yellow.300")}
+                    fontWeight={"500"}
+                    textTransform={"uppercase"}
+                    mb={"4"}
+                  >
+                    Room Details
+                  </Text>
+
+                  <List spacing={2}>
+                    <ListItem>
+                      <Text as={"span"} fontWeight={"bold"}>
+                        Room Size:
+                      </Text>{" "}
+                      {product?.roomSize}
+                    </ListItem>
+                    <ListItem>
+                      <Text as={"span"} fontWeight={"bold"}>
+                        Beds:
+                      </Text>{" "}
+                      {product?.bedSize}
+                    </ListItem>
+                    <ListItem>
+                      <Text as={"span"} fontWeight={"bold"}>
+                        Available Rooms:
+                      </Text>{" "}
+                      {product?.availableRooms}
+                    </ListItem>
+                    {/* <ListItem>
                     <Text as={'span'} fontWeight={'bold'}>
                       Case diameter:
                     </Text>{' '}
@@ -169,12 +198,11 @@ import axios from 'axios';
                     </Text>{' '}
                     5 bar (50 metres / 167 feet){' '}
             </ListItem> */}
-                  
-                </List>
-              </Box>
-            </Stack>
-  
-            {/* <Button
+                  </List>
+                </Box>
+              </Stack>
+
+              {/* <Button
               rounded={'none'}
               w={'full'}
               mt={8}
@@ -189,16 +217,19 @@ import axios from 'axios';
               }}>
               Add to bag
             </Button> */}
-  
-             <Stack direction="row" alignItems="center" justifyContent={'center'}>
-              {/* <MdLocalShipping /> */}
-              {/* <Text>2-3 business days delivery</Text> */}
+
+              <Stack
+                direction="row"
+                alignItems="center"
+                justifyContent={"center"}
+              >
+                {/* <MdLocalShipping /> */}
+                {/* <Text>2-3 business days delivery</Text> */}
+              </Stack>
             </Stack>
-          </Stack>
-        </SimpleGrid>
-      </Container>
+          </SimpleGrid>
+        </Container>
       </div>
-      </div>
-    );
-    
-  }
+    </div>
+  );
+}

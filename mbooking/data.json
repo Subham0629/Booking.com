@@ -3364,22 +3364,22 @@
   ],
   "carcart": [
     {
-      "image": 200,
-      "premium": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-      "supply": "Avis",
-      "fair": 800.96,
-      "rating": "low",
-      "Milage": "1",
+      "supply": "Alamo",
+      "fair": 5000.56,
+      "Milage": 300,
+      "premium": "medium",
+      "rating": "3",
+      "image": "https://marutisuzukiarenaprodcdn.azureedge.net/-/media/images/maruti/marutisuzuki/car/car-profile-shots/swift-launch-2021/fireredmidnightblack.webp",
       "id": 1
     },
     {
-      "image": 200,
-      "premium": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-      "supply": "Avis",
-      "fair": 800.96,
-      "rating": "low",
-      "Milage": "1",
-      "id": 2
+      "supply": "Citi Rental",
+      "fair": 6230,
+      "Milage": 350,
+      "premium": "medium",
+      "rating": "4",
+      "image": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/DusterModelImage.jpg&w=730&h=484&q=75&c=1",
+      "id": 3
     }
   ]
 }

@@ -6,7 +6,6 @@ import {
     Text,
     Image,
     Flex,
-    Button,
     Heading,
     SimpleGrid,
     StackDivider,
@@ -15,7 +14,6 @@ import {
     ListItem,
   } from '@chakra-ui/react';
 import { useParams } from 'react-router';
-import { useSelector } from 'react-redux';
 import SideBar from './SideBar';
 import axios from 'axios';
   //import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
@@ -23,21 +21,20 @@ import axios from 'axios';
 
   export default function HotelCard() {
     const {id} =useParams()
-    const data=useSelector(store=>store.hotelReducer.hotels)
     const [product,setProduct]=useState()
     useEffect(()=>{
       axios.get(` http://localhost:8080/hotels/${id}`).then((res)=>setProduct(res.data))
-      // const singleProd=data.filter((el)=>el.id===+id)
-      // setProduct(singleProd)
+
     },[])
     
     //console.log(product);
     return (
+      
       <div style={{display:"flex",width:"80%", margin:"auto",border:"2px solid grey",padding:"20px",borderRadius:"10px"}}>
         <div style={{width:"30%",borderRight:"1px solid gray",marginTop:"100px",paddingRight:"20px"}}>
+          
          <SideBar image={product?.url} price={product?.price} name={product?.name} availrooms={product?.availableRooms}/>
-        
-        
+                
         </div>
       <div style={{width:"70%"}}>
       <Container maxW={'7xl'} >
@@ -109,7 +106,7 @@ import axios from 'axios';
                   <List spacing={2}>
                     <ListItem>Breakfast: {product?.breakFast}</ListItem>
                     <ListItem>Cancellation: {product?.cancellation}</ListItem>{' '}
-                    <ListItem>Distance:{product?.distance}kms</ListItem>
+                    <ListItem>Distance: {product?.distance}kms from Airport</ListItem>
                   </List>
                   <List spacing={2}>
                     <ListItem>View: {product?.view}</ListItem>

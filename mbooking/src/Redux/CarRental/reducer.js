@@ -1,8 +1,12 @@
 import {
+  CAR_ADD,
+  CAR_CART_ADD,
   CAR_NAME_ID,
   CAR_TRNTAL_ERROR,
   CAR_TRNTAL_LOADING,
   CAR_TRNTAL_SUCCESS,
+  DELETE_CAR,
+  CAR_CART_GET,
 } from "./actionType";
 
 const initialState = {
@@ -10,6 +14,7 @@ const initialState = {
   error: false,
   carRental: [],
   carId: {},
+  cart: [],
 };
 
 export const reducer = (state = initialState, { type, payload }) => {
@@ -35,10 +40,35 @@ export const reducer = (state = initialState, { type, payload }) => {
       };
     }
     case CAR_NAME_ID: {
-      console.log("payload",payload)
       return {
         ...state,
         carId: payload,
+      };
+    }
+    case CAR_ADD: {
+      return {
+        ...state,
+        carRental: [...state.carRental, payload],
+      };
+    }
+
+    case DELETE_CAR: {
+      return {
+        ...state,
+        carRental: state.carRental.filter((el) => el.id !== payload),
+      };
+    }
+    case CAR_CART_ADD: {
+      console.log("cartPayloadValue", payload);
+      return {
+        ...state,
+        cart: [...state.cart, payload],
+      };
+    }
+    case CAR_CART_GET: {
+      return {
+        ...state,
+        cart: payload,
       };
     }
     default: {

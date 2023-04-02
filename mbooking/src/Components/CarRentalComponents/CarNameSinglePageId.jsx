@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { CarName } from "../../Redux/CarRental/action";
+import { CarName, carCartAdd } from "../../Redux/CarRental/action";
 import {
   Box,
   Container,
@@ -18,7 +18,7 @@ import {
   List,
   ListItem,
 } from "@chakra-ui/react";
-
+import { Link } from "react-router-dom";
 import { MdLocalShipping } from "react-icons/md";
 
 export default function CarNameSinglePageId() {
@@ -27,11 +27,24 @@ export default function CarNameSinglePageId() {
   const dispatch = useDispatch();
   console.log("state", state);
 
+  const handleAddCart = (image, premium, supply, fair, rating, Milage) => {
+    let payload = {
+      image,
+      premium,
+      supply,
+      fair,
+      rating,
+      Milage,
+    };
+    dispatch(carCartAdd(payload));
+  };
+
   useEffect(() => {
     dispatch(CarName(id));
   }, []);
   return (
-    <Container maxW={"7xl"}>
+    <Box>
+    <Container maxW={"7xl"} width="80%" margin="auto" style={{boxShadow:" rgba(0, 0, 0, 0.24) 0px 3px 8px"}} >
       <SimpleGrid
         columns={{ base: 1, lg: 2 }}
         spacing={{ base: 8, md: 10 }}
@@ -58,7 +71,6 @@ export default function CarNameSinglePageId() {
               From ₹{state.fair} per day
             </Heading>
           </Box>
-
           <Stack
             spacing={{ base: 4, sm: 6 }}
             direction={"column"}
@@ -74,13 +86,15 @@ export default function CarNameSinglePageId() {
                 fontSize={"2xl"}
                 fontWeight={"300"}
               >
-                <Text fontWeight={"800"} color="#127f4a">Current Deals</Text>
+                <Text fontWeight={"800"} color="#127f4a">
+                  Current Deals
+                </Text>
                 <Text fontWeight={"600"} fontStyle="italic">
                   Explore our current deals and promotions or start a
-                  reservation to fi d the right vechical at everyday low reate
+                  reservation to find the right vechical everyday at low price
+                  rate
                 </Text>
               </Text>
-            
             </VStack>
             <Box>
               <Text
@@ -168,8 +182,7 @@ export default function CarNameSinglePageId() {
                 </ListItem>
               </List>
             </Box>
-          </Stack>
-
+          </Stack>{" "}
           <Button
             rounded={"none"}
             w={"full"}
@@ -183,11 +196,20 @@ export default function CarNameSinglePageId() {
               transform: "translateY(2px)",
               boxShadow: "lg",
             }}
+            onClick={() =>
+              handleAddCart(
+                state.Milage,
+                state.image,
+                state.supply,
+                state.fair,
+                state.premium,
+                state.rating
+              )
+            }
             fontStyle="italic"
           >
-            Add to cart
+            Add to Bag
           </Button>
-
           <Stack direction="row" alignItems="center" justifyContent={"center"}>
             <MdLocalShipping />
             <Text fontStyle={"italic"} fontWeight={"800"}>
@@ -197,5 +219,6 @@ export default function CarNameSinglePageId() {
         </Stack>
       </SimpleGrid>
     </Container>
+    </Box>
   );
 }

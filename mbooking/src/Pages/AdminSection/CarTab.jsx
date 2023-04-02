@@ -15,30 +15,34 @@ import {
   Image,
 } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { CarDetailDelete, carDataName } from "../../Redux/CarRental/action";
 export const CarTab = () => {
-  const [car, setCar] = useState([]);
-
-  let carData = async () => {
-    try {
-      let res = await axios.get(`  http://localhost:8080/car-availables`);
-      setCar(res.data);
-    } catch (err) {
-      console.log("err", err);
-    }
+  const dispatch = useDispatch();
+  const car = useSelector((state) => state.CarReducer);
+  console.log("carRedu", car);
+  const handleDelete = (id) => {
+    console.log("id", id);
+    dispatch(CarDetailDelete(id)).then(() => dispatch(carDataName()));
   };
 
-  const handleDelete = () => {};
-
   useEffect(() => {
-    carData();
+    dispatch(carDataName());
   }, []);
 
   return (
     <>
-      <Box style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)",gap:"20px"}}>
-        {car?.map((el) => {
+      <Box
+        style={{ display: "grid", gap: "20px" }}
+        gridTemplateColumns={{
+          base: "repeat(1, 1fr)",
+          md: "repeat(2, 1fr)",
+          lg: "repeat(3, 1fr)",
+        }}
+      >
+        {car?.carRental?.reverse().map((el) => {
           return (
-            <Card maxW="sm" key={el.id}>
+            <Card maxW="sm" key={el.id} style={{boxShadow:" rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"}}>
               <CardBody>
                 <Image
                   src={el.image}
@@ -97,20 +101,16 @@ export const CarTab = () => {
                   <Button
                     variant="solid"
                     colorScheme="blue"
-                    onChange={() => handleDelete(el.id)}
+                    onClick={() => handleDelete(el.id)}
                   >
                     Delete
                   </Button>
-                  <Button
-                    variant="solid"
-                    colorScheme="blue"
-                    onChange={() => handleDelete(el.id)}
-                  >
+                  <Button variant="solid" colorScheme="blue">
                     Update
                   </Button>
                 </ButtonGroup>
               </CardFooter>
-            </Card>
+            </Card> 
           );
         })}
       </Box>

@@ -14,9 +14,10 @@ import {
   Image,
   Box
 } from "@chakra-ui/react";
+import { useDispatch } from "react-redux";
 export const FlightTab = () => {
     const [car, setCar] = useState([]);
-
+const dispatch=useDispatch()
     let carData = async () => {
       try {
         let res = await axios.get(` http://localhost:8080/popular-flight`);
@@ -25,7 +26,7 @@ export const FlightTab = () => {
         console.log("err", err);
       }
     };
-  const handleDelete=()=>{
+  const handleDelete=(id)=>{
     
   }
    
@@ -36,8 +37,12 @@ export const FlightTab = () => {
 
 
   return <>
-      <Box style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)",gap:"20px"}}>
-        {car?.map((el) => {
+      <Box style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)",gap:"20px"}}   gridTemplateColumns={{
+          base: "repeat(1, 1fr)",
+          md: "repeat(2, 1fr)",
+          lg: "repeat(3, 1fr)",
+        }}   >
+        {car?.reverse().map((el) => {
           return (
             <Card maxW="sm" key={el.id}>
               <CardBody>
@@ -98,14 +103,14 @@ export const FlightTab = () => {
                   <Button
                     variant="solid"
                     colorScheme="blue"
-                    onChange={() => handleDelete(el.id)}
+                    onClick={() => handleDelete(el.id)}
                   >
                     Delete
                   </Button>
                   <Button
                     variant="solid"
                     colorScheme="blue"
-                    onChange={() => handleDelete(el.id)}
+             
                   >
                     Update
                   </Button>

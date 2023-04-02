@@ -64,12 +64,12 @@ export default function WithSubnavigation() {
             fontFamily={"heading"}
             color={useColorModeValue("white", "white")}
           >
-            <Image
+            {/* <Image
               src="https://i.ibb.co/DMXbS2y/Screenshot-2023-03-29-220121.png"
               alt="LOGO"
               width="50%"
               marginTop="5px"
-            />
+            /> */}
 
          
            <Link to={"/"}> <Image src="https://i.ibb.co/DMXbS2y/Screenshot-2023-03-29-220121.png" alt='LOGO' width="50%" marginTop="5px"/></Link>

@@ -23,7 +23,7 @@ const Sidebar = () => {
   console.log(window.innerWidth);
   return (
     <>
-      <Box style={{ left: "5%", position: "fixed" }}>
+      <Box style={{ left: "5%", position: "fixed",bottom:"4%" }}>
         <div
           className="bars"
           style={expanded ? { left: "60%" } : { left: "5%" }}
@@ -36,18 +36,22 @@ const Sidebar = () => {
           variants={sidebarVariants}
           animate={window.innerWidth <= 768 ? `${expanded}` : ""}
         >
+
           {/* logo */}
-          <div className="logo">
-            <Image
-              src="https://user-images.githubusercontent.com/106021674/229298462-30fce48f-0523-4c4f-8b82-2c19144610f7.png"
-              alt=""
-            />
-            <span>
-              Sh<span>o</span>ps
-            </span>
+          <Image
+            src="https://avatars.githubusercontent.com/u/106021674?v=4"
+            borderRadius={"50%"}
+            width="100px"
+            margin={"auto"}
+            marginTop={"12%"}
+            className="My_images"
+          />
+          <div className="logo" marginTop="4%">
+        
           </div>
 
           <div className="menu">
+            
             {SidebarData.map((item, index) => {
               return (
                 <div

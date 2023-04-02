@@ -5,6 +5,7 @@ import { CarTab } from "./CarTab";
 import { FlightTab } from "./FlightTab";
 import { HotelTab } from "./HotelTab";
 import SideBar from "./AdminSidebar";
+import "./AdminAnalytics"
 
 const AdminDashboardSideBar = () => {
   return (
@@ -16,7 +17,13 @@ const AdminDashboardSideBar = () => {
           <SideBar />
         </Box>
 
-        <Box width="80%"  style={{overflowY:"scroll"}}>
+        <Box
+          width="80%"
+          style={{
+            overflowY: "scroll",
+            boxShadow: " rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
+          }}
+        >
           <Image
             width="100%"
             borderRadius={"5px"}
@@ -24,9 +31,9 @@ const AdminDashboardSideBar = () => {
             alt="edition"
           />
           <br />
-          <Tabs>
-            <TabList>
-              <Tab fontWeight="700">
+          <Tabs margin={"auto"} style={{backgroundColor:"#001f49"}}>
+            <TabList style={{backgroundColor:"#001f49"}} margin={"auto"}>
+              <Tab fontWeight="700" color={"#fff"} className="Box1" >
                 <Image
                   width="30px"
                   height="30px"
@@ -35,7 +42,7 @@ const AdminDashboardSideBar = () => {
                 />
                 Cars Available
               </Tab>
-              <Tab fontWeight="700">
+              <Tab fontWeight="700" color={"#fff"}>
                 <Image
                   width="30px"
                   height="30px"
@@ -44,12 +51,12 @@ const AdminDashboardSideBar = () => {
                 />
                 Flight Available
               </Tab>
-              <Tab fontWeight="700">
+              <Tab fontWeight="700" color={"#fff"}>
                 {" "}
                 <Image
                   width="30px"
                   height="30px"
-                  src="https://user-images.githubusercontent.com/106021674/229294307-e3bea22d-b687-44fc-83cc-9448a57069ea.png"
+                  src="https://user-images.githubusercontent.com/106021674/229346658-49075fae-abcc-411a-8324-a6ffd235dae0.png"
                   alt=""
                 />{" "}
                 Hotel Available

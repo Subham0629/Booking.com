@@ -5,7 +5,7 @@ import { reducer as hotelReducer } from "./Redux/Stay/reducer";
 import { reducer as flightReducer } from "../src/Redux/flightReducer/reducer";
 import { reducer as CarReducer } from "../src/Redux/CarRental/reducer";
 
-==
+
 
 
 

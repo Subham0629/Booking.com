@@ -19,9 +19,10 @@ import Cartbag from "../Pages/CartComponents/Cartbag";
 import AdminPage from "../Pages/AdminSection/AdminPage";
 import AdminLogin from "../Pages/AdminSection/AdminLogin";
 import { AdminOrder } from "../Pages/AdminSection/AdminOrder";
-import AdminCoustomer from "../Pages/AdminSection/AdminCoustomer"
-import {AdminAnalytics} from "../Pages/AdminSection/AdminAnalytics"
-import {AdminProducts} from '../Pages/AdminSection/AdminProducts'
+import AdminCoustomer from "../Pages/AdminSection/AdminCoustomer";
+import { AdminAnalytics } from "../Pages/AdminSection/AdminAnalytics";
+import { AdminProducts } from "../Pages/AdminSection/AdminProducts";
+import CarCart from "../Pages/CartComponents/CarCart";
 
 const MainRouter = () => {
   return (
@@ -31,10 +32,10 @@ const MainRouter = () => {
       <Route path="/paris" element={<ParisCar />} />
       <Route path="/madrid" element={<Madrid />} />
       <Route path="/carrental" element={<Carrental />} />
-      
+
       <Route path="/flight" element={<Flight />} />
       <Route path="/flights" element={<Flights />} />
-    
+
       <Route path="/" element={<Stay />} />
       <Route path="/hotel/:id" element={<HotelCard />} />
       <Route path="/london" element={<LondonCar />} />
@@ -48,10 +49,10 @@ const MainRouter = () => {
       <Route path="/admin" element={<AdminPage />} />
       <Route path="/adminlogin" element={<AdminLogin />} />
       <Route path="/adminorders" element={<AdminOrder />} />
-      <Route path="/admincustomers" element={<AdminCoustomer/>} />
-    <Route path="/adminanalytics" element={<AdminAnalytics/>} />
-    <Route path="/adminproducts" element={<AdminProducts />} />
-
+      <Route path="/admincustomers" element={<AdminCoustomer />} />
+      <Route path="/adminanalytics" element={<AdminAnalytics />} />
+      <Route path="/adminproducts" element={<AdminProducts />} />
+    
     </Routes>
   );
 };

@@ -8,6 +8,7 @@ import {
   HOTEL_REQUEST_PENDING,
   HOTEL_REQUEST_SUCCESS,
   PLACES_REQUEST_SUCCESS,
+  ADMIN_DELETE
 } from "./actionType";
 
 export const getHotels = (onsearch) => (dispatch) => {
@@ -86,3 +87,6 @@ export const deleteHotelCart = (id) => async (dispatch) => {
     dispatch({ type: HOTEL_REQUEST_FAILURE });
   }
 };
+
+
+

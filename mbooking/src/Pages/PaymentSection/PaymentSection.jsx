@@ -1,7 +1,40 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { useNavigate, useParams } from "react-router-dom";
 import "../PaymentSection/PaymnetSectionCSSFILES.css";
+import axios from "axios";
+import { useToast } from "@chakra-ui/react";
 const PaymentSection = () => {
-    
+  const { id } = useParams();
+  const [data, setData] = useState({});
+  const handleToast = useToast();
+
+  const navigate = useNavigate();
+  const getDataPaymentValue = async () => {
+    try {
+      let res = await axios(`http://localhost:8080/carcart/${id}`);
+      setData(res.data);
+    } catch (err) {
+      console.log("err", err);
+    }
+  };
+
+  const handleConfirm = () => {
+    handleToast({
+      title: "Payment Successfull; .",
+      description: "Thankyou from shopping with us.",
+      status: "success",
+      duration: 9000,
+      isClosable: true,
+    });
+    setTimeout(() => {
+      navigate("/cart");
+    }, 3000);
+
+  };
+
+  useEffect(() => {
+    getDataPaymentValue();
+  }, []);
   return (
     <div>
       <main className="container">
@@ -126,7 +159,9 @@ const PaymentSection = () => {
                 />
               </div>
             </div>
-            <button className="confirm_btn">Confirm</button>
+            <button onClick={handleConfirm} className="confirm_btn">
+              Confirm
+            </button>
           </section>
           {/* <!-- Order Summary Section  --> */}
           <section className="order_summary">
@@ -135,21 +170,21 @@ const PaymentSection = () => {
               <hr />
               <div className="price">
                 <p>Order price:</p>
-                <p>$49.99</p>
+                <p>{data.fair}</p>
               </div>
               <div className="price">
-                <p>Shipping:</p>
-                <p>$5.00</p>
+                <p>Milage:</p>
+                <p>{data.Milage}</p>
               </div>
               <div className="price">
                 <p>Tax:</p>
-                <p>$3.25</p>
+                <p>₹300.25</p>
               </div>
               <br />
               <hr />
               <div className="total_price">
                 <p className="dark">Total:</p>
-                <p className="dark">$58.24</p>
+                <p className="dark">{data.fair + data.Milage + 300.25}</p>
               </div>
             </div>
             <img

@@ -3279,36 +3279,6 @@
   ],
   "hotelcart": [
     {
-      "checkinday": 25,
-      "checkinmonth": 2,
-      "checkinyear": 2023,
-      "checkoutday": 26,
-      "checkoutmonth": 2,
-      "checkoutyear": 2023,
-      "adult": 1,
-      "children": 2,
-      "rooms": 1,
-      "image": "https://cf.bstatic.com/xdata/images/hotel/square600/331951467.webp?k=4f0ec961f54e1649f9742f8c738cde686fc9d557061e54c978613cc4fd995a47&o=&s=1",
-      "price": 930,
-      "name": " Lifeline Villas Taraangan, Delhi",
-      "id": 1
-    },
-    {
-      "checkinday": 11,
-      "checkinmonth": 2,
-      "checkinyear": 2023,
-      "checkoutday": 12,
-      "checkoutmonth": 2,
-      "checkoutyear": 2023,
-      "adult": 2,
-      "children": 1,
-      "rooms": 1,
-      "image": "https://cf.bstatic.com/xdata/images/hotel/square600/331951467.webp?k=4f0ec961f54e1649f9742f8c738cde686fc9d557061e54c978613cc4fd995a47&o=&s=1",
-      "price": 930,
-      "name": " Lifeline Villas Taraangan, Delhi",
-      "id": 2
-    },
-    {
       "checkinday": 1,
       "checkinmonth": 3,
       "checkinyear": 2023,
@@ -3337,6 +3307,21 @@
       "price": 1230,
       "name": "Desire Golf City, Jailpur",
       "id": 4
+    },
+    {
+      "checkinday": 4,
+      "checkinmonth": 3,
+      "checkinyear": 2023,
+      "checkoutday": 5,
+      "checkoutmonth": 3,
+      "checkoutyear": 2023,
+      "adult": 2,
+      "children": 1,
+      "rooms": 3,
+      "image": "https://cf.bstatic.com/xdata/images/hotel/square200/234363388.webp?k=fc9546a405b6afe024b48bcbd23256de85846b3e15d9271f241274f74c2d6b15&o=",
+      "price": 1800,
+      "name": "Hotel Hayden, New York",
+      "id": 5
     }
   ],
   "flightcart": [],
@@ -3349,6 +3334,15 @@
       "rating": "low",
       "Milage": "1",
       "id": 1
+    },
+    {
+      "image": 200,
+      "premium": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "supply": "Avis",
+      "fair": 800.96,
+      "rating": "low",
+      "Milage": "1",
+      "id": 2
     }
   ]
 }

@@ -14,3 +14,5 @@ export const GET_CART_REQUEST_SUCCESS="GET_CART_REQUEST_SUCCESS"
 
 export const ADD_HOTEL="add/hotel"
 export const DELETE_STAY_HOTEL="delete/hotel/stay"
+
+export const HOTELCART_DELETE="HOTELCART_DELETE"

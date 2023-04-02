@@ -43,24 +43,7 @@ const Stay = () => {
   }, [searchClick, location.search]);
   return (
     <div style={{ width: "80%", margin: "auto" }}>
-      <Box display={"flex"} m="auto" w={"60%"}>
-        <Input
-          type={"text"}
-          placeholder={"Search for Hotels"}
-          w={"500px"}
-          value={search}
-          onChange={(e) => setsearch(e.target.value)}
-        />
-        <Button
-          bg={"blue"}
-          color="white"
-          cursor={"pointer"}
-          _hover={{ bg: "blue.800", color: "white" }}
-          onClick={() => setsearchClick(search)}
-        >
-          Search
-        </Button>
-      </Box>
+     
 
       <div style={{ width: "100%" }} className="corona">
         <p>
@@ -263,9 +246,27 @@ const Stay = () => {
 
       {/*...................... Fourth Section......................... */}
 
-      <Heading mt={"40px"} as={"h1"}>
+      <Heading mt={"40px"} as={"h1"} mb={"30px"}>
         Hotels
       </Heading>
+      <Box display={"flex"} m="auto" w={"60%"}>
+        <Input
+          type={"text"}
+          placeholder={"Search for Hotels"}
+          w={"500px"}
+          value={search}
+          onChange={(e) => setsearch(e.target.value)}
+        />
+        <Button
+          bg={"blue"}
+          color="white"
+          cursor={"pointer"}
+          _hover={{ bg: "blue.800", color: "white" }}
+          onClick={() => setsearchClick(search)}
+        >
+          Search
+        </Button>
+      </Box>
       <div style={{ display: "flex" }}>
         <div style={{ width: "20%" }}>
           <FilterHotels />

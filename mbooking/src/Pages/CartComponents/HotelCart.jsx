@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { Card, Image,Stack,Heading,Button, CardBody, CardFooter } from '@chakra-ui/react'
 import { useDispatch, useSelector } from 'react-redux'
-import { getHotelCart } from '../../Redux/Stay/action'
+import { deleteHotelCart, getHotelCart } from '../../Redux/Stay/action'
 const HotelCart = () => {
 const dispatch =useDispatch()
 const data=useSelector(store=>store.hotelReducer.hotelcart)
@@ -9,8 +9,11 @@ console.log(data);
     useEffect(()=>{
        dispatch(getHotelCart) 
     },[])
+    const handleDelete=(id)=>{
+      dispatch(deleteHotelCart(id)).then(()=>dispatch(getHotelCart))
+    }
   return (
-    <div>
+    <div style={{overflowY:"scroll", height:"500px"}}>
         {data?.map((el)=><Card w={"85%"} m={"auto"} key={el.id} borderRadius={"10px"} p={"20px"} mt={"15px"}
   direction={{ base: 'column', sm: 'row' }}
   overflow='hidden'
@@ -38,7 +41,7 @@ console.log(data);
       </Button>
     </CardFooter> */}
   </Stack>
-  <Stack  borderRadius={"5px"} textAlign={"center"} ml={"220px"} boxShadow={"rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px"}>
+  <Stack  borderRadius={"5px"} textAlign={"center"} w="auto" boxShadow={"rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px"}>
     <CardBody>
       <Heading textAlign={"left"} size='md'>Check-in date: {el.checkinday}-{el.checkinmonth}-{el.checkinyear}</Heading>
 
@@ -53,8 +56,11 @@ console.log(data);
 
 
     <CardFooter>
-      <Button variant='solid' colorScheme='blue' w={"200px"} fontSize={"20px"} _hover={{bg:"white",color:"blue"}}>
+      <Button variant='solid' colorScheme='blue'   _hover={{bg:"white",color:"blue"}} marginRight="15px">
         Buy Plan
+      </Button>
+      <Button onClick={()=>handleDelete(el.id)} variant='solid' colorScheme='blue'   _hover={{bg:"white",color:"blue"}}>
+        Delete
       </Button>
     </CardFooter>
   </Stack>

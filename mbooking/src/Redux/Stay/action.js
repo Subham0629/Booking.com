@@ -3,6 +3,7 @@ import {
   CART_REQUEST_SUCCESS,
   DELETE_STAY_HOTEL,
   GET_CART_REQUEST_SUCCESS,
+  HOTELCART_DELETE,
   HOTEL_REQUEST_FAILURE,
   HOTEL_REQUEST_PENDING,
   HOTEL_REQUEST_SUCCESS,
@@ -69,6 +70,18 @@ export const DeleteHotel = (id) => async (dispatch) => {
     let res = await axios.delete(`http://localhost:8080/hotels/${id}`);
     console.log(res);
     dispatch({ type: DELETE_STAY_HOTEL, payload: id });
+  } catch (err) {
+    dispatch({ type: HOTEL_REQUEST_FAILURE });
+  }
+};
+
+
+export const deleteHotelCart = (id) => async (dispatch) => {
+  dispatch({ type: HOTEL_REQUEST_PENDING });
+  try {
+    let res = await axios.delete(`http://localhost:8080/hotelcart/${id}`);
+    console.log(res);
+    dispatch({ type: HOTELCART_DELETE, payload: id });
   } catch (err) {
     dispatch({ type: HOTEL_REQUEST_FAILURE });
   }

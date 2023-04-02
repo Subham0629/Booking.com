@@ -24,7 +24,7 @@ import {
     },
     {
       icon: UilClipboardAlt,
-      heading: "Orders",
+      heading: "Customer reviews",
       to:"/adminorders"
 
     },

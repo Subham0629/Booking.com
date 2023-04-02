@@ -1,67 +1,99 @@
-import React, { useEffect } from 'react'
-import { Card, Image,Stack,Heading,Button, CardBody, CardFooter } from '@chakra-ui/react'
-import { useDispatch, useSelector } from 'react-redux'
-import { getHotelCart } from '../../Redux/Stay/action'
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { getHotelCart } from "../../Redux/Stay/action";
+import { Box, Image, Flex } from "@chakra-ui/react";
+import {
+  Card,
+  CardHeader,
+  CardBody,
+  CardFooter,
+  Divider,
+  Button,
+  ButtonGroup,
+  Stack,
+  Heading,
+  Text,
+} from "@chakra-ui/react";
+import {carCartGet} from '../../Redux/CarRental/action'
 const CarCart = () => {
-const dispatch =useDispatch()
-const data=useSelector(store=>store.hotelReducer.hotelcart)
-console.log(data);
-    useEffect(()=>{
-       dispatch(getHotelCart) 
-    },[])
+  const dispatch = useDispatch();
+  const data = useSelector((store) => store.carRental);
+  console.log(data);
+  useEffect(() => {
+    dispatch(carCartGet())
+  }, []);
   return (
-    <div style={{overflowY:"scroll", height:"500px"}}>
-        {data?.map((el)=><Card w={"85%"} m={"auto"} key={el.id} borderRadius={"10px"} p={"20px"} mt={"15px"}
-  direction={{ base: 'column', sm: 'row' }}
-  overflow='hidden'
-  variant='outline'
->
-  <Image
-    objectFit='cover'
-    maxW={{ base: '100%', sm: '200px' }}
-    src={el.image}
-    alt='Caffe Latte'
-  />
 
-  <Stack>
-    <CardBody>
-      <Heading textAlign={"left"} fontSize={"26px"} size='xl'>{el.name}</Heading>
-
-      <Heading pt={"20px"} size={"md"} textAlign={"left"}>
-        Price: ₹{el.price}
-      </Heading>
-    </CardBody>
-
-    {/* <CardFooter>
-      <Button variant='solid' colorScheme='blue'>
-        Buy Plan
-      </Button>
-    </CardFooter> */}
-  </Stack>
-  <Stack  borderRadius={"5px"} textAlign={"center"} ml={"220px"} boxShadow={"rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px"}>
-    <CardBody>
-      <Heading textAlign={"left"} size='md'>Check-in date: {el.checkinday}-{el.checkinmonth}-{el.checkinyear}</Heading>
-
-      <Heading pt={"10px"} size={"md"} textAlign={"left"} >
-      Check-out date: {el.checkoutday}-{el.checkoutmonth}-{el.checkoutyear}
-      </Heading>
-      <Heading pt={"10px"} textAlign={"left"} size='md'>Adults: {el.adult}</Heading>
-    <Heading pt={"10px"} textAlign={"left"} size='md'>Children: {el.children}</Heading>
-    <Heading pt={"10px"} textAlign={"left"} size='md'>Rooms: {el.rooms}</Heading>
-    </CardBody>
-    
+    <div>
+      {data?.cart?.map((el) => {
+        return (
+          <Card maxW="sm" key={el.id}>
+            <CardBody>
+              <Image
+                src={el.image}
+                alt="Green double couch with wooden legs"
+                borderRadius="lg"
+                height={"200px"}
+                width="80%"
+                margin={"auto"}
+              />
+              <Stack mt="6" spacing="3">
+                <Heading
+                  fontStyle={"italic"}
+                  color="#000"
+                  fontFamily={"Lobster Two cursive"}
+                  size="sm"
+                  fontWeight={"700"}
+                >
+                  Supplier{" "}
+                  <Text fontWeight={"700"} size={"sm"} color="red">
+                    {" "}
+                    {el.supply}
+                  </Text>
+                </Heading>
 
 
-    <CardFooter>
-      <Button variant='solid' colorScheme='blue' w={"200px"} fontSize={"20px"} _hover={{bg:"white",color:"blue"}}>
-        Buy Plan
-      </Button>
-    </CardFooter>
-  </Stack>
-</Card>
-        )}
+                <Text
+                  color="blue.600"
+                  fontSize="sm"
+                  fontStyle={"italic"}
+                  fontWeight={"700"}
+                >
+                  From ₹{el.fair} per day
+                </Text>
+                <Text
+                  color="blue.600"
+                  fontSize="sm"
+                  fontWeight={"700"}
+                  fontFamily={"Lobster Two cursive"}
+                  fontStyle="italic"
+                >
+                  {el.Milage}
+                </Text>
+                <Text
+                  color="red.600"
+                  fontSize="sm"
+                  fontWeight={"700"}
+                  fontFamily={"Lobster Two cursive"}
+                  fontStyle="italic"
+                >
+                  Rating: {el.rating}/5
+                </Text>
+              </Stack>
+            </CardBody>
+            <Divider />
+            <CardFooter>
+              <ButtonGroup spacing="2">
+                <Button variant="solid" colorScheme="blue">
+                  Delete
+                </Button>
+              </ButtonGroup>
+            </CardFooter>
+          </Card>
+        );
+      })}
     </div>
-  )
-}
+  );
+};
 
-export default CarCart
+export default CarCart;

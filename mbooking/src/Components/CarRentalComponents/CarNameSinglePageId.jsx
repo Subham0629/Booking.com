@@ -43,7 +43,8 @@ export default function CarNameSinglePageId() {
     dispatch(CarName(id));
   }, []);
   return (
-    <Container maxW={"7xl"}>
+    <Box>
+    <Container maxW={"7xl"} width="80%" margin="auto" style={{boxShadow:" rgba(0, 0, 0, 0.24) 0px 3px 8px"}} >
       <SimpleGrid
         columns={{ base: 1, lg: 2 }}
         spacing={{ base: 8, md: 10 }}
@@ -218,5 +219,6 @@ export default function CarNameSinglePageId() {
         </Stack>
       </SimpleGrid>
     </Container>
+    </Box>
   );
 }

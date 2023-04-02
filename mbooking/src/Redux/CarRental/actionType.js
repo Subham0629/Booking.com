@@ -8,3 +8,4 @@ export const CAR_ADD="car/add"
 export const DELETE_CAR="car/delete"
 
 export const CAR_CART_ADD="car/cart/add"
+export const CAR_CART_GET="car/cart.get"

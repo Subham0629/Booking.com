@@ -119,7 +119,7 @@ const CarName = () => {
                 <CardFooter>
                   <ButtonGroup spacing="2">
                     <Button variant="solid" colorScheme="blue">
-                      <Link to={`/carName/${el.id}`}>Book Now</Link>
+                      <Link to={`/carName/${el.id}`}>See More Car Details</Link>
                     </Button>
                   </ButtonGroup>
                 </CardFooter>

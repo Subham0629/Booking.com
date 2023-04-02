@@ -10,7 +10,7 @@ console.log(data);
        dispatch(getHotelCart) 
     },[])
   return (
-    <div>
+    <div style={{overflowY:"scroll", height:"500px"}}>
         {data?.map((el)=><Card w={"85%"} m={"auto"} key={el.id} borderRadius={"10px"} p={"20px"} mt={"15px"}
   direction={{ base: 'column', sm: 'row' }}
   overflow='hidden'

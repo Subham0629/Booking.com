@@ -3367,6 +3367,21 @@
       "price": 1000,
       "name": "Luxury Goan Villa, Gurgaon",
       "id": 3
+    },
+    {
+      "checkinday": 1,
+      "checkinmonth": 3,
+      "checkinyear": 2023,
+      "checkoutday": 2,
+      "checkoutmonth": 3,
+      "checkoutyear": 2023,
+      "adult": 1,
+      "children": 2,
+      "rooms": 1,
+      "image": "https://cf.bstatic.com/xdata/images/hotel/square200/302175409.webp?k=5897d1cd223447a7e24b9edad4abe1bc80085dde4e2c87ed641284c341d0f65e&o=",
+      "price": 1230,
+      "name": "Desire Golf City, Jailpur",
+      "id": 4
     }
   ],
   "flightcart": [],

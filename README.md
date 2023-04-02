@@ -26,7 +26,7 @@
 -  `JSON SERVER`
 
 ## Deployed Link
-we will update
+https://mbooking.vercel.app/
 
 ## Pages & Features
 - Home Page(Stays)

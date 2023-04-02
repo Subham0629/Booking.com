@@ -78,12 +78,12 @@ catch(err){
                     <p style={{fontSize:"12px", fontWeight:"400"}}>Total Price for all travelers</p>
                 </div>
                 <div style={{display:"flex"}}>
-                    <Button marginTop={5} w="60%" colorScheme='blue' variant='outline' onClick={handleCart} >Add to Bag</Button>
+                    <Button marginTop={5} marginRight={5} w="60%" colorScheme='blue' variant='outline' onClick={handleCart} >Add to Bag</Button>
                     <Button onClick={()=>navigate(`/flights/bookflight/${id}`)} marginTop={5} w="60%" colorScheme='blue' variant='outline'>Buy Now</Button>
                 </div>
                 
             </div>
-            <Button onClick={()=>navigate("/flightCart")} marginTop={5} w="40%" colorScheme='green' variant='outline'>Bag</Button>
+            <Button onClick={()=>navigate("/cart")} marginTop={5} w="30%" colorScheme='green' variant='outline'>Bag</Button>
         </div>
     </div>
   )

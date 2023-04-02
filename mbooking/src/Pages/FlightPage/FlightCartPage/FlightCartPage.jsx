@@ -70,7 +70,7 @@ const FlightCartPage = ({id}) => {
                         <p style={{marginTop:"10px",marginRight:"12px",textAlign:"right",fontWeight:"700",fontSize:"20px"}} >INR {data.price}.00</p>
                         <p style={{marginRight:"12px",textAlign:"right",fontWeight:"400",fontSize:"11px"}}>Total price for all travellers</p>
                     </div>
-                        <Button onClick={()=>handleClick(data.id)} marginTop={5} colorScheme='blue' variant='outline'>
+                        <Button onClick={()=>handleClick(data.id)} marginTop={5} marginRight={4} colorScheme='blue' variant='outline'>
                             Book Now
                         </Button>
                         <Button onClick={()=>handleDelete(data.id)} marginTop={5} colorScheme='blue' variant='outline'>

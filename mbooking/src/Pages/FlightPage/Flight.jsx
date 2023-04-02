@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { asiaData, europeData, flightData, northAmericaData, oceaniaData, popularFligthData, trendingCitiesData } from '../../Redux/flightReducer/action';
+import { asiaData, europeData,  northAmericaData, oceaniaData, popularFligthData, trendingCitiesData } from '../../Redux/flightReducer/action';
 import {useDispatch, useSelector} from "react-redux";
 import "./Flight.css";
 import { Link } from "react-router-dom";

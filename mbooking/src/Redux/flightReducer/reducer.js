@@ -13,6 +13,7 @@ import {
 } from "./actionType";
 
 const initailVal = {
+
   isLoading: false,
   isError: false,
   popularFlight: [],
@@ -23,6 +24,7 @@ const initailVal = {
   oceaniaa: [],
   flightss: [],
 };
+
 
 export const reducer = (state = initailVal, { type, payload }) => {
   switch (type) {

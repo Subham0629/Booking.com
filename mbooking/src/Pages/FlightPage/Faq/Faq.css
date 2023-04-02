@@ -1,27 +1,29 @@
-.main {
-    
+.mainfaq {
+    width:85%;
+    margin: auto;
 }
-.faq {
+.faqq {
     display: grid;
     grid-template-columns: auto auto auto;
     text-align: left;
     gap: 20px;
 }
-.faq1 {
+.faqq1 {
     border: 1px solid #9999;
     padding: 15px;
     border-radius: 5px;
 
 }
-.faq1 h3{
+.faqq1 h3{
     font-weight: 700;
 }
-.faq1 p{
+.faqq1 p{
     font-size:13px ;
 }
-.main h2{
+.mainfaq h2{
     text-align: left;
     font-size: x-large;
     font-weight: 700;
     margin-bottom: 10px;
+    margin-top: 30px;
 }

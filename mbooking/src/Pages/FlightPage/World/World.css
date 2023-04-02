@@ -1,12 +1,18 @@
-.main {
+.mainworld {
     width:85%;
     margin:auto;
     margin-top: 40px;
 }
-.main>p{
+.mainworld>p{
     text-align: left;
     margin-bottom: 20px;
     font-weight: 400;
+}
+.mainworld>h2{
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: x-large;
 }
 .europe{
     display: grid;

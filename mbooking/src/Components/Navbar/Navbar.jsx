@@ -22,14 +22,27 @@ import {
   CloseIcon,
   ChevronDownIcon,
   ChevronRightIcon,
+
 } from "@chakra-ui/icons";
 import { useAuth0 } from "@auth0/auth0-react";
 import { MdOutlineFlightTakeoff } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
+import { BsBagHeartFill } from "react-icons/bs";
 
 export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
   const { loginWithRedirect, isAuthenticated, logout, user } = useAuth0();
   const toast = useToast();
+  let navigatehome = useNavigate(); 
+  const Imagehome = () =>{ 
+    let path = `/`; 
+    navigatehome(path);
+  }
+  let navigate = useNavigate();
+  const Gotocart = () =>{ 
+    let path = `/cart`; 
+    navigate(path);
+  }
   return (
     <Box backgroundColor="#003b95" paddingTop="7px" marginBottom="20px">
       <Flex
@@ -72,11 +85,12 @@ export default function WithSubnavigation() {
             /> */}
 
          
-           <Link to={"/"}> <Image src="https://i.ibb.co/DMXbS2y/Screenshot-2023-03-29-220121.png" alt='LOGO' width="50%" marginTop="5px"/></Link>
-
+           <Box style={{cursor:"pointer"}}>
+              <Image onClick={Imagehome} src="https://i.ibb.co/DMXbS2y/Screenshot-2023-03-29-220121.png" alt='LOGO' width="50%" marginTop="5px"/>
+              </Box>
           </Text>
 
-          <Flex display={{ base: "none", md: "flex" }} ml={10}>
+          <Flex display={{ base: "none", md: "flex" }} ml={10} mt={"10px"}>
             <DesktopNav />
           </Flex>
         </Flex>
@@ -87,7 +101,7 @@ export default function WithSubnavigation() {
           direction={"row"}
           spacing={6}
         >
-          {isAuthenticated ? (
+          {!isAuthenticated ? (
             <Button
               fontSize="20px"
               as={"a"}
@@ -114,7 +128,7 @@ export default function WithSubnavigation() {
               Log Out
             </Button>
           ) : (
-            <Button
+            <Button 
               fontSize="20px"
               as={"a"}
               display={{ base: "none", md: "inline-flex" }}
@@ -135,6 +149,10 @@ export default function WithSubnavigation() {
           {/* ///I have added a button of Admin Section PLease add UI here */}
           {/* ///I have added a button of Admin Section PLease add UI here */}
           {/* ///I have added a button of Admin Section PLease add UI here */}
+          <button style={{border:"none",cursor:"pointer"}} >
+
+          <BsBagHeartFill color="white" onClick={Gotocart} fontSize="30px" />
+          </button>
           <Link href="/adminlogin">
             <Button
               style={{

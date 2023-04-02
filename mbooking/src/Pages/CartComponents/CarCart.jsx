@@ -23,6 +23,7 @@ const CarCart = () => {
     dispatch(carCartGet())
   }, []);
   return (
+
     <div>
       {data?.cart?.map((el) => {
         return (
@@ -50,6 +51,7 @@ const CarCart = () => {
                     {el.supply}
                   </Text>
                 </Heading>
+
 
                 <Text
                   color="blue.600"

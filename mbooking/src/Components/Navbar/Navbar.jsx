@@ -101,7 +101,7 @@ export default function WithSubnavigation() {
           direction={"row"}
           spacing={6}
         >
-          {!isAuthenticated ? (
+          {isAuthenticated ? (
             <Button
               fontSize="20px"
               as={"a"}

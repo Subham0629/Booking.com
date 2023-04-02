@@ -33,7 +33,7 @@ const BookFlight = () => {
     }
 
   return (
-    <div style={{width:"85%",margin:"auto"}}>
+    <div style={{width:"85%",margin:"auto",boxShadow: "rgba(17, 12, 46, 0.15) 0px 48px 100px 0px",padding:"20px",borderRadius:"10px"}}>
         <form onSubmit={handleSubmit}  >
             <div style={{display:"flex"}} >
                 <div  style={{width:"60%"}} >
@@ -62,13 +62,13 @@ const BookFlight = () => {
                     <div style={{border:"1px solid rgb(242,242,242)", padding:"20px",borderRadius:"5px"}}>
                         <h3 style={{fontSize:"18px",fontWeight:"600"}} >Adult 1</h3>
                         <br />
-                        <div style={{display:"flex", justifyContent:"space-between",width:"80%"}} >
-                            <div>
+                        <div style={{display:"flex", justifyContent:"space-between"}} >
+                            <div style={{width:"80%",marginRight:"10px"}}>
                                 <p>First name</p>
                                 <Input isRequired placeholder='First Name' />
                             </div>
                             <br />
-                            <div>
+                            <div style={{width:"80%",marginLeft:"10px"}}>
                                 <p>Last name</p>
                                 <Input isRequired placeholder='Last Name' />
                             </div>
@@ -76,7 +76,7 @@ const BookFlight = () => {
                         <br />
                         <div>
                             <p>Gender specified on your travel document</p>
-                            <Select isRequired placeholder='Select Gender'>
+                            <Select marginBottom={"20px"} isRequired placeholder='Select Gender'>
                                 <option value='male'>Male</option>
                                 <option value='female'>Female</option>
                                 <option value='other'>Other</option>

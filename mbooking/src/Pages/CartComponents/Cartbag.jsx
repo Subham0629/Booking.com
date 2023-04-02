@@ -2,6 +2,7 @@ import React from 'react'
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 import HotelCart from './HotelCart'
 import CarCart from './CarCart'
+import FlightCartPage from '../FlightPage/FlightCartPage/FlightCartPage'
 const Cartbag = () => {
   return (
     <div>
@@ -9,6 +10,7 @@ const Cartbag = () => {
   <TabList >
     <Tab>Hotels</Tab>
     <Tab>Cars</Tab>
+    <Tab>Flight</Tab>
   </TabList>
   <TabPanels>
     <TabPanel>
@@ -16,6 +18,9 @@ const Cartbag = () => {
     </TabPanel>
     <TabPanel>
       <CarCart/>
+    </TabPanel>
+    <TabPanel>
+      <FlightCartPage />
     </TabPanel>
   </TabPanels>
 </Tabs>

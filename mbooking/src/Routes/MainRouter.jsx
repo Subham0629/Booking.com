@@ -27,6 +27,7 @@ import { AdminAnalytics } from "../Pages/AdminSection/AdminAnalytics";
 import { AdminProducts } from "../Pages/AdminSection/AdminProducts";
 import CarCart from "../Pages/CartComponents/CarCart";
 
+
 const MainRouter = () => {
   return (
     <Routes>
@@ -36,13 +37,11 @@ const MainRouter = () => {
       <Route path="/madrid" element={<Madrid />} />
       <Route path="/carrental" element={<Carrental />} />
 
-      
       <Route path="/flight" element={<Flight />} />
       <Route path="/flights" element={<Flights />} />
       <Route path="/flights/:id" element={<SingleFlightPage />} />
-      <Route path="/flightCart" element={<FlightCartPage/>} />
-      <Route path="/flights/bookflight/:id" element={<BookFlight/>} />
-    
+      <Route path="/flightCart" element={<FlightCartPage />} />
+      <Route path="/flights/bookflight/:id" element={<BookFlight />} />
 
       <Route path="/" element={<Stay />} />
       <Route path="/hotel/:id" element={<HotelCard />} />
@@ -60,7 +59,7 @@ const MainRouter = () => {
       <Route path="/admincustomers" element={<AdminCoustomer />} />
       <Route path="/adminanalytics" element={<AdminAnalytics />} />
       <Route path="/adminproducts" element={<AdminProducts />} />
-    
+      
     </Routes>
   );
 };

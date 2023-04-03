@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Flex, Box } from "@chakra-ui/react";
 import Sidebar from "./AdminSidebar";
 import { Image } from "@chakra-ui/react";
@@ -84,6 +84,11 @@ const data = [
 ];
 
 export const AdminOrder = () => {
+const [count,setCount]=useState(0);
+const handleLike=()=>{
+  setCount((p)=>p+1)
+}
+
   return (
     <>
       <Flex>
@@ -152,7 +157,7 @@ export const AdminOrder = () => {
                       },
                     }}
                   >
-                    <Button flex="1" variant="ghost">
+                    <Button flex="1" variant="ghost" onClick={handleLike}>
                       <Image width="25px" src="https://user-images.githubusercontent.com/106021674/229360381-3ef4b062-cb34-4ff3-82a4-f61f1bc2efb5.png"/>Like
                     </Button>
                     <Button flex="1" variant="ghost">

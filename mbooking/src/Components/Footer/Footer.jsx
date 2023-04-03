@@ -2,7 +2,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer" style={{width:"65%",marginleft:"auto"}}>
       <div className="fLists">
         <ul className="fList">
           <li className="fListItem">Countries</li>

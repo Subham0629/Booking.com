@@ -2,12 +2,15 @@ import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import "../PaymentSection/PaymnetSectionCSSFILES.css";
 import axios from "axios";
-import { useToast } from "@chakra-ui/react";
+import { useToast, Input } from "@chakra-ui/react";
 const PaymentSection = () => {
   const { id } = useParams();
   const [data, setData] = useState({});
   const handleToast = useToast();
-
+  const [cvc, setCvc] = useState("");
+  const [expire, setExpire] = useState("");
+  const [card, setCard] = useState("");
+  const [name, setName] = useState("");
   const navigate = useNavigate();
   const getDataPaymentValue = async () => {
     try {
@@ -18,6 +21,19 @@ const PaymentSection = () => {
     }
   };
 
+  const handleCVC = (e) => {
+    setCvc(e.target.value);
+  };
+  const handleName = (e) => {
+    setName(e.target.value);
+  };
+
+  const handleCard = (e) => {
+    setCard(e.target.value);
+  };
+  const handleExpire = (e) => {
+    setExpire(e.target.value);
+  };
   const handleConfirm = () => {
     handleToast({
       title: "Payment Successfull; .",
@@ -26,10 +42,13 @@ const PaymentSection = () => {
       duration: 9000,
       isClosable: true,
     });
+    setCard("");
+    setCvc("");
+    setName("");
+    setExpire("");
     setTimeout(() => {
       navigate("/cart");
     }, 3000);
-
   };
 
   useEffect(() => {
@@ -47,7 +66,7 @@ const PaymentSection = () => {
                 <div className="address_primary">
                   <div className="info">
                     <p className="bold">Name:</p>
-                    <p className="light">John Doe</p>
+                    <p className="light">Utkarsh Singhal</p>
                   </div>
                   <div className="info">
                     <p className="bold">Phone:</p>
@@ -55,13 +74,13 @@ const PaymentSection = () => {
                   </div>
                   <div className="info">
                     <p className="bold">Address:</p>
-                    <p className="light">312 Everette Alley, Miami, FL 33147</p>
+                    <p className="light">Shivaji Nagar </p>
                   </div>
                 </div>
                 <div className="address_secondary">
                   <div className="info">
                     <p className="bold">Name:</p>
-                    <p className="light">John Doe</p>
+                    <p className="light">Utkarsh Singhal</p>
                   </div>
                   <div className="info">
                     <p className="bold">Phone:</p>
@@ -69,7 +88,7 @@ const PaymentSection = () => {
                   </div>
                   <div className="info">
                     <p className="bold">Address:</p>
-                    <p className="light">209 Marigold Lane, Miami, FL 33169</p>
+                    <p className="light">Shivaji Nagar</p>
                   </div>
                 </div>
               </form>
@@ -105,35 +124,39 @@ const PaymentSection = () => {
                   alt=""
                 />
               </div>
-              <form action="">
-                <input
+              <form>
+                <Input
                   type="text"
                   name="Name"
-                  value=""
+                  value={name}
                   placeholder="Card Holder"
                   maxlength="60"
+                  onChange={handleName}
                 />
-                <input
+                <Input
                   type="text"
                   name="Number"
-                  value=""
+                  value={card}
                   placeholder="Card Number"
                   maxlength="16"
+                  onChange={handleCard}
                 />
                 <div>
-                  <input
+                  <Input
                     type="text"
                     name="Name"
-                    value=""
+                    value={expire}
                     placeholder="Expire"
                     maxlength="4"
+                    onChange={handleExpire}
                   />
-                  <input
+                  <Input
                     type="text"
                     name="Name"
-                    value=""
+                    value={cvc}
                     placeholder="CVC"
                     maxlength="3"
+                    onChange={handleCVC}
                   />
                 </div>
               </form>
@@ -170,11 +193,11 @@ const PaymentSection = () => {
               <hr />
               <div className="price">
                 <p>Order price:</p>
-                <p>{data.fair}</p>
+                <p>₹{data.fair}</p>
               </div>
               <div className="price">
-                <p>Milage:</p>
-                <p>{data.Milage}</p>
+                <p>TollTax Includes:</p>
+                <p>₹{data.Milage}</p>
               </div>
               <div className="price">
                 <p>Tax:</p>

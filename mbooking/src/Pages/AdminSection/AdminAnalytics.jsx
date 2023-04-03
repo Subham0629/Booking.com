@@ -8,6 +8,9 @@ import { getHotels } from "../../Redux/Stay/action";
 import axios from "axios";
 import { PieChart } from "./ChartsUse/PieChart";
 import "./AdminAnalytics.css";
+import Horizontal from "./ChartsUse/Horizontal";
+import PopularCountryChart from "./ChartsUse/PopularCountryChart";
+import WeeklyTraffic from "./ChartsUse/WeeklyTraffic";
 
 // import Horizontalchart from "../AdminSection/ChartsUse/Horizontal";
 
@@ -46,12 +49,12 @@ export const AdminAnalytics = () => {
             <Sidebar />
           </Box>
           <Box width={"80%"} style={{ backgroundColor: "#001f49" }}>
-            <Image
+            {/* <Image
               height={"60%"}
               src="https://user-images.githubusercontent.com/106021674/229345830-28029438-079b-4618-a77e-580804ed7480.png"
               alt="pie"
               borderRadius={"12px 20px"}
-            />
+            /> */}
             <br />
             <Flex
               justifyContent={"space-evenly"}
@@ -239,7 +242,15 @@ export const AdminAnalytics = () => {
             </Flex>
             <br />
             <br />
-            <PieChart />
+            <Flex justifyContent={"space-evenly"}>
+              <PieChart />
+              <Horizontal />
+            </Flex>
+            <Flex   justifyContent={"space-evenly"}>
+              <PopularCountryChart />
+              <WeeklyTraffic />
+            </Flex>
+
             <br />
             <br />
             <br />
@@ -248,8 +259,7 @@ export const AdminAnalytics = () => {
             <br />
             <br />
             <br />
-           
-        
+            <br />
           </Box>
         </Flex>
       </Box>

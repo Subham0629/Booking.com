@@ -24,6 +24,7 @@
 -  `HTML`
 -  `CSS`
 -  `JSON SERVER`
+-  `Chart.js`
 
 ## Deployed Link
 https://mbooking.vercel.app/
@@ -36,12 +37,15 @@ https://mbooking.vercel.app/
 - Flight search
 - Listing of various destinations
 - Listing of hotels
+- Admin Section
+- Car Rental
+- Payment
 
 
 # Snap shots
 <b> Home Page </b>
 
-![booking](https://user-images.githubusercontent.com/104014308/188278962-d6006f9a-c3d7-49f8-b2ec-2c560440f941.JPG)
+![booking](https://user-images.githubusercontent.com/106021674/229418529-0a36dec1-6098-4a7a-b252-9c0825232841.png)
 
 
 <b> Hotel Search </b>
@@ -51,8 +55,17 @@ https://mbooking.vercel.app/
 
 <b> Flights Page </b>
 
-![booking1](https://user-images.githubusercontent.com/104014308/188279143-f71affe1-ccf5-4b51-ab87-642db5c32f0e.PNG)
+![booking1](https://user-images.githubusercontent.com/106021674/229418718-ee9f34e5-e703-4e32-bfd9-89e49f6594d3.png)
 
-<b> Flights Booking Page </b>
+<b> Car  Booking Page </b>
 
-![booking2](https://user-images.githubusercontent.com/104014308/188279238-1efb8317-7d59-448b-8d28-201c3421dda9.JPG)
+![booking2](https://user-images.githubusercontent.com/106021674/229418886-5f92134b-0ee3-487f-919e-ad7eff9b77a8.png)
+
+<b>Payment Page</b>
+![booking2](https://user-images.githubusercontent.com/106021674/229419157-d218edbb-fc82-4630-b71c-2dd265f5329d.png)
+
+<b>Admin Page</b>
+![booking2](https://user-images.githubusercontent.com/106021674/229419157-d218edbb-fc82-4630-b71c-2dd265f5329d.png)
+
+<b>Data Analytics</b>
+<img src="https://user-images.githubusercontent.com/106021674/229419425-f7135a3c-2796-47d9-ae58-1e34d69ab80c.png" alt="analytics" />

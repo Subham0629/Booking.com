@@ -1,7 +1,7 @@
 import React from "react";
 import Chart from "react-apexcharts";
 import { Text } from "@chakra-ui/react";
-const Horizontal = () => {
+const WeeklyTraffic = () => {
   return (
     <div  style={{width:"40%"}}>
     <Text
@@ -17,19 +17,19 @@ const Horizontal = () => {
             color:"#fff"
           }}
         >
-          Show that the Total number of booking present by coustomer
+          Show that the Customer Traffic
         </Text>
       <Chart
         type="pie"
         width={500}
         height={350}
-        series={[41.1, 14.3, 17.9]}
+        series={[300,250,350,150,650,750,1200,2400]}
         options={{
-          labels: ["popular Car", "popular flight", "Number of visiter in hotels"],
+          labels: ["monday", "Tuesday", "Wednesday","thursday","friday","saturday","sunday"],
         }}
       ></Chart>
     </div>
   );
 };
 
-export default Horizontal;
+export default WeeklyTraffic;

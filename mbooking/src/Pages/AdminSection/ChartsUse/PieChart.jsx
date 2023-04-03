@@ -27,7 +27,7 @@ export function PieChart() {
 
   return (
     <>
-      <div class="container-fluid">
+      <div class="container-fluid"  style={{width:"40%"}}>
         <Text
           style={{
             fontSize: "22px",
@@ -45,7 +45,7 @@ export function PieChart() {
         </Text>
         <Chart
           type="pie"
-          width={1200}
+          width={500}
           height={350}
           series={[
             carLength?.carRental.length,

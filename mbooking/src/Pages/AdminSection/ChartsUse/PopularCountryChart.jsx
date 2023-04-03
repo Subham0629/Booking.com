@@ -1,7 +1,7 @@
 import React from "react";
 import Chart from "react-apexcharts";
 import { Text } from "@chakra-ui/react";
-const Horizontal = () => {
+const PopularCountryChart = () => {
   return (
     <div  style={{width:"40%"}}>
     <Text
@@ -17,19 +17,19 @@ const Horizontal = () => {
             color:"#fff"
           }}
         >
-          Show that the Total number of booking present by coustomer
+         Most popular city People book from our site
         </Text>
       <Chart
         type="pie"
         width={500}
         height={350}
-        series={[41.1, 14.3, 17.9]}
+        series={[20, 18, 12,26,10,14]}
         options={{
-          labels: ["popular Car", "popular flight", "Number of visiter in hotels"],
+          labels: ["london", "paris", "madrid","Dubai","Malaga","lisbon"],
         }}
       ></Chart>
     </div>
   );
 };
 
-export default Horizontal;
+export default PopularCountryChart;

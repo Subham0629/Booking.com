@@ -17,6 +17,7 @@ import {
   useColorModeValue,
   List,
   ListItem,
+  useToast,
 } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { MdLocalShipping } from "react-icons/md";
@@ -26,7 +27,7 @@ export default function CarNameSinglePageId() {
   const state = useSelector((state) => state.CarReducer.carId);
   const dispatch = useDispatch();
   console.log("state", state);
-
+  const handleToast = useToast();
   const handleAddCart = (Milage, image, supply, fair, premium, rating) => {
     let payload = {
       supply,
@@ -37,6 +38,14 @@ export default function CarNameSinglePageId() {
       image,
     };
     dispatch(carCartAdd(payload));
+
+    handleToast({
+      title: "Add Successfull.",
+      description: "your item add successfully.",
+      status: "success",
+      duration: 9000,
+      isClosable: true,
+    });
   };
 
   useEffect(() => {

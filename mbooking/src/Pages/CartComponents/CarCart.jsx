@@ -54,6 +54,13 @@ const CarCart = () => {
   }, 100);
 
   const handlePayment = (id) => {
+    handleToast({
+      title: "Welcome to payment page; .",
+      description: "welcome to payment page.",
+      status: "success",
+      duration: 9000,
+      isClosable: true,
+    });
     navigate(`/payment/${id}`);
   };
 
@@ -163,7 +170,7 @@ const CarCart = () => {
                     colorScheme="blue"
                     onClick={() => handleDelete(el.id)}
                   >
-                    Delete
+                    Remove
                   </Button>
                   <Button color="#ffff" bg="blue.600"
                   

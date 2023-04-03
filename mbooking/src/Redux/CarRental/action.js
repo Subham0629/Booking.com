@@ -51,7 +51,7 @@ export const CarDetailDelete = (payload) => async (dispatch) => {
   console.log("payload", payload);
   dispatch({ type: CAR_TRNTAL_LOADING });
   try {
-    let res = await axios.post(
+    let res = await axios.delete(
       `http://localhost:8080/car-availables/${payload}`
     );
     console.log("res", res);
@@ -92,3 +92,5 @@ export const deleteCarCart = (id) => async (dispatch) => {
     console.log("err", err);
   }
 };
+// <!------Admin Update-----!>
+

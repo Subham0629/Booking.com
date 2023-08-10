@@ -27,7 +27,7 @@
 -  `Chart.js`
 
 ## Deployed Link
-https://mbooking.vercel.app/
+[https://mbooking.vercel.app/](https://mbooking-beta.vercel.app/)
 
 ## Pages & Features
 - Home Page(Stays)

@@ -35,7 +35,7 @@ const Malaga = () => {
   };
   const Malaga = async () => {
     try {
-      let res = await axios.get(`http://localhost:8080/malaga`,obj);
+      let res = await axios.get(`https://booking-backend-w7ce.onrender.com/malaga`,obj);
       setCar(res.data);
     } catch (err) {
       console.log("err", err);

@@ -21,7 +21,7 @@ export const FlightTab = () => {
   const dispatch = useDispatch();
   let carData = async () => {
     try {
-      let res = await axios.get(` http://localhost:8080/popular-flight`);
+      let res = await axios.get(` https://booking-backend-w7ce.onrender.com/popular-flight`);
       setCar(res.data);
     } catch (err) {
       console.log("err", err);

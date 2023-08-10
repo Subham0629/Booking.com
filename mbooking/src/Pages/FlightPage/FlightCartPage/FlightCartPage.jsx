@@ -11,7 +11,7 @@ const FlightCartPage = ({id}) => {
     const navigate = useNavigate();
 
     let handleDelete = (id)=>{
-        axios.delete(`http://localhost:8080/flightcart/${id}`);
+        axios.delete(`https://booking-backend-w7ce.onrender.com/flightcart/${id}`);
         setCount(count+1);
     };
 
@@ -20,7 +20,7 @@ const FlightCartPage = ({id}) => {
     }
 
     useEffect(()=>{
-        axios.get(`http://localhost:8080/flightcart`).then((res)=>setData(res.data))
+        axios.get(`https://booking-backend-w7ce.onrender.com/flightcart`).then((res)=>setData(res.data))
     },[data]);
 
     

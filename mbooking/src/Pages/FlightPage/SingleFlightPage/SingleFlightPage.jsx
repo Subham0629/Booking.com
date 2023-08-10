@@ -14,7 +14,7 @@ const SingleFlightPage = () => {
 
 const singleFlightData=async()=>{
 try{
-let res=await axios.get(`http://localhost:8080/flights/${id}`);
+let res=await axios.get(`https://booking-backend-w7ce.onrender.com/flights/${id}`);
 setData(res.data)
 }
 catch(err){
@@ -28,7 +28,7 @@ catch(err){
 
     const handleCart = (e)=>{
         e.preventDefault();
-        axios.post(`http://localhost:8080/flightcart`,data)
+        axios.post(`https://booking-backend-w7ce.onrender.com/flightcart`,data)
         .then(()=>alert(`Added to cart`))
         .catch(()=>alert("Already available in your Cart!"))
     }

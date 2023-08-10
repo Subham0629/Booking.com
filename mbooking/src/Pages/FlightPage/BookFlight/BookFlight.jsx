@@ -14,7 +14,7 @@ const BookFlight = () => {
 
     const bookFlightData=async()=>{
         try{
-        let res=await axios.get(`http://localhost:8080/flights/${id}`);
+        let res=await axios.get(`https://booking-backend-w7ce.onrender.com/flights/${id}`);
         setData(res.data)
         }
         catch(err){

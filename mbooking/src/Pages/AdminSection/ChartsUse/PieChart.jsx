@@ -13,7 +13,7 @@ export function PieChart() {
   const [val, setval] = useState(0);
   const flightData = async () => {
     try {
-      let res = await axios.get(`http://localhost:8080/hotels`);
+      let res = await axios.get(`https://booking-backend-w7ce.onrender.com/hotels`);
       setval(res.data.length);
     } catch (err) {
       console.log("err", err);

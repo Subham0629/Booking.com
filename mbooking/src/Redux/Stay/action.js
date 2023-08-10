@@ -15,7 +15,7 @@ export const getHotels = (onsearch) => (dispatch) => {
   console.log(onsearch);
   dispatch({ type: HOTEL_REQUEST_PENDING });
   axios
-    .get(`http://localhost:8080/hotels`, onsearch)
+    .get(`https://booking-backend-w7ce.onrender.com/hotels`, onsearch)
     .then((res) => {
       dispatch({ type: HOTEL_REQUEST_SUCCESS, payload: res.data });
     })
@@ -25,7 +25,7 @@ export const getHotels = (onsearch) => (dispatch) => {
 export const getPlaces = (dispatch) => {
   dispatch({ type: HOTEL_REQUEST_PENDING });
   axios
-    .get(`http://localhost:8080/places`)
+    .get(`https://booking-backend-w7ce.onrender.com/places`)
     .then((res) => {
       dispatch({ type: PLACES_REQUEST_SUCCESS, payload: res.data });
     })
@@ -36,7 +36,7 @@ export const postHotelCart = (obj) => (dispatch) => {
   console.log(obj);
   dispatch({ type: HOTEL_REQUEST_PENDING });
   axios
-    .post(`http://localhost:8080/hotelcart`, obj)
+    .post(`https://booking-backend-w7ce.onrender.com/hotelcart`, obj)
     .then((res) => {
       console.log(res.data);
       dispatch({ type: CART_REQUEST_SUCCESS, payload: res.data });
@@ -47,7 +47,7 @@ export const postHotelCart = (obj) => (dispatch) => {
 export const getHotelCart = (dispatch) => {
   dispatch({ type: HOTEL_REQUEST_PENDING });
   axios
-    .get(`http://localhost:8080/hotelcart`)
+    .get(`https://booking-backend-w7ce.onrender.com/hotelcart`)
     .then((res) => {
       dispatch({ type: GET_CART_REQUEST_SUCCESS, payload: res.data });
     })
@@ -58,7 +58,7 @@ export const addHotels = (payload) => (dispatch) => {
   console.log("hello", payload);
   dispatch({ type: HOTEL_REQUEST_PENDING });
   axios
-    .post(`http://localhost:8080/hotels`, payload)
+    .post(`https://booking-backend-w7ce.onrender.com/hotels`, payload)
     .then((res) => {
       dispatch({ type: HOTEL_REQUEST_SUCCESS, payload: res.data });
     })
@@ -68,7 +68,7 @@ export const addHotels = (payload) => (dispatch) => {
 export const DeleteHotel = (id) => async (dispatch) => {
   dispatch({ type: HOTEL_REQUEST_PENDING });
   try {
-    let res = await axios.delete(`http://localhost:8080/hotels/${id}`);
+    let res = await axios.delete(`https://booking-backend-w7ce.onrender.com/hotels/${id}`);
     console.log(res);
     dispatch({ type: DELETE_STAY_HOTEL, payload: id });
   } catch (err) {
@@ -80,7 +80,7 @@ export const DeleteHotel = (id) => async (dispatch) => {
 export const deleteHotelCart = (id) => async (dispatch) => {
   dispatch({ type: HOTEL_REQUEST_PENDING });
   try {
-    let res = await axios.delete(`http://localhost:8080/hotelcart/${id}`);
+    let res = await axios.delete(`https://booking-backend-w7ce.onrender.com/hotelcart/${id}`);
     console.log(res);
     dispatch({ type: HOTELCART_DELETE, payload: id });
   } catch (err) {

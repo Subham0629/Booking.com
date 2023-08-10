@@ -22,7 +22,7 @@ export const HotelTab = () => {
   const dispatch = useDispatch();
   let carData = async () => {
     try {
-      let res = await axios.get(`http://localhost:8080/hotels`);
+      let res = await axios.get(`https://booking-backend-w7ce.onrender.com/hotels`);
       setCar(res.data);
     } catch (err) {
       console.log("err", err);

@@ -39,7 +39,7 @@ const Madrid = () => {
 
   const MadidCar = async () => {
     try {
-      let res = await axios.get(`http://localhost:8080/madrid`,obj);
+      let res = await axios.get(`https://booking-backend-w7ce.onrender.com/madrid`,obj);
       setCar(res.data);
     } catch (err) {
       console.log("err", err);

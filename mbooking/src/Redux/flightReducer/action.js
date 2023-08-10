@@ -16,7 +16,7 @@ import axios from "axios";
 export const popularFligthData = (dispatch) => {
   dispatch({ type: Request_Pending });
   axios
-    .get("http://localhost:8080/popular-flight")
+    .get("https://booking-backend-w7ce.onrender.com/popular-flight")
     .then((res) => {
       dispatch({ type: Popular_Flight_Success, payload: res.data });
     })
@@ -25,7 +25,7 @@ export const popularFligthData = (dispatch) => {
 export const trendingCitiesData = (dispatch) => {
   dispatch({ type: Request_Pending });
   axios
-    .get("http://localhost:8080/trending-cities")
+    .get("https://booking-backend-w7ce.onrender.com/trending-cities")
     .then((res) => {
       dispatch({ type: Trending_Flight_Success, payload: res.data });
     })
@@ -34,7 +34,7 @@ export const trendingCitiesData = (dispatch) => {
 export const asiaData = (dispatch) => {
   dispatch({ type: Request_Pending });
   axios
-    .get("http://localhost:8080/Asia")
+    .get("https://booking-backend-w7ce.onrender.com/Asia")
     .then((res) => {
       dispatch({ type: Asia_Success, payload: res.data });
     })
@@ -43,7 +43,7 @@ export const asiaData = (dispatch) => {
 export const europeData = (dispatch) => {
   dispatch({ type: Request_Pending });
   axios
-    .get("http://localhost:8080/Europe")
+    .get("https://booking-backend-w7ce.onrender.com/Europe")
     .then((res) => {
       dispatch({ type: Europe_Success, payload: res.data });
     })
@@ -52,7 +52,7 @@ export const europeData = (dispatch) => {
 export const northAmericaData = (dispatch) => {
   dispatch({ type: Request_Pending });
   axios
-    .get("http://localhost:8080/North-America")
+    .get("https://booking-backend-w7ce.onrender.com/North-America")
     .then((res) => {
       dispatch({ type: NorthAmerica_Success, payload: res.data });
     })
@@ -61,7 +61,7 @@ export const northAmericaData = (dispatch) => {
 export const oceaniaData = (dispatch) => {
   dispatch({ type: Request_Pending });
   axios
-    .get("http://localhost:8080/Oceania")
+    .get("https://booking-backend-w7ce.onrender.com/Oceania")
     .then((res) => {
       dispatch({ type: Oceania_Success, payload: res.data });
     })
@@ -70,7 +70,7 @@ export const oceaniaData = (dispatch) => {
 export const flightData = (obj) => (dispatch) => {
   dispatch({ type: Request_Pending });
   axios
-    .get("http://localhost:8080/flights", obj)
+    .get("https://booking-backend-w7ce.onrender.com/flights", obj)
     .then((res) => {
       dispatch({ type: Flights_Success, payload: res.data });
     })
@@ -80,7 +80,7 @@ export const flightData = (obj) => (dispatch) => {
 export const addPopularFlight = (obj) => (dispatch) => {
   dispatch({ type: Request_Pending });
   axios
-    .post("http://localhost:8080/popular-flight", obj)
+    .post("https://booking-backend-w7ce.onrender.com/popular-flight", obj)
     .then((res) => {
       dispatch({ type: POPULAR_FLIGHT_ADD, payload: res.data });
     })
@@ -89,7 +89,7 @@ export const addPopularFlight = (obj) => (dispatch) => {
 
 export const flightDelete = (id) => async (dispatch) => {
   try {
-    let res = await axios.delete(`http://localhost:8080/popular-flight/${id}`);
+    let res = await axios.delete(`https://booking-backend-w7ce.onrender.com/popular-flight/${id}`);
     dispatch({ type: FLIGHT_DETAIL_DELETE, payload: id });
   } catch (err) {
     console.log("err", err);

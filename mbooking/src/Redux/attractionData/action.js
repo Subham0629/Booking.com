@@ -3,7 +3,7 @@ import axios from "axios"
 
 export const getAttractionData = (dispatch) =>{
     axios
-    .get(`http://localhost:8080/attractionsData`)
+    .get(`https://booking-backend-w7ce.onrender.com/attractionsData`)
     .then((res) =>{
         dispatch({type:GET_ATTRACTION_DATA,payload:res.data})
     })

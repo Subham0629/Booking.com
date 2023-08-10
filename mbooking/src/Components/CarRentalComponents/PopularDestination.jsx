@@ -9,7 +9,7 @@ const PopularDestination = () => {
 
   const PopularData = async () => {
     try {
-      let res = await axios.get(` http://localhost:8080/popular_city_car_hire`);
+      let res = await axios.get(` https://booking-backend-w7ce.onrender.com/popular_city_car_hire`);
       setCar(res.data);
     } catch (err) {
       console.log("err", err);

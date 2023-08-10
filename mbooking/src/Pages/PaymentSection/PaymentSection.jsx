@@ -14,7 +14,7 @@ const PaymentSection = () => {
   const navigate = useNavigate();
   const getDataPaymentValue = async () => {
     try {
-      let res = await axios(`http://localhost:8080/carcart/${id}`);
+      let res = await axios(`https://booking-backend-w7ce.onrender.com/carcart/${id}`);
       setData(res.data);
     } catch (err) {
       console.log("err", err);

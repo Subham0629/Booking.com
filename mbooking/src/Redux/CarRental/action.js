@@ -14,7 +14,7 @@ import {
 export const carDataName = (obj) => async (dispatch) => {
   dispatch({ type: CAR_TRNTAL_LOADING });
   try {
-    let res = await axios.get("http://localhost:8080/car-availables", obj);
+    let res = await axios.get("https://booking-backend-w7ce.onrender.com/car-availables", obj);
     console.log("res", res.data);
     dispatch({ type: CAR_TRNTAL_SUCCESS, payload: res.data });
   } catch (err) {
@@ -25,7 +25,7 @@ export const carDataName = (obj) => async (dispatch) => {
 export const CarName = (id) => async (dispatch) => {
   dispatch({ type: CAR_TRNTAL_LOADING });
   try {
-    let res = await axios.get(`http://localhost:8080/car-availables/${id}`);
+    let res = await axios.get(`https://booking-backend-w7ce.onrender.com/car-availables/${id}`);
     dispatch({ type: CAR_NAME_ID, payload: res.data });
     console.log("res.data", res.data);
   } catch (err) {
@@ -38,7 +38,7 @@ export const carAddDATA = (payload) => async (dispatch) => {
   console.log("payload", payload);
   dispatch({ type: CAR_TRNTAL_LOADING });
   try {
-    let res = await axios.post(`http://localhost:8080/car-availables`, payload);
+    let res = await axios.post(`https://booking-backend-w7ce.onrender.com/car-availables`, payload);
     dispatch({ type: CAR_ADD, payload: res.data });
     console.log("res.data", res.data);
   } catch (err) {
@@ -52,7 +52,7 @@ export const CarDetailDelete = (payload) => async (dispatch) => {
   dispatch({ type: CAR_TRNTAL_LOADING });
   try {
     let res = await axios.delete(
-      `http://localhost:8080/car-availables/${payload}`
+      `https://booking-backend-w7ce.onrender.com/car-availables/${payload}`
     );
     console.log("res", res);
     dispatch({ type: CAR_CART_ADD, payload: payload });
@@ -64,7 +64,7 @@ export const carCartAdd = (payload) => async (dispatch) => {
   console.log("payloadCartvlaue", payload);
   dispatch({ type: CAR_TRNTAL_LOADING });
   try {
-    let res = await axios.post(`http://localhost:8080/carcart`, payload);
+    let res = await axios.post(`https://booking-backend-w7ce.onrender.com/carcart`, payload);
     console.log("res", res);
     dispatch({ type: CAR_CART_ADD, payload: payload });
   } catch (err) {
@@ -75,7 +75,7 @@ export const carCartAdd = (payload) => async (dispatch) => {
 export const carCartGet = () => async (dispatch) => {
   dispatch({ type: CAR_TRNTAL_LOADING });
   try {
-    let res = await axios.get(`http://localhost:8080/carcart`);
+    let res = await axios.get(`https://booking-backend-w7ce.onrender.com/carcart`);
     console.log("res", res);
     dispatch({ type: CAR_CART_GET, payload: res.data });
   } catch (err) {
@@ -86,7 +86,7 @@ export const carCartGet = () => async (dispatch) => {
 
 export const deleteCarCart = (id) => async (dispatch) => {
   try {
-    let res = await axios.delete(`http://localhost:8080/carcart/${id}`);
+    let res = await axios.delete(`https://booking-backend-w7ce.onrender.com/carcart/${id}`);
     dispatch({ type: CAR_CART_DELETE, payload: id });
   } catch (err) {
     console.log("err", err);

@@ -10,7 +10,7 @@ const TopWorldCar = () => {
   const worldWide = async () => {
     try {
       let res = await axios.get(
-        ` http://localhost:8080/top_worldwide_car_rental`
+        ` https://booking-backend-w7ce.onrender.com/top_worldwide_car_rental`
       );
       setVal(res.data);
     } catch (err) {

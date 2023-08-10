@@ -24,7 +24,7 @@ export default function HotelCard() {
   const [product, setProduct] = useState();
   useEffect(() => {
     axios
-      .get(` http://localhost:8080/hotels/${id}`)
+      .get(` https://booking-backend-w7ce.onrender.com/hotels/${id}`)
       .then((res) => setProduct(res.data));
   }, []);
 

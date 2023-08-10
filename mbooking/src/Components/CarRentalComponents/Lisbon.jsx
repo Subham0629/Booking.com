@@ -35,7 +35,7 @@ const Lisbon = () => {
 
   const lisbon = async () => {
     try {
-      let res = await axios.get(`http://localhost:8080/lisbon`, obj);
+      let res = await axios.get(`https://booking-backend-w7ce.onrender.com/lisbon`, obj);
       setCar(res.data);
     } catch (err) {
       console.log("err", err);
